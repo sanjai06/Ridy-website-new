@@ -14,7 +14,7 @@ const Footer = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                    <Image src="/assets/images/logo/logo.svg" alt="img" width={177} height={54}   />
+                                    {/* <Image src="/assets/images/logo/logo.svg" alt="img" width={177} height={54}   /> */}
                                     </Link>
                                 </div>
                                 <div className="footer-content">
@@ -140,8 +140,8 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                         <div className="link">
-                                            <a href="mailto:contact.tech@gmail.com">contact.tech@gmail.com</a> <br/>
-                                            <a href="mailto:info@Niotech.com">info@Niotech.com</a>
+                                            <a href="mailto:contact.tech@gmail.com">ridyladycab@gmail.com </a> <br/>
+                                            {/* <a href="mailto:info@Niotech.com">info@Niotech.com</a> */}
                                         </div>
                                     </div>
                                     <div className="info">
@@ -163,8 +163,8 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                         <div className="link">
-                                            <a href="tel:21314234323543">+880 123 654 789 00</a> <br/>
-                                            <a href="tel:35234523452345">+001 6520 698 00</a>
+                                            <a href="tel:21314234323543">+91 8072877622  </a> <br/>
+                                            {/* <a href="tel:35234523452345">+001 6520 698 00</a> */}
                                         </div>
                                     </div>
                                 </div>
@@ -176,14 +176,15 @@ const Footer = () => {
             <div className="footer-bottom style1">
                 <div className="container">
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
-                        <p className="wow fadeInLeft" data-wow-delay=".3s">
-                            Copyright © Niotech All rights
-                        </p>
+                       <span>
+                        {""}
+                       </span>
                         <ul className="social-links" data-wow-delay=".5s">
-                            <li> <a href="#"><i className="bi bi-facebook"></i></a> </li>
-                            <li> <a href="#"><i className="bi bi-twitter"></i></a> </li>
-                            <li> <a href="#"><i className="bi bi-linkedin"></i></a> </li>
-                            <li> <a href="#"><i className="bi bi-pinterest"></i></a> </li>
+                            <li> <a href="https://www.instagram.com/ridyladycab/  "><i className="bi bi-instagram"></i></a> </li>
+                            <li> <a href="https://www.facebook.com/profile.php?id=61568718355276 "><i className="bi bi-facebook"></i></a> </li>
+                            <li> <a href="https://x.com/ridyladycab"><i className="bi bi-twitter"></i></a> </li>
+                            <li> <a href="https://www.youtube.com/@ridyladycab  "><i className="bi bi-youtube"></i></a> </li>
+                            <li> <a href="https://www.linkedin.com/company/ridy-the-lady-cab/"><i className="bi bi-linkedin"></i></a> </li>
                         </ul>
                     </div>
                 </div>

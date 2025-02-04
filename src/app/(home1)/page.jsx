@@ -68,8 +68,9 @@ const page = () => {
             <Feature1></Feature1>
             <Counter1></Counter1>
             {/* <Faq1></Faq1> */}
-            <Testimonial></Testimonial>
-            <Feature2></Feature2>
+            {/* <Testimonial></Testimonial> */}
+            {/* <Feature2></Feature2> */} 
+            <br />
             <Pricing1></Pricing1>
             <Cta1
                 subtitle="Our App"

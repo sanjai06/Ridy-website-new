@@ -19,22 +19,40 @@ const Feature1 = () => {
                                 <div className="wcu-content">
                                     <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_1.svg"
-                                        title="High usability"
-                                        content="There are many variations of passages of Lorem Ipsum"
+                                        title="High-growth"
+                                        content="A high-growth market with increasing demand for women-specific transportation services. "
                                     ></FeatureCard>
                                      <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_2.svg"
-                                        title="Action Reminder"
-                                        content="There are many variations of passages of Lorem Ipsum"
+                                        title="business model"
+                                        content="Proven business model focused on safety, sustainability, and scalability. "
                                     ></FeatureCard>    
                                       <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_3.svg"
-                                        title="Merge Files"
-                                        content="There are many variations of passages of Lorem Ipsum"
+                                        title="Strong revenue "
+                                        content="Strong revenue streams with competitive profit margins. "
                                     ></FeatureCard> 
                                 </div>
                             </div>
-                           
+                            <div className="col-xl-4 d-flex justify-content-center justify-content-xl-end">
+                                <div className="wcu-content">
+                                    <FeatureCard
+                                        img="/assets/images/icon/wcuIcon1_4.svg"
+                                        title=" first ride free!"
+                                        content="Get your first ride free! Book now and experience the RIDY difference.  "
+                                    ></FeatureCard>
+                                    <FeatureCard
+                                        img="/assets/images/icon/wcuIcon1_5.svg"
+                                        title="Partner With Us "
+                                        content=" Partner With Us for betterment of your business "
+                                    ></FeatureCard>                                                                          
+                                    <FeatureCard
+                                        img="/assets/images/icon/wcuIcon1_6.svg"
+                                        title=" part of our mission"
+                                        content="Be part of our mission to empower women and transform urban mobility"
+                                    ></FeatureCard> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
