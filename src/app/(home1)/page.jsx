@@ -67,9 +67,9 @@ const page = () => {
             ></Choose1>
             <Feature1></Feature1>
             <Counter1></Counter1>
-            {/* <Faq1></Faq1> */}
-            {/* <Testimonial></Testimonial> */}
-            {/* <Feature2></Feature2> */} 
+            <Faq1></Faq1>
+            <Testimonial></Testimonial>
+            <Feature2></Feature2> 
             <br />
             <Pricing1></Pricing1>
             <Cta1
