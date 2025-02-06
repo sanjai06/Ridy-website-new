@@ -1,9 +1,13 @@
 import Link from 'next/link';
 import DropDown from './DropDown';
+import Image from 'next/image';
+
 
 export default function Nav({ setMobileToggle }) {
   return (
-    <ul className="cs_nav_list fw-medium">
+    <> 
+   
+    <ul className="cs_nav_list fw-medium"> 
       <li className="">
         <Link href="/">Home</Link>
         {/* <DropDown>
@@ -110,7 +114,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
 
       </li>      
-      
+
       {/* <li className="menu-item-has-children"> */}
 
       <li>
@@ -151,5 +155,6 @@ export default function Nav({ setMobileToggle }) {
         </Link>
       </li>
     </ul>
+    </>
   );
 }

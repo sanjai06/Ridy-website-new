@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) => {
+const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,title3,btnurl,content2,content3}) => {
     return (
         
         <section className="about-section fix">
@@ -39,6 +39,12 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                         </div>
                                         <h2 className="title wow fadeInUp" data-wow-delay=".4s">{title}</h2>
                                         <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content}</p>
+                                        <h3 className="" data-wow-delay=".4s">{title2}</h3>
+                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content2}</p>
+                                        <h3 className="" data-wow-delay=".4s">{title3}</h3>
+                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content3}</p>
+
+
                                     </div>
                                     <ul className="checklist style1 wow fadeInUp" data-wow-delay=".2s">
                                     {FeatureList?.map((item, index) => (

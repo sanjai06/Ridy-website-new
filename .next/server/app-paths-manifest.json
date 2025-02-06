@@ -4,5 +4,6 @@
   "/(innerpage)/about/page": "app/(innerpage)/about/page.js",
   "/(innerpage)/service/page": "app/(innerpage)/service/page.js",
   "/(innerpage)/blog/page": "app/(innerpage)/blog/page.js",
-  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js"
+  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

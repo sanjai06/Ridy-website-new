@@ -36,15 +36,16 @@ const page = () => {
                 img1="/assets/images/about/aboutThumb1_1.jpg"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="About Ridy"
-                title="RIDY is a women-focused ride-sharing platform  "
-                content="To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. Our Vision 
-                    To be the leading provider of eco-friendly, women-centric ride services in India and beyond.  "
-                FeatureList={[
-                    "Women-to-Women Service.",
-                    "Real-Time Safety ",
-                    "ECO-Friendly Fleet",
-                    "Custom Packages"
-                ]}
+                title="Who We Are "
+                content="RIDY is a women-focused ride-sharing platform revolutionizing urban mobility by blending safety, sustainability, and empowerment into one seamless experience.  "
+                title2={"content"}
+                content2={"To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. "}
+                title3={"Our Vision "}
+                content3={"To be the leading provider of eco-friendly, women-centric ride services in India and beyond. "}
+                // FeatureList={[
+                    
+                //     ""
+                // ]}
                 btnname="Discover More"
                 btnurl="/about"
             ></About1>

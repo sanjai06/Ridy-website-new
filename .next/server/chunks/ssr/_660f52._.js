@@ -633,7 +633,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, btnurl })=>{
+const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, title2, title3, btnurl, content2, content3 })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "about-section fix",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -817,6 +817,42 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                                                     fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 41,
                                                     columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "",
+                                                    "data-wow-delay": ".4s",
+                                                    children: title2
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
+                                                    lineNumber: 42,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "section-desc wow fadeInUp",
+                                                    "data-wow-delay": ".6s",
+                                                    children: content2
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
+                                                    lineNumber: 43,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "",
+                                                    "data-wow-delay": ".4s",
+                                                    children: title3
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
+                                                    lineNumber: 44,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "section-desc wow fadeInUp",
+                                                    "data-wow-delay": ".6s",
+                                                    children: content3
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
+                                                    lineNumber: 45,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
@@ -836,7 +872,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                                                             height: 30
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                            lineNumber: 45,
+                                                            lineNumber: 51,
                                                             columnNumber: 57
                                                         }, this),
                                                         " ",
@@ -844,12 +880,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 51,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/About/About1.jsx",
-                                            lineNumber: 43,
+                                            lineNumber: 49,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -872,12 +908,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                                                                 fill: "white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                                lineNumber: 52,
+                                                                lineNumber: 58,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                            lineNumber: 51,
+                                                            lineNumber: 57,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -889,29 +925,29 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, bt
                                                                     fill: "white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                                    lineNumber: 58,
+                                                                    lineNumber: 64,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                                lineNumber: 57,
+                                                                lineNumber: 63,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                            lineNumber: 56,
+                                                            lineNumber: 62,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/Components/About/About1.jsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 55,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/Components/About/About1.jsx",
-                                            lineNumber: 48,
+                                            lineNumber: 54,
                                             columnNumber: 37
                                         }, this)
                                     ]
@@ -1646,8 +1682,8 @@ const Feature1 = ()=>{
                         className: "section-title text-center mxw-685 mx-auto wow fadeInUp",
                         "data-wow-delay": ".2s",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            SubTitle: "Why using our app",
-                            Title: "Our app is great for individuals, startups and enterprises"
+                            SubTitle: "Why Choose RIDY? ",
+                            Title: "Our app is great for Women,Safety,Eco-Friendly"
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
                             lineNumber: 11,
@@ -1662,95 +1698,59 @@ const Feature1 = ()=>{
                         className: "wcu-wrapper style1",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "row gy-5 d-flex justify-content-center",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-4 d-flex justify-content-center",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "wcu-content",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_1.svg",
-                                                title: "High-growth",
-                                                content: "A high-growth market with increasing demand for women-specific transportation services. "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 20,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_2.svg",
-                                                title: "business model",
-                                                content: "Proven business model focused on safety, sustainability, and scalability. "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 25,
-                                                columnNumber: 38
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_3.svg",
-                                                title: "Strong revenue ",
-                                                content: "Strong revenue streams with competitive profit margins. "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 30,
-                                                columnNumber: 39
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                        lineNumber: 19,
-                                        columnNumber: 33
-                                    }, this)
-                                }, void 0, false, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "col-xl-4 d-flex  justify-content-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "wcu-content",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            img: "/assets/images/icon/wcuIcon1_1.svg",
+                                            title: "Women-to-Women Service ",
+                                            content: "Every ride connects women with skilled, verified women drivers."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                            lineNumber: 20,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            img: "/assets/images/icon/wcuIcon1_2.svg",
+                                            title: "Real-Time Safety",
+                                            content: "GPS tracking, emergency buttons, and 24/7 customer support.  "
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                            lineNumber: 25,
+                                            columnNumber: 38
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            img: "/assets/images/icon/wcuIcon1_3.svg",
+                                            title: "Eco-Friendly Fleet  ",
+                                            content: "100% electric vehicles for sustainable urban transport.  "
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                            lineNumber: 30,
+                                            columnNumber: 39
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            img: "/assets/images/icon/wcuIcon1_4.svg",
+                                            title: "Custom Packages ",
+                                            content: "Perfect for college students, working professionals, and homemakers. "
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                            lineNumber: 35,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-4 d-flex justify-content-center justify-content-xl-end",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "wcu-content",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_4.svg",
-                                                title: " first ride free!",
-                                                content: "Get your first ride free! Book now and experience the RIDY difference.  "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 39,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_5.svg",
-                                                title: "Partner With Us ",
-                                                content: " Partner With Us for betterment of your business "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 44,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                img: "/assets/images/icon/wcuIcon1_6.svg",
-                                                title: " part of our mission",
-                                                content: "Be part of our mission to empower women and transform urban mobility"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 49,
-                                                columnNumber: 37
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                        lineNumber: 38,
-                                        columnNumber: 33
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                    lineNumber: 37,
-                                    columnNumber: 29
+                                    lineNumber: 19,
+                                    columnNumber: 33
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                lineNumber: 18,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
                             lineNumber: 17,
                             columnNumber: 25
@@ -3369,14 +3369,15 @@ const page = ()=>{
                 img1: "/assets/images/about/aboutThumb1_1.jpg",
                 img2: "/assets/images/about/aboutThumb1_2.png",
                 subtitle: "About Ridy",
-                title: "RIDY is a women-focused ride-sharing platform  ",
-                content: "To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. Our Vision    To be the leading provider of eco-friendly, women-centric ride services in India and beyond.  ",
-                FeatureList: [
-                    "Women-to-Women Service.",
-                    "Real-Time Safety ",
-                    "ECO-Friendly Fleet",
-                    "Custom Packages"
-                ],
+                title: "Who We Are ",
+                content: "RIDY is a women-focused ride-sharing platform revolutionizing urban mobility by blending safety, sustainability, and empowerment into one seamless experience.  ",
+                title2: "content",
+                content2: "To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. ",
+                title3: "Our Vision ",
+                content3: "To be the leading provider of eco-friendly, women-centric ride services in India and beyond. ",
+                // FeatureList={[
+                //     ""
+                // ]}
                 btnname: "Discover More",
                 btnurl: "/about"
             }, void 0, false, {
@@ -3386,7 +3387,7 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HowWork$2f$HowWork$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -3405,42 +3406,42 @@ const page = ()=>{
                 btnurl: "/about"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 68,
+                lineNumber: 69,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Counter$2f$Counter1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 69,
+                lineNumber: 70,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 70,
+                lineNumber: 71,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 71,
+                lineNumber: 72,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 72,
+                lineNumber: 73,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 73,
+                lineNumber: 74,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Pricing$2f$Pricing1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Cta$2f$Cta1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -3452,12 +3453,12 @@ const page = ()=>{
                 img: "/assets/images/cta/ctaThumb1_1.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 75,
+                lineNumber: 76,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Blog$2f$Blog1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 83,
+                lineNumber: 84,
                 columnNumber: 13
             }, this)
         ]
