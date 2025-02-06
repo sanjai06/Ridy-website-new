@@ -10,7 +10,9 @@ const Feature1 = () => {
                     <div className="section-title text-center mxw-685 mx-auto wow fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
                             SubTitle="Why Choose RIDY? "
-                            Title="Our app is great for Women,Safety,Eco-Friendly"
+                            Title=
+                            {`Our app is great for 
+                            Womens-Safety`}
                         ></SectionTitle>                       
                     </div>
                     <div className="wcu-wrapper style1">
