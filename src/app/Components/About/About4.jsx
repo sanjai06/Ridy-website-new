@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) => {
+const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,title3,btnurl,content2,content3}) => {
     return (
         
-        <section className="about-section section-padding fix">
+        <section className="about-section fix">
             <div className="about-container-wrapper style1">
                 <div className="container">
                     <div className="about-wrapper style1">
@@ -12,15 +12,13 @@ const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                             <div className="col-xl-6">
                                 <div className="about-thumb">
                                     <div className="bg"></div>
-                                    <div className="thumbShape1 d-none d-xxl-block cir36">
-                                    <Image src="/assets/images/shape/aboutThumbShape1_1.png" alt="img" width={67} height={67}   />
-                                        </div>
+                                    <div className="thumbShape1 d-none d-xxl-block cir36"><Image src="/assets/images/shape/aboutThumbShape1_1.png" alt="img" width={67} height={67}   /></div>
                                     <div className="thumbShape2 d-none d-xxl-block cir36">
                                     <Image src="/assets/images/shape/aboutThumbShape1_2.png" alt="img" width={24} height={24}   />
                                         </div>
                                     <div className="thumbShape3 d-none d-xxl-block cir36 float-bob-y">
                                     <Image src="/assets/images/shape/aboutThumbShape1_3.png" alt="img" width={200} height={200}   />
-                                       </div>
+                                        </div>
                                     <div className="thumbShape4 d-none d-xxl-block cir36">
                                     <Image src="/assets/images/shape/aboutThumbShape1_4.png" alt="img" width={28} height={28}   />
                                         </div>
@@ -41,6 +39,12 @@ const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                         </div>
                                         <h2 className="title wow fadeInUp" data-wow-delay=".4s">{title}</h2>
                                         <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content}</p>
+                                        <h3 className="" data-wow-delay=".4s">{title2}</h3>
+                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content2}</p>
+                                        <h3 className="" data-wow-delay=".4s">{title3}</h3>
+                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content3}</p>
+
+
                                     </div>
                                     <ul className="checklist style1 wow fadeInUp" data-wow-delay=".2s">
                                     {FeatureList?.map((item, index) => (
@@ -73,4 +77,4 @@ const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
     );
 };
 
-export default About4;
+export default About1;

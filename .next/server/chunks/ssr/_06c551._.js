@@ -1,6 +1,6 @@
 module.exports = {
 
-"[project]/src/app/Components/About/About4.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/app/Components/About/About1.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
@@ -34,7 +34,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 14,
                                             columnNumber: 37
                                         }, this),
@@ -46,12 +46,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 67,
                                                 height: 67
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 15,
                                                 columnNumber: 91
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 15,
                                             columnNumber: 37
                                         }, this),
@@ -63,12 +63,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 24,
                                                 height: 24
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 17,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 16,
                                             columnNumber: 37
                                         }, this),
@@ -80,12 +80,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 200,
                                                 height: 200
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 20,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 19,
                                             columnNumber: 37
                                         }, this),
@@ -97,12 +97,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 28,
                                                 height: 28
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 23,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 22,
                                             columnNumber: 37
                                         }, this),
@@ -114,12 +114,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 436,
                                                 height: 530
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 26,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 25,
                                             columnNumber: 37
                                         }, this),
@@ -131,23 +131,23 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                 width: 216,
                                                 height: 108
                                             }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                 lineNumber: 29,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 28,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                     lineNumber: 13,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                 lineNumber: 12,
                                 columnNumber: 29
                             }, this),
@@ -171,13 +171,13 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                             width: 16,
                                                             height: 17
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                                             lineNumber: 38,
                                                             columnNumber: 56
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 37,
                                                     columnNumber: 41
                                                 }, this),
@@ -186,7 +186,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".4s",
                                                     children: title
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 40,
                                                     columnNumber: 41
                                                 }, this),
@@ -195,7 +195,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".6s",
                                                     children: content
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 41,
                                                     columnNumber: 41
                                                 }, this),
@@ -204,7 +204,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".4s",
                                                     children: title2
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 42,
                                                     columnNumber: 41
                                                 }, this),
@@ -213,7 +213,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".6s",
                                                     children: content2
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 43,
                                                     columnNumber: 41
                                                 }, this),
@@ -222,7 +222,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".4s",
                                                     children: title3
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 44,
                                                     columnNumber: 41
                                                 }, this),
@@ -231,13 +231,13 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     "data-wow-delay": ".6s",
                                                     children: content3
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 45,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 36,
                                             columnNumber: 37
                                         }, this),
@@ -252,7 +252,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                             width: 30,
                                                             height: 30
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                                             lineNumber: 51,
                                                             columnNumber: 57
                                                         }, this),
@@ -260,12 +260,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                         item
                                                     ]
                                                 }, index, true, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 51,
                                                     columnNumber: 41
                                                 }, this))
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 49,
                                             columnNumber: 37
                                         }, this),
@@ -288,12 +288,12 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                                 d: "M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z",
                                                                 fill: "white"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                                 lineNumber: 58,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                                             lineNumber: 57,
                                                             columnNumber: 45
                                                         }, this),
@@ -305,66 +305,66 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                                     height: "16",
                                                                     fill: "white"
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                                     lineNumber: 64,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                                                 lineNumber: 63,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                                             lineNumber: 62,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                                     lineNumber: 55,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/src/app/Components/About/About4.jsx",
+                                            fileName: "[project]/src/app/Components/About/About1.jsx",
                                             lineNumber: 54,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                                    fileName: "[project]/src/app/Components/About/About1.jsx",
                                     lineNumber: 35,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/app/Components/About/About4.jsx",
+                                fileName: "[project]/src/app/Components/About/About1.jsx",
                                 lineNumber: 34,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/Components/About/About4.jsx",
+                        fileName: "[project]/src/app/Components/About/About1.jsx",
                         lineNumber: 11,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/Components/About/About4.jsx",
+                    fileName: "[project]/src/app/Components/About/About1.jsx",
                     lineNumber: 10,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/src/app/Components/About/About4.jsx",
+                fileName: "[project]/src/app/Components/About/About1.jsx",
                 lineNumber: 9,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
-            fileName: "[project]/src/app/Components/About/About4.jsx",
+            fileName: "[project]/src/app/Components/About/About1.jsx",
             lineNumber: 8,
             columnNumber: 13
         }, this)
     }, void 0, false, {
-        fileName: "[project]/src/app/Components/About/About4.jsx",
+        fileName: "[project]/src/app/Components/About/About1.jsx",
         lineNumber: 7,
         columnNumber: 9
     }, this);
@@ -1470,7 +1470,7 @@ __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/About/About4.jsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/About/About1.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/Choose/Choose2.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/Choose/Choose4.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$BreadCumb$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/Common/BreadCumb.jsx [app-rsc] (ecmascript)");
@@ -1493,10 +1493,15 @@ const page = ()=>{
                 Title: "About Us"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: "[project]/src/app/(innerpage)/about/page.jsx",
+                lineNumber: 17,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 img1: "/assets/images/about/aboutThumb1_1.jpg",
                 img2: "/assets/images/about/aboutThumb1_2.png",
                 subtitle: "About Ridy",
@@ -1513,7 +1518,7 @@ const page = ()=>{
                 btnurl: "/about"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 16,
+                lineNumber: 18,
                 columnNumber: 15
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1531,28 +1536,28 @@ const page = ()=>{
                 boxcontent2: "There are many variations of passages of Lorem Ipsum available, but the majority have"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HowWork$2f$HowWork$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 47,
+                lineNumber: 49,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 48,
+                lineNumber: 50,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 49,
+                lineNumber: 51,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 };
@@ -1572,4 +1577,4 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 
 };
 
-//# sourceMappingURL=_7755d2._.js.map
+//# sourceMappingURL=_06c551._.js.map

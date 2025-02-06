@@ -1,10 +1,11 @@
-import About4 from '@/app/Components/About/About4';
+import About1 from '@/app/Components/About/About1';
 import Choose2 from '@/app/Components/Choose/Choose2';
 import Choose4 from '@/app/Components/Choose/Choose4';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import HowWork from '@/app/Components/HowWork/HowWork';
 import Testimonial4 from '@/app/Components/Testimonial/Testimonial4';
 import React from 'react';
+
 
 const page = () => {
   return (
@@ -13,20 +14,24 @@ const page = () => {
                 bgimg="/assets/images/bg/breadcumgBg.png"
                 Title="About Us"
             ></BreadCumb> 
-            <About4
-                img1="/assets/images/about/aboutThumb1_1.png"
+            <br />
+              <About1
+                img1="/assets/images/about/aboutThumb1_1.jpg"
                 img2="/assets/images/about/aboutThumb1_2.png"
-                subtitle="About Our App"
-                title="Simple Reports & Analytics Backdown As it"
-                content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use"
-                FeatureList={[
-                    "With our Technological and Marketing Solutions.",
-                    "We are trusted all over the world.",
-                    "Start Your 14 Days Free Trials Today!",
-                ]}                
+                subtitle="About Ridy"
+                title="Who We Are "
+                content="RIDY is a women-focused ride-sharing platform revolutionizing urban mobility by blending safety, sustainability, and empowerment into one seamless experience.  "
+                title2={"content"}
+                content2={"To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. "}
+                title3={"Our Vision "}
+                content3={"To be the leading provider of eco-friendly, women-centric ride services in India and beyond. "}
+                // FeatureList={[
+                    
+                //     ""
+                // ]}
                 btnname="Discover More"
                 btnurl="/about"
-            ></About4>  
+            ></About1> 
             <Choose2
                img1="/assets/images/wcu/wcuThumb2_1.png" 
                img2="/assets/images/wcu/wcuThumb2_2.png" 

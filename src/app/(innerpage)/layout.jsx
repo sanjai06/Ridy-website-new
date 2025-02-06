@@ -1,11 +1,11 @@
 import React from 'react';
-import Header4 from '../Components/Header/Header4';
 import Footer from '../Components/Footer/Footer';
+import Header1 from '../Components/Header/Header1';
 
 const DefalultLayout = ({ children }) => {
     return (
         <div className='main-page-area'>
-           <Header4></Header4>
+          <Header1></Header1>
             {children}
             <Footer></Footer>
         </div>
