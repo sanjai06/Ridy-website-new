@@ -16,7 +16,7 @@ const page = () => {
             ></BreadCumb> 
             <br />
               <About1
-                img1="/assets/images/about/aboutThumb1_1.jpg"
+                img1="/assets/images/about/about2.png"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="About Ridy"
                 title="Who We Are "
@@ -33,7 +33,7 @@ const page = () => {
                 btnurl="/about"
             ></About1> 
             <Choose2
-               img1="/assets/images/wcu/wcuThumb2_1.png" 
+               img1="/assets/images/intro/taxi2.jpg" 
                img2="/assets/images/wcu/wcuThumb2_2.png" 
                img3="/assets/images/wcu/wcuThumb2_3.png" 
                subtitle="Customizations & Analysis" 

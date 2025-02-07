@@ -559,8 +559,8 @@ const Faq1 = ()=>{
     ]);
     const FaqContent = {
         Content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly',
-        img1: '/assets/images/faq/faqThumb1_2.png',
-        img2: '/assets/images/faq/faqThumb1_1.png'
+        img1: '/assets/images/intro/car3.jpg',
+        img2: '/assets/images/intro/taxi1.jpg'
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "faq-section section-padding fix",

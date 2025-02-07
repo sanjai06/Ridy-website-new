@@ -1474,9 +1474,9 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                 "data-tilt": true,
                                                 "data-tilt-max": "10",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/advantage/advantageThumb1_1.png",
+                                                    src: "/assets/images/intro/taxi1.jpg",
                                                     alt: "img",
-                                                    width: 366,
+                                                    width: 450,
                                                     height: 591
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
@@ -1494,7 +1494,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                 "data-tilt": true,
                                                 "data-tilt-max": "15",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/advantage/advantageThumb1_2.png",
+                                                    src: "/assets/images/intro/taxi2.jpg",
                                                     alt: "img",
                                                     width: 369,
                                                     height: 589
@@ -1730,44 +1730,25 @@ const Feature1 = ()=>{
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "wcu-thumb wow fadeInUp",
                                         "data-wow-delay": ".2s",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "main-thumb wow bounceInUp",
-                                                "data-wow-delay": ".6s",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/intro/",
-                                                    alt: "img",
-                                                    width: 400,
-                                                    height: 380
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                    lineNumber: 41,
-                                                    columnNumber: 41
-                                                }, this)
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "main-thumb wow bounceInUp",
+                                            "data-wow-delay": ".6s",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/assets/images/intro/car2.jpg",
+                                                alt: "img",
+                                                width: 400,
+                                                height: 400
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 40,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "shape",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/images/shape/wcuThumbShape1_1.png",
-                                                    alt: "img",
-                                                    width: 376,
-                                                    height: 377
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 60
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 43,
-                                                columnNumber: 37
+                                                lineNumber: 41,
+                                                columnNumber: 41
                                             }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
+                                            lineNumber: 40,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
                                         lineNumber: 39,
                                         columnNumber: 33
@@ -1788,7 +1769,7 @@ const Feature1 = ()=>{
                                                 content: "100% electric vehicles for sustainable urban transport.  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 49,
+                                                lineNumber: 48,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1797,7 +1778,7 @@ const Feature1 = ()=>{
                                                 content: "Perfect for college students, working professionals, and homemakers. "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 54,
+                                                lineNumber: 53,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1806,18 +1787,18 @@ const Feature1 = ()=>{
                                                 content: "Transparent pricing designed to make safe, reliable rides accessible to everyone."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 58,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                        lineNumber: 48,
+                                        lineNumber: 47,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                    lineNumber: 47,
+                                    lineNumber: 46,
                                     columnNumber: 29
                                 }, this)
                             ]
@@ -3182,12 +3163,12 @@ const page = ()=>{
                 btnurl: "/contact",
                 btntwo: "Invest in Us",
                 btn2url: "/contact",
-                cusimg: "/assets/images/intro/introProfileThumb1_1.png",
+                cusimg: "/assets/images/intro/",
                 cusnumber: "2,291",
                 cuscontent: "Happy Customers",
                 rating: "4.8/5",
                 ratingcon: "Rating",
-                img: "/assets/images/intro/introThumb2_1.jpg"
+                img: "/assets/images/intro/home1.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
                 lineNumber: 19,
@@ -3199,7 +3180,7 @@ const page = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                img1: "/assets/images/intro/introThumb1_1.jpg",
+                img1: "/assets/images/about/about1.png",
                 img2: "/assets/images/about/aboutThumb1_2.png",
                 subtitle: "About Ridy",
                 title: "Who We Are ",
@@ -3283,7 +3264,7 @@ const page = ()=>{
                 content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised",
                 btnurl1: "https://play.google.com/store",
                 btnurl2: "https://www.apple.com/store",
-                img: "/assets/images/cta/ctaThumb1_1.png"
+                img: "/assets/images/intro/car1.jpg"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
                 lineNumber: 78,

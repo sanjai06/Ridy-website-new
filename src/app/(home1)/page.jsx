@@ -24,17 +24,17 @@ const page = () => {
                 btnurl="/contact"
                 btntwo="Invest in Us"
                 btn2url="/contact"
-                cusimg="/assets/images/intro/introProfileThumb1_1.png"
+                cusimg="/assets/images/intro/"
                 cusnumber="2,291"
                 cuscontent="Happy Customers"
                 rating="4.8/5"
                 ratingcon="Rating"
-                img="/assets/images/intro/introThumb2_1.jpg"
+                img="/assets/images/intro/home1.png"
             ></HeroBanner1>
             {/* <Brand1></Brand1> */}
             <br />
             <About1
-                img1="/assets/images/intro/introThumb1_1.jpg"
+                img1="/assets/images/about/about1.png"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="About Ridy"
                 title="Who We Are "
@@ -81,7 +81,7 @@ const page = () => {
                 content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised"
                 btnurl1="https://play.google.com/store"
                 btnurl2="https://www.apple.com/store"
-                img="/assets/images/cta/ctaThumb1_1.png"
+                img="/assets/images/intro/car1.jpg"
             ></Cta1>
             {/* <Blog1></Blog1> */}
         </div>
