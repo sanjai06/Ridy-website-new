@@ -107,17 +107,17 @@ const Cta2 = ()=>{
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                         lineNumber: 9,
-                        columnNumber: 13
+                        columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                     lineNumber: 8,
-                    columnNumber: 13
+                    columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                 lineNumber: 7,
-                columnNumber: 9
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "service-container-wrapper style3  section-padding fix",
@@ -132,12 +132,12 @@ const Cta2 = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                             lineNumber: 13,
-                            columnNumber: 41
+                            columnNumber: 45
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                         lineNumber: 13,
-                        columnNumber: 13
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "shape2 fix",
@@ -149,12 +149,12 @@ const Cta2 = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                             lineNumber: 14,
-                            columnNumber: 41
+                            columnNumber: 45
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                         lineNumber: 14,
-                        columnNumber: 13
+                        columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container",
@@ -164,20 +164,20 @@ const Cta2 = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "wow fadeInUp",
                                     "data-wow-delay": ".3s",
-                                    children: "Join our team to create the best digital solutions."
+                                    children: "Join our team to revolutionize women's urban mobility."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                                     lineNumber: 17,
-                                    columnNumber: 21
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text wow fadeInUp",
                                     "data-wow-delay": ".5s",
-                                    children: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use"
+                                    children: "At RIDY, we're creating innovative ride-sharing solutions that prioritize safety, sustainability, and empowerment. If you're passionate about transforming urban mobility and making a real impact, we want you on our team. Join us in reshaping the future of transportation for women everywhere."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                    lineNumber: 19,
-                                    columnNumber: 21
+                                    lineNumber: 18,
+                                    columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact",
@@ -202,12 +202,12 @@ const Cta2 = ()=>{
                                                                 fill: "white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                                lineNumber: 28,
+                                                                lineNumber: 25,
                                                                 columnNumber: 37
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                            lineNumber: 27,
+                                                            lineNumber: 24,
                                                             columnNumber: 33
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -220,53 +220,53 @@ const Cta2 = ()=>{
                                                                     transform: "translate(0.000488281)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                                    lineNumber: 34,
+                                                                    lineNumber: 31,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                                lineNumber: 33,
+                                                                lineNumber: 30,
                                                                 columnNumber: 37
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                            lineNumber: 32,
+                                                            lineNumber: 29,
                                                             columnNumber: 33
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                                    lineNumber: 25,
+                                                    lineNumber: 22,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                            lineNumber: 24,
-                                            columnNumber: 44
+                                            lineNumber: 21,
+                                            columnNumber: 48
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
-                                    lineNumber: 24,
-                                    columnNumber: 21
+                                    lineNumber: 21,
+                                    columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                             lineNumber: 16,
-                            columnNumber: 17
+                            columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                         lineNumber: 15,
-                        columnNumber: 13
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/Components/Cta/Cta2.jsx",
                 lineNumber: 12,
-                columnNumber: 9
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
@@ -281,7 +281,7 @@ const __TURBOPACK__default__export__ = Cta2;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"icon\":\"/assets/images/icon/serviceIcon3_1.svg\",\"title\":\"Software Features\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"},{\"icon\":\"/assets/images/icon/serviceIcon3_2.svg\",\"title\":\"Subscription Plans\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"},{\"icon\":\"/assets/images/icon/serviceIcon3_3.svg\",\"title\":\"Customization Option\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Choose a App\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Clean Modern Code\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"},{\"icon\":\"/assets/images/icon/serviceIcon3_6.svg\",\"title\":\"User Interactive\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"icon\":\"/assets/images/icon/serviceIcon3_1.svg\",\"title\":\"Safety Features\",\"desc\":\"RIDY provides state-of-the-art safety features designed to ensure women feel secure during every ride, from real-time tracking to emergency assistance.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_2.svg\",\"title\":\"Subscription Plans\",\"desc\":\"RIDY offers flexible subscription plans that suit your needs, providing access to affordable, eco-friendly, and safe transportation options.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_3.svg\",\"title\":\"Customization Options\",\"desc\":\"Tailor your RIDY experience with personalized settings, ensuring each ride is designed to meet your preferences, from ride types to in-app features.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Choose Your Ride\",\"desc\":\"Select from a variety of ride options that best fit your needs, whether it’s a quick trip or a more sustainable, eco-friendly choice.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"  user-friendly \",\"desc\":\"RIDY is built with clean, efficient, and modern code, ensuring a fast, reliable, and user-friendly app experience.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_6.svg\",\"title\":\"User Interaction\",\"desc\":\"RIDY’s intuitive and interactive interface makes it easy for riders and drivers to communicate and navigate the app seamlessly.\"}]"));}}),
 "[project]/src/app/Components/Services/Services1.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 

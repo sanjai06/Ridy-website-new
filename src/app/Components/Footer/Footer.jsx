@@ -59,21 +59,21 @@ const Footer = () => {
                                             About Us
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/project">
                                             Integrations
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/service">
-                                            Features
+                                        service
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/pricing">
                                             Pricing
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/contact">
                                             Contact Us
@@ -83,7 +83,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                            <div className="single-footer-widget">
+                            {/* <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <h3> Utility Pages </h3>
                                 </div>
@@ -119,7 +119,7 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="single-footer-widget">

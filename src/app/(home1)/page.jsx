@@ -20,7 +20,7 @@ const page = () => {
                 subtitle="<span>News!</span>Find Your Solution"
                 title="Right Initiative for Daily Yatra CTA "
                 content="“Seamless, safe, and sustainable transport services designed exclusively for women.” "
-                btnname="Become a Partner"
+                btnname="Become a Driver"
                 btnurl="/contact"
                 btntwo="Invest in Us"
                 btn2url="/contact"
@@ -29,11 +29,12 @@ const page = () => {
                 cuscontent="Happy Customers"
                 rating="4.8/5"
                 ratingcon="Rating"
-                img="/assets/images/intro/introThumb1.png"
+                img="/assets/images/intro/introThumb2_1.jpg"
             ></HeroBanner1>
-            <Brand1></Brand1>
+            {/* <Brand1></Brand1> */}
+            <br />
             <About1
-                img1="/assets/images/about/aboutThumb1_1.jpg"
+                img1="/assets/images/intro/introThumb1_1.jpg"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="About Ridy"
                 title="Who We Are "
@@ -72,7 +73,8 @@ const page = () => {
             <Testimonial></Testimonial>
             <Feature2></Feature2> 
             <br />
-            <Pricing1></Pricing1>
+            {/* <Pricing1></Pricing1> */}
+            <br />
             <Cta1
                 subtitle="Our App"
                 title="Download our app and start your free trail to get started today!"
@@ -81,7 +83,7 @@ const page = () => {
                 btnurl2="https://www.apple.com/store"
                 img="/assets/images/cta/ctaThumb1_1.png"
             ></Cta1>
-            <Blog1></Blog1>
+            {/* <Blog1></Blog1> */}
         </div>
     );
 };

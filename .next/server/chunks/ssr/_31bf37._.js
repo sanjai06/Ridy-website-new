@@ -114,7 +114,7 @@ const ContactInfo = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     className: "text",
                                                     href: "#",
-                                                    children: "2464 Royal Ln. Mesa, New Jersey 45463."
+                                                    children: "India"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/ContactInfo/ContactInfo.jsx",
                                                     lineNumber: 24,
@@ -238,7 +238,7 @@ const ContactInfo = ()=>{
                                                     className: "title",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "mailto:info@exmple.com",
-                                                        children: " info@exmple.com "
+                                                        children: " ridyladycab@gmail.com  "
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/ContactInfo/ContactInfo.jsx",
                                                         lineNumber: 59,
@@ -319,8 +319,8 @@ const ContactInfo = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "title",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "tel:34534534543",
-                                                        children: " Hot: +208-666-0112 "
+                                                        href: "#",
+                                                        children: " +91 8072877622  "
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/ContactInfo/ContactInfo.jsx",
                                                         lineNumber: 82,
@@ -422,7 +422,7 @@ const ContactInfo = ()=>{
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "desc",
-                                                children: "Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus,"
+                                                children: "Take the first step towards safer, more sustainable rides. RIDY makes your journey easier, ensuring a seamless experience from start to finish. Join us today and embrace a new era of women’s mobility."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/ContactInfo/ContactInfo.jsx",
                                                 lineNumber: 112,

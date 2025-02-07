@@ -84,13 +84,13 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$n
 const metadata = {
     title: {
         absolute: '',
-        default: 'Niotech - Saas & App Landing Page NextJS Template',
-        template: '%s | Niotech - Saas & App Landing Page NextJS Template'
+        default: 'Ridy - The Lady Cab',
+        template: 'Ridy - The Lady Cab'
     },
-    description: 'Niotech - Saas & App Landing Page NextJS Template',
+    description: 'Ridy - The Lady Cab',
     openGraph: {
-        title: 'Niotech - Saas & App Landing Page NextJS Template',
-        description: 'Niotech - Saas & App Landing Page NextJS Template'
+        title: 'Ridy - The Lady Cab',
+        description: 'Ridy - The Lady Cab'
     }
 };
 function RootLayout({ children }) {

@@ -106,8 +106,8 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                             <div className="col-xl-5 order-1 order-xl-2">
                                 <div className="intro-thumb">
                                     <div className="thumbShape1"><Image src="/assets/images/shape/introThumbShape1_1.png" alt="img" width={624} height={624}   /></div>
-                                    <div className="thumbShape2"><Image src="/assets/images/shape/introThumbShape1_2.png" alt="img" width={536} height={537}   /></div>
-                                            <Image className="main-thumb img-custom-anim-right wow fadeInUp"  src={img} alt="img" width={726} height={709}   />
+                                    {/* <div className="thumbShape2"><Image src="/assets/images/shape/introThumbShape1_2.png" alt="img" width={536} height={537}   /></div> */}
+                                            <Image className="main-thumb img-custom-anim-right wow fadeInUp"  src={img} alt="img" width={624} height={537}   />
                                    
                                 </div>
                             </div>

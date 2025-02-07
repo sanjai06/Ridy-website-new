@@ -21,7 +21,7 @@ const ContactInfo = () => {
                                     </svg>
                                 </div>
                                 <div className="title">Our Address</div>
-                                <a className="text" href="#">2464 Royal Ln. Mesa, New Jersey 45463.</a>
+                                <a className="text" href="#">India</a>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const ContactInfo = () => {
                                     </svg>
                                 </div>
                                 <h3 className="title">
-                                    <a href="mailto:info@exmple.com"> info@exmple.com </a>
+                                    <a href="mailto:info@exmple.com"> ridyladycab@gmail.com  </a>
                                 </h3>
 
                                 <p className="text">Email us anytime for anykind ofquety.</p>
@@ -79,7 +79,7 @@ const ContactInfo = () => {
                                     </svg>
                                 </div>
                                 <h3 className="title">
-                                    <a href="tel:34534534543"> Hot: +208-666-0112 </a>
+                                    <a href="#"> +91 8072877622  </a>
                                 </h3>
 
                                 <p className="text">Call us any kind suppor,we will wait for it</p>
@@ -109,8 +109,8 @@ const ContactInfo = () => {
                             <h2 className="contact-title">
                                 Ready to Get Started?
                             </h2>
-                            <p className="desc">Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit
-                                felis odio in turpis. Quisque rhoncus,</p>
+                            <p className="desc">Take the first step towards safer, more sustainable rides. RIDY makes your
+                                 journey easier, ensuring a seamless experience from start to finish. Join us today and embrace a new era of women’s mobility.</p>
 
                             <form id="contact-form" className="contact-form-items">
                                 <div className="row g-4">

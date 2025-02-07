@@ -1,32 +1,32 @@
 [
   {
     "icon": "/assets/images/icon/serviceIcon3_1.svg",
-    "title": "Software Features",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+    "title": "Safety Features",
+    "desc": "RIDY provides state-of-the-art safety features designed to ensure women feel secure during every ride, from real-time tracking to emergency assistance."
   },
   {
     "icon": "/assets/images/icon/serviceIcon3_2.svg",
     "title": "Subscription Plans",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+    "desc": "RIDY offers flexible subscription plans that suit your needs, providing access to affordable, eco-friendly, and safe transportation options."
   },
   {
     "icon": "/assets/images/icon/serviceIcon3_3.svg",
-    "title": "Customization Option",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+    "title": "Customization Options",
+    "desc": "Tailor your RIDY experience with personalized settings, ensuring each ride is designed to meet your preferences, from ride types to in-app features."
   },
   {
     "icon": "/assets/images/icon/serviceIcon3_5.svg",
-    "title": "Choose a App",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+    "title": "Choose Your Ride",
+    "desc": "Select from a variety of ride options that best fit your needs, whether it’s a quick trip or a more sustainable, eco-friendly choice."
   },
   {
     "icon": "/assets/images/icon/serviceIcon3_5.svg",
-    "title": "Clean Modern Code",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"
+    "title": "  user-friendly ",
+    "desc": "RIDY is built with clean, efficient, and modern code, ensuring a fast, reliable, and user-friendly app experience."
   },
   {
     "icon": "/assets/images/icon/serviceIcon3_6.svg",
-    "title": "User Interactive",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
-  }    
+    "title": "User Interaction",
+    "desc": "RIDY’s intuitive and interactive interface makes it easy for riders and drivers to communicate and navigate the app seamlessly."
+  }
 ]

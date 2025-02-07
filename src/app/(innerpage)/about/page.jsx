@@ -37,17 +37,18 @@ const page = () => {
                img2="/assets/images/wcu/wcuThumb2_2.png" 
                img3="/assets/images/wcu/wcuThumb2_3.png" 
                subtitle="Customizations & Analysis" 
-               title="Manage your Team's Easily Communication." 
-               content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even" 
+               title="Tailored Solutions for Women’s Mobility " 
+               content="RIDY offers customizable ride-sharing experiences designed for women’s safety and convenience, continuously improving based on feedback." 
                boximg1="/assets/images/icon/wcuIcon2_1.svg" 
                boxtitle1="Easy Collaboration" 
-               boxcontent1="There are many variations of passages of Lorem Ipsum available, but the majority have" 
+               boxcontent1="Effortless Communication for Riders and Drivers RIDY enables seamless communication between riders and drivers, ensuring safe and efficient journeys." 
                boximg2="/assets/images/icon/wcuIcon2_2.svg" 
                boxtitle2="Innovative Solutions" 
-               boxcontent2="There are many variations of passages of Lorem Ipsum available, but the majority have" 
+               boxcontent2="Revolutionizing Urban Mobility RIDY combines technology with safety and sustainability, providing women with secure, eco-friendly rides." 
             ></Choose2> 
             <HowWork></HowWork>
-            <Choose4></Choose4>  
+            {/* <Choose4></Choose4>   */}
+            <br />
             <Testimonial4></Testimonial4>                         
     </div>
   );

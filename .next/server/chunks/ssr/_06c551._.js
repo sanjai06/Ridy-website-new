@@ -111,7 +111,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                 src: img1,
                                                 alt: "img",
-                                                width: 436,
+                                                width: 580,
                                                 height: 530
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/About/About1.jsx",
@@ -1526,14 +1526,14 @@ const page = ()=>{
                 img2: "/assets/images/wcu/wcuThumb2_2.png",
                 img3: "/assets/images/wcu/wcuThumb2_3.png",
                 subtitle: "Customizations & Analysis",
-                title: "Manage your Team's Easily Communication.",
-                content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even",
+                title: "Tailored Solutions for Women’s Mobility ",
+                content: "RIDY offers customizable ride-sharing experiences designed for women’s safety and convenience, continuously improving based on feedback.",
                 boximg1: "/assets/images/icon/wcuIcon2_1.svg",
                 boxtitle1: "Easy Collaboration",
-                boxcontent1: "There are many variations of passages of Lorem Ipsum available, but the majority have",
+                boxcontent1: "Effortless Communication for Riders and Drivers RIDY enables seamless communication between riders and drivers, ensuring safe and efficient journeys.",
                 boximg2: "/assets/images/icon/wcuIcon2_2.svg",
                 boxtitle2: "Innovative Solutions",
-                boxcontent2: "There are many variations of passages of Lorem Ipsum available, but the majority have"
+                boxcontent2: "Revolutionizing Urban Mobility RIDY combines technology with safety and sustainability, providing women with secure, eco-friendly rides."
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
                 lineNumber: 35,
@@ -1544,14 +1544,14 @@ const page = ()=>{
                 lineNumber: 49,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 50,
+                lineNumber: 51,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 13
             }, this)
         ]
