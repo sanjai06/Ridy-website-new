@@ -28,7 +28,7 @@ const page = () => {
                 cusnumber="2,291"
                 cuscontent="Happy Customers"
                 rating="4.8/5"
-                ratingcon="Rating"
+                ratingcon="Ratings" 
                 img="/assets/images/intro/home1.png"
             ></HeroBanner1>
             {/* <Brand1></Brand1> */}
