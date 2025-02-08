@@ -12,19 +12,15 @@ const Choose4 = () => {
                             <div className="wcu-content">
                                 <div className="section-title">
                                     <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                                        Customizations & Analysis <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
+                                    Why Choose RIDY?  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
                                     </div>
-                                    <h2 className="title wow fadeInUp" data-wow-delay=".4s">Manage your Traffic Growth
-                                        Easily</h2>
-                                    <p className="text1 wow fadeInUp" data-wow-delay=".6s">There are many variations of
-                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
-                                        some form, by injected humour, or randomised words which do not look even</p>
-                                    <p className="text2 wow fadeInUp" data-wow-delay=".8s">There are many variations of
-                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
-                                        some form,</p>
+                                    <h2 className="title wow fadeInUp" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h2>
+                                    <p className="text1 wow fadeInUp" data-wow-delay=".6s"> RIDY is more than a ride-sharing app – it’s a platform dedicated to empowering women, ensuring safety, and promoting sustainability. 
+                                    Our services are designed to create a positive impact, one ride at a time.</p>
+                                    <p className="text2 wow fadeInUp" data-wow-delay=".8s">  From verified women drivers to eco-conscious travel, RIDY redefines how women commute in urban spaces.</p>
                                 </div>
-                                <Link className="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s" href="/about">View
-                                    All Project
+                                <Link className="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s" href="/contact">View
+                                More About RIDY
                                     <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         viewBox="0 0 16 16" fill="none">
                                         <g clipPath="url(#clip0_190_64)">
@@ -44,19 +40,19 @@ const Choose4 = () => {
                                         <div className="counter">
                                             <span className="counter-nubmer">56</span> <span>k+</span>
                                         </div>
-                                        <p className="text">Comparers</p>
+                                        <p className="text">Increase in Safer Rides</p>
                                     </div>
                                     <div className="counter-box style3 wow fadeInUp" data-wow-delay=".4s">
                                         <div className="counter">
                                             <span className="counter-nubmer">126</span> <span>k+</span>
                                         </div>
-                                        <p className="text">Use People</p>
+                                        <p className="text">Women-Driven Rides</p>
                                     </div>
                                     <div className="counter-box style3 wow fadeInUp" data-wow-delay=".6s">
                                         <div className="counter">
                                             <span className="counter-nubmer">1.2</span> <span>M+</span>
                                         </div>
-                                        <p className="text">Download It</p>
+                                        <p className="text">Happy Riders </p>
                                     </div>
                                 </div>
                             </div>
@@ -64,16 +60,16 @@ const Choose4 = () => {
                         <div className="col-xl-6">
                             <div className="wcu-thumb">
                                 <div className="main-thumb img-custom-anim-left wow fadeInUp" data-wow-delay=".4s">
-                                    <Image src="/assets/images/wcu/wcuThumb3_1.png" alt="img" width={386} height={503}   />
+                                    <Image className="imagesFeatureCard" src="/assets/images/intro/cab4.jpg" alt="img" width={400} height={503}   />
                                 </div>
                                 <div className="thumb2">
-                                    <Image src="/assets/images/wcu/wcuThumb3_2.png" alt="img" width={558} height={340}   />
+                                    <Image className="" src="/assets/images/wcu/wcuThumb3_2.png" alt="img" width={558} height={340}   />
                                 </div>
                                 <div className="thumb-box float-bob-y wow fadeInUp" data-wow-delay=".4s">
-                                    <h5>Traffic Growth</h5>
-                                    <p className="text">Total traffic growth of 45%</p>
+                                    <h5>Empowered Journeys</h5>
+                                    <p className="text">Every ride is safe mobility for women.</p>
                                     <div className="shape-box">
-                                        <Image src="/assets/images/shape/wcuThumbShape3_1.png" alt="img" width={128} height={128}   />
+                                        <Image src="/assets/images/shape/wcuThumbShape3_1.png" alt="img" width={100} height={100}   />
                                         <div className="shape-content">
                                             <h6>Transaction</h6>
                                             <h3>86%</h3>

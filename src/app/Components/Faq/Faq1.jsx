@@ -28,8 +28,8 @@ const Faq1 = () => {
 
     const FaqContent = {
         Content:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly',
-        img1:'/assets/images/intro/car3.jpg',
-        img2:'/assets/images/intro/taxi1.jpg'
+        img1:'/assets/images/intro/cab2.jpg',
+        img2:'/assets/images/intro/cab4.jpg'
       }
 
     return (
@@ -49,7 +49,7 @@ const Faq1 = () => {
                                 </div>
                                 <div className="faq-accordion">
                                     <div className="accordion" id="accordion">
-                                    {data.slice(0,3).map((item, index)=>(
+                                    {data.slice(0,4).map((item, index)=>(
                                         <div key={index} className={`accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : "" }`} data-wow-delay=".3s">
                                             <h5 onClick={() => handleItemClick(index)} className="accordion-header">
                                                 <button className="accordion-button collapsed" type="button"

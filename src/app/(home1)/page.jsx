@@ -3,7 +3,7 @@ import HeroBanner1 from '../Components/HeroBanner/HeroBanner1';
 import Brand1 from '../Components/Brand/Brand1';
 import About1 from '../Components/About/About1';
 import HowWork from '../Components/HowWork/HowWork';
-import Choose1 from '../Components/Choose/Choose1';
+import Choose2 from '../Components/Choose/Choose2';
 import Feature1 from '../Components/Feature/Feature1';
 import Counter1 from '../Components/Counter/Counter1';
 import Faq1 from '../Components/Faq/Faq1';
@@ -17,7 +17,7 @@ const page = () => {
     return (
         <div>
             <HeroBanner1
-                subtitle="<span>News!</span>Find Your Solution"
+                subtitle="<span>News!</span>Find Your New Ride "
                 title="Right Initiative for Daily Yatra CTA "
                 content="“Seamless, safe, and sustainable transport services designed exclusively for women.” "
                 btnname="Become a Driver"
@@ -28,52 +28,34 @@ const page = () => {
                 cusnumber="2,291"
                 cuscontent="Happy Customers"
                 rating="4.8/5"
-                ratingcon="Ratings" 
-                img="/assets/images/intro/home1.png"
+                ratingcon="Ratings"
+                img="/assets/images/intro/home.png"
             ></HeroBanner1>
-            {/* <Brand1></Brand1> */}
-            <br />
-            <About1
-                img1="/assets/images/about/about1.png"
-                img2="/assets/images/about/aboutThumb1_2.png"
-                subtitle="About Ridy"
-                title="Who We Are "
-                content="RIDY is a women-focused ride-sharing platform revolutionizing urban mobility by blending safety, sustainability, and empowerment into one seamless experience.  "
-                title2={"content"}
-                content2={"To create a world where women can travel confidently while reducing carbon footprints and fostering gender equality. "}
-                title3={"Our Vision "}
-                content3={"To be the leading provider of eco-friendly, women-centric ride services in India and beyond. "}
-                // FeatureList={[
-                    
-                //     ""
-                // ]}
-                btnname="Discover More"
-                btnurl="/about"
-            ></About1>
             <HowWork></HowWork>
-            <Choose1
+            <Choose2
+                img1="/assets/images/intro/cab5.jpg"
                 subtitle=" Impact Section  "
                 title="Get Benefit By Using  Ridy "
                 content=" "
+                FeatureList2={[
+                    "Sustainability First ",
+                    "Supporting green transportation goals with EVs.",
+                    " Reducing air pollution and carbon footprints.",
+
+                ]}
                 FeatureList={[
                     "Impact Section ",
                     "Creating thousands of job opportunities for women",
                     "Offering financial independence and career growth. ",
-                    "Sustainability First ",
-                    "Supporting green transportation goals with EVs.",
-                   " Reducing air pollution and carbon footprints.",
 
                 ]}
                 btnname="Download App"
-                btnurl="/about"
-            ></Choose1>
+
+            ></Choose2>
             <Feature1></Feature1>
             <Counter1></Counter1>
             <Faq1></Faq1>
             <Testimonial></Testimonial>
-            <Feature2></Feature2> 
-            <br />
-            {/* <Pricing1></Pricing1> */}
             <br />
             <Cta1
                 subtitle="Our App"
@@ -81,7 +63,7 @@ const page = () => {
                 content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised"
                 btnurl1="https://play.google.com/store"
                 btnurl2="https://www.apple.com/store"
-                img="/assets/images/intro/car1.jpg"
+                img="/assets/images/intro/cab6.jpg"
             ></Cta1>
             {/* <Blog1></Blog1> */}
         </div>

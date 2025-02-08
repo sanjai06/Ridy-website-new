@@ -37,7 +37,7 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
                                 </div>
                                 <div className="col-xl-4 order-1 order-xl-2">
                                     <div className="cta-thumb wow fadeInUp" data-wow-delay=".2s">
-                                    <Image src={img} alt="img" width={643} height={322}   />
+                                    <Image src={img} alt="img" width={400} height={360}   />
                                     </div>
                                 </div>
                             </div>

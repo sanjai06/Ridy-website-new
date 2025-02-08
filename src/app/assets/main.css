@@ -20,10 +20,7 @@
   --box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
 }
 
-/* 03.Typography */
-/* --------------------------------------------
-    Template Default Fonts & Fonts Styles
- ---------------------------------------------- */
+
 body {
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
@@ -377,7 +374,7 @@ input[type=radio]:checked ~ label::before {
     # Buttons style here
 ----------------------------------------------*/
 .theme-btn {
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   padding: 20px 36px;
   gap: 10px;
@@ -393,6 +390,7 @@ input[type=radio]:checked ~ label::before {
   line-height: 1;
   overflow: hidden;
   border: none;
+  justify-content: center;
   border-radius: 100px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -3047,14 +3045,27 @@ input[type=radio]:checked ~ label::before {
     gap: 5px;
   }
 }
+.border-radius{
+  border-radius: 40px;
+  padding: 20px 10px;
+  background: #f1f1f1;
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* Adjust as needed */
+  height: 540px; /* Adjust as needed */
+  
+}
 
+.imagesulli{
+  display: inline-flex;
+}
 .checklist.style1 li {
   color: var(--title);
   font-family: "Urbanist", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
+  font-weight: 400;
+  line-height: 18px;
   letter-spacing: -0.36px;
   margin-bottom: 20px;
 }
@@ -5784,6 +5795,10 @@ input.main-search-input::placeholder {
   letter-spacing: -0.32px;
   margin-bottom: 20px;
 }
+.imagesFeatureCard{
+  border-radius: 20px;
+  filter: brightness(90%);
+}
 .intro-wrapper.style1 .intro-content .intro-section-title .intro-subtitle span {
   display: inline-block;
   padding: 5px 15px;
@@ -6607,6 +6622,9 @@ input.main-search-input::placeholder {
 }
 .advantage-wrapper.style1 .advantage-content .checklist-wrapper {
   margin-bottom: 30px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: end;
 }
 .advantage-wrapper.style1 .advantage-thumb {
   position: relative;
@@ -6789,13 +6807,16 @@ input.main-search-input::placeholder {
   position: relative;
   margin-top: 10px;
 }
+.imageshidden{
+display: none;
+}
 .wcu-wrapper.style3 .wcu-thumb .thumb-box .shape-box img {
   position: relative;
 }
 .wcu-wrapper.style3 .wcu-thumb .thumb-box .shape-box .shape-content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 26%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);

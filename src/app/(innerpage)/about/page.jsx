@@ -1,7 +1,13 @@
 import About1 from '@/app/Components/About/About1';
+import About2 from '@/app/Components/About/About2';
+import About3 from '@/app/Components/About/About3';
+import Choose1 from '@/app/Components/Choose/Choose1';
 import Choose2 from '@/app/Components/Choose/Choose2';
+import Choose3 from '@/app/Components/Choose/Choose3';
 import Choose4 from '@/app/Components/Choose/Choose4';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
+import Faq1 from '@/app/Components/Faq/Faq1';
+import Faq2 from '@/app/Components/Faq/Faq2';
 import HowWork from '@/app/Components/HowWork/HowWork';
 import Testimonial4 from '@/app/Components/Testimonial/Testimonial4';
 import React from 'react';
@@ -12,11 +18,11 @@ const page = () => {
     <div>
             <BreadCumb
                 bgimg="/assets/images/bg/breadcumgBg.png"
-                Title="About Us"
+                Title="Ride with us"
             ></BreadCumb> 
             <br />
               <About1
-                img1="/assets/images/about/about2.png"
+                img1="/assets/images/intro/cab5.jpg"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="About Ridy"
                 title="Who We Are "
@@ -30,25 +36,14 @@ const page = () => {
                 //     ""
                 // ]}
                 btnname="Discover More"
-                btnurl="/about"
+                btnurl="/contact"
             ></About1> 
-            <Choose2
-               img1="/assets/images/intro/taxi2.jpg" 
-               img2="/assets/images/wcu/wcuThumb2_2.png" 
-               img3="/assets/images/wcu/wcuThumb2_3.png" 
-               subtitle="Customizations & Analysis" 
-               title="Tailored Solutions for Women’s Mobility " 
-               content="RIDY offers customizable ride-sharing experiences designed for women’s safety and convenience, continuously improving based on feedback." 
-               boximg1="/assets/images/icon/wcuIcon2_1.svg" 
-               boxtitle1="Easy Collaboration" 
-               boxcontent1="Effortless Communication for Riders and Drivers RIDY enables seamless communication between riders and drivers, ensuring safe and efficient journeys." 
-               boximg2="/assets/images/icon/wcuIcon2_2.svg" 
-               boxtitle2="Innovative Solutions" 
-               boxcontent2="Revolutionizing Urban Mobility RIDY combines technology with safety and sustainability, providing women with secure, eco-friendly rides." 
-            ></Choose2> 
+       
             <HowWork></HowWork>
-            {/* <Choose4></Choose4>   */}
-            <br />
+
+            <Choose4>
+              </Choose4>  
+            <Faq2></Faq2>
             <Testimonial4></Testimonial4>                         
     </div>
   );

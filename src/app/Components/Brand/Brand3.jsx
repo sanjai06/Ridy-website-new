@@ -15,13 +15,13 @@ const Brand3 = () => {
 
                 <ul className="nav brand-nav-area">
                     <li className={`nav-item wow fadeInUp ${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')} data-wow-delay=".3s">
-                        <a href="#End" data-bs-toggle="tab" className="nav-link">
+                        <a href="/" data-bs-toggle="tab" className="nav-link">
                            Driver
                         </a>
                     </li>
                     <li className={`nav-item wow fadeInUp ${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')} data-wow-delay=".5s">
-                        <a href="#Back" data-bs-toggle="tab" className="nav-link">
-                            Back End
+                        <a href="/about" data-bs-toggle="tab" className="nav-link">
+                           Rider 
                         </a>
                     </li>
                 </ul>

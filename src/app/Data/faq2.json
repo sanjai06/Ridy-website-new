@@ -1,18 +1,18 @@
 [
-  {  
-    "title": "01.Create account",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
+  {
+    "title": "01. Create Your Account",
+    "desc": "Sign up in minutes and become a part of the women-focused ride-sharing community designed for safety and empowerment."
   },
   {
-    "title": "02. Install tracking",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
+    "title": "02. Customize Your Preferences",
+    "desc": "Set up your ride preferences, choose your safety settings, and personalize your experience for seamless travel."
   },
   {
-     "title": "03. Track analytics",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
+    "title": "03. Book a Ride",
+    "desc": "Find and book verified women drivers with real-time tracking and live updates for a secure journey."
   },
   {
-    "title": "04. Integrate",
-   "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
- }  
+    "title": "04. Enjoy the Ride",
+    "desc": "Experience safe, sustainable, and empowering rides tailored just for women. We’re here for you every step of the way."
+  }
 ]

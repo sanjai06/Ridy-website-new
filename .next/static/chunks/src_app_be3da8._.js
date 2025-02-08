@@ -47,7 +47,7 @@ const Brand3 = ()=>{
                             onClick: ()=>setIsActive('monthly'),
                             "data-wow-delay": ".3s",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "#End",
+                                href: "/",
                                 "data-bs-toggle": "tab",
                                 className: "nav-link",
                                 children: "Driver"
@@ -66,10 +66,10 @@ const Brand3 = ()=>{
                             onClick: ()=>setIsActive('yearly'),
                             "data-wow-delay": ".5s",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "#Back",
+                                href: "/about",
                                 "data-bs-toggle": "tab",
                                 className: "nav-link",
-                                children: "Back End"
+                                children: "Rider"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Components/Brand/Brand3.jsx",
                                 lineNumber: 23,

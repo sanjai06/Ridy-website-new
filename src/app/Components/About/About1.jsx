@@ -12,7 +12,9 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,ti
                             <div className="col-xl-6">
                                 <div className="about-thumb">
                                     <div className="bg"></div>
-                                    <div className="thumbShape1 d-none d-xxl-block cir36"><Image src="/assets/images/shape/aboutThumbShape1_1.png" alt="img" width={67} height={67}   /></div>
+                                    <div className="thumbShape1 d-none d-xxl-block cir36">
+                                        <Image src="/assets/images/shape/aboutThumbShape1_1.png" alt="img" width={67} height={67}   />
+                                        </div>
                                     <div className="thumbShape2 d-none d-xxl-block cir36">
                                     <Image src="/assets/images/shape/aboutThumbShape1_2.png" alt="img" width={24} height={24}   />
                                         </div>
@@ -23,11 +25,9 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,ti
                                     <Image src="/assets/images/shape/aboutThumbShape1_4.png" alt="img" width={28} height={28}   />
                                         </div>
                                     <div className="main-thumb">
-                                    <Image src={img1} alt="img" width={580} height={530}   />
+                                    <Image className="imagesFeatureCard" src={img1} alt="img" width={550} height={530}   />
                                     </div>
-                                    <div className="absolute-thumb float-bob-x">
-                                    <Image src={img2} alt="img" width={216} height={108}   />
-                                    </div>
+                                  
     
                                 </div>
                             </div>

@@ -98,10 +98,11 @@ const ContactInfo = () => {
                 <div className="row gy-5 gx-60">
                     <div className="col-xl-6">
                         <div className="contact-map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57559.095682562875!2d88.60522403504652!3d25.6234028155105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb529bc7fc909b%3A0xd8f861ed9baf24de!2sDinajpur!5e0!3m2!1sen!2sbd!4v1729067103339!5m2!1sen!2sbd"
-                                 loading="lazy"
-                                ></iframe>
+                        <iframe    loading="lazy" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4013002.7234765617!2d75.64236023823479!3d10.81529361943211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0x559475cc463361f0!2sTamil%20Nadu!5e0!3m2!1sen!2sin!4v1738993438506!5m2!1sen!2sin">
+                        </iframe>
+                     
+                            
                         </div>
                     </div>
                     <div className="col-xl-6">
