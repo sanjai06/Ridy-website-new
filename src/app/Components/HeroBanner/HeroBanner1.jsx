@@ -21,8 +21,8 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                         <div className="intro-subtitle">
                                             {parse(subtitle)} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   /> 
                                         </div>
-                                        <h1 className="intro-title wow fadeInUp" data-wow-delay=".2s">{title}</h1>
-                                        <p className="intro-desc wow fadeInUp" data-wow-delay=".4s">{content}</p>
+                                        <h1 className="intro-title wow  animate__fadeInLeft animate__animated   " data-wow-delay=".2s">{title}</h1>
+                                        <p className="intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</p>
                                     </div>
                                     <div className="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
                                         <Link className="theme-btn" href={btnurl}>{btnname}
@@ -105,9 +105,11 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                             </div>
                             <div className="col-xl-5 order-1 order-xl-2">
                                 <div className="intro-thumb">
-                                    <div className="thumbShape1"><Image src="/assets/images/shape/introThumbShape1_1.png" alt="img" width={624} height={624}   /></div>
+                                    {/* <div className="thumbShape1"><Image src="/assets/images/shape/introThumbShape1_1.png" alt="img" width={624} height={624}   /></div> */}
                                     {/* <div className="thumbShape2"><Image src="/assets/images/shape/introThumbShape1_2.png" alt="img" width={536} height={537}   /></div> */}
-                                            <Image className="main-thumb img-custom-anim-right wow fadeInUp"  src={img} alt="img" width={500} height={600}   />
+                                            <Image className="main-thumb img-custom-anim-right wow fadeInUp " style={{
+                                                borderRadius:"20px"
+                                            }} src={img} alt="img" width={400} height={500}   />
                                    
                                 </div>
                             </div>

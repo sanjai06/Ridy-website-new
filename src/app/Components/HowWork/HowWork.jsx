@@ -18,22 +18,22 @@ const HowWork = () => {
                             <div className="col-xl-4">
                                 <div className="work-process-box style1 wow fadeInUp" data-wow-delay=".2s">
                                     <div className="step">STEP - 01</div>
-                                    <div className="title">Download App</div>
-                                    <div className="text">Easy registration with user-friendly features. </div>
+                                    <div className="title animate__animated animate__fadeInDown animate__delay-1s ">Download App</div>
+                                    <div className="text animate__animated animate__fadeInDown ">Easy registration with user-friendly features. </div>
                                 </div>
                             </div>
                             <div className="col-xl-4">
                                 <div className="work-process-box style1 child2 wow fadeInUp" data-wow-delay=".4s">
                                     <div className="step">STEP - 02</div>
-                                    <div className="title">Book Your Ride</div>
-                                    <div className="text">Set your pick-up and destination with a single click. </div>
+                                    <div className="title animate__animated animate__fadeInUp animate__delay-1s">Book Your Ride</div>
+                                    <div className="text animate__animated animate__fadeInUp">Set your pick-up and destination with a single click. </div>
                                 </div>
                             </div>
                             <div className="col-xl-4">
                                 <div className="work-process-box style1 wow fadeInUp" data-wow-delay=".6s">
                                     <div className="step">STEP - 03</div>
-                                    <div className="title">Enjoy the Ride</div>
-                                    <div className="text">Experience safety, comfort, and reliability</div>
+                                    <div className="title animate__animated animate__fadeInDown animate__delay-1s">Enjoy the Ride</div>
+                                    <div className="text animate__animated animate__fadeInDown a">Experience safety, comfort, and reliability</div>
                                 </div>
                             </div>
                         </div>

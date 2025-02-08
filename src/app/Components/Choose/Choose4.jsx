@@ -14,10 +14,10 @@ const Choose4 = () => {
                                     <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                     Why Choose RIDY?  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
                                     </div>
-                                    <h2 className="title wow fadeInUp" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h2>
-                                    <p className="text1 wow fadeInUp" data-wow-delay=".6s"> RIDY is more than a ride-sharing app – it’s a platform dedicated to empowering women, ensuring safety, and promoting sustainability. 
+                                    <h2 className="title wow fadeInUp animate__animated  animate__fadeInLeft" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h2>
+                                    <p className="text1 wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".6s"> RIDY is more than a ride-sharing app – it’s a platform dedicated to empowering women, ensuring safety, and promoting sustainability. 
                                     Our services are designed to create a positive impact, one ride at a time.</p>
-                                    <p className="text2 wow fadeInUp" data-wow-delay=".8s">  From verified women drivers to eco-conscious travel, RIDY redefines how women commute in urban spaces.</p>
+                                    <p className="text2 wow fadeInUp  animate__animated  animate__fadeInLeft animate__delay-2s" data-wow-delay=".8s">  From verified women drivers to eco-conscious travel, RIDY redefines how women commute in urban spaces.</p>
                                 </div>
                                 <Link className="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s" href="/contact">View
                                 More About RIDY
@@ -65,17 +65,17 @@ const Choose4 = () => {
                                 <div className="thumb2">
                                     <Image className="" src="/assets/images/wcu/wcuThumb3_2.png" alt="img" width={558} height={340}   />
                                 </div>
-                                <div className="thumb-box float-bob-y wow fadeInUp" data-wow-delay=".4s">
+                                {/* <div className="thumb-box float-bob-y wow fadeInUp" data-wow-delay=".4s">
                                     <h5>Empowered Journeys</h5>
                                     <p className="text">Every ride is safe mobility for women.</p>
-                                    <div className="shape-box">
+                                    {/* <div className="shape-box">
                                         <Image src="/assets/images/shape/wcuThumbShape3_1.png" alt="img" width={100} height={100}   />
                                         <div className="shape-content">
                                             <h6>Transaction</h6>
                                             <h3>86%</h3>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> */}
+                                {/* </div>  */}
                             </div>
                         </div>
                     </div>

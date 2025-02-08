@@ -31,7 +31,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <head> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
         <meta name="author" content="Themeservices" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>

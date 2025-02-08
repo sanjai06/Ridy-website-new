@@ -3,7 +3,7 @@
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #d91656;
+  --theme: #ea1997;
   --theme2: #f9f3ef;
   --theme3: #faf8ff;
   --title: #282c32;
@@ -220,6 +220,35 @@ label {
   font-style: normal;
   font-weight: 400;
   line-height: 35.04px;
+}
+
+.subtitlenew {
+  color: #fff;
+  width: auto;
+  padding: 0 5px;
+  border-radius: 0 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.titlenew {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.checklist-wrapper ul li {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 10px 0;
+  white-space: 2px;
+}
+
+.checklist-wrapper ul {
+  margin-bottom: 20px;
 }
 
 .form-group {
@@ -3303,6 +3332,7 @@ input[type="radio"]:checked ~ label:before {
 
 .imagesulli {
   display: inline-flex;
+  gap: 4px;
 }
 
 .checklist.style1 li {

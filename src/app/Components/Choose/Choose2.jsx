@@ -9,27 +9,32 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                 <div className="container">
                     <div className="wcu-wrapper style2  section-padding fix">
                         <div className="container border-radius ">
-                            <div className="row gy-5  gx-60 d-flex align-items-center">
+                            <div  
+                              style={{
+                                backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
+                                padding:"20px  ",
+                                borderRadius:"30px",
+                              }}
+
+                             className="row gy-5   gx-60 d-flex align-items-center">
                                 <div className="col-xl-6">
-                                    <div className="wcu-thumb">
-                                    <div className="" data-wow-delay=".4s">
-                                    <Image className="imagesFeatureCard" src={img1} alt="img" width={500} height={365}   />
-                                    </div>
-                                    
-                                   
+                                    <div className="wcu-thumb"> 
                                 </div>
                                 </div>
                                 <div className="col-xl-6">
                                     <div className="advantage-content">
                                         <div className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <div className="subtitle">
+                                            <div className=" subtitlenew    ">
                                                 {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h2 className="title">{title}</h2>
-                                            <p className="section-desc">{content}</p>
+                                            <h2 className="titlenew animate__animated animate__fadeInRight ">{title}</h2>
+                                            <p className="">{content}</p>
                                         </div>
-                                        <div className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
-                                            <ul className="checklist style1">
+                                        <div className="checklist-wrapper style1 wow fadeInUp  " data-wow-delay=".4s">
+                                            <ul className="checklist animate__animated animate__fadeInRight  animate__delay-1s   ">
                                                 {FeatureList?.map((item, index) => (
                                                     <li key={index}>
                                                         <div className="imagesulli">
@@ -38,7 +43,7 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                     </li>
                                                 ))}
                                             </ul>
-                                            <ul className="checklist style1">
+                                            <ul className="checklist animate__animated animate__fadeInRight  animate__delay-2s  ">
                                                 {FeatureList2?.map((item, index) => (
                                                     <li key={index}>
                                                         <div className="imagesulli">
@@ -48,7 +53,7 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                 ))}
                                             </ul>
                                         </div>
-                                        <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href="/about"> {btnname}
+                                        <Link className="theme-btn wow fadeInUp animate__animated animate__fadeInUp  animate__delay-2s " data-wow-delay=".6s" href="/about"> {btnname}
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_43_54)">

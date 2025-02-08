@@ -9,7 +9,7 @@ import BreadCumb from '@/app/Components/Common/BreadCumb';
 import Faq1 from '@/app/Components/Faq/Faq1';
 import Faq2 from '@/app/Components/Faq/Faq2';
 import HowWork from '@/app/Components/HowWork/HowWork';
-import Testimonial4 from '@/app/Components/Testimonial/Testimonial4';
+import Testimonial from '@/app/Components/Testimonial/Testimonial';
 import React from 'react';
 
 
@@ -20,7 +20,7 @@ const page = () => {
                 bgimg="/assets/images/bg/breadcumgBg.png"
                 Title="Ride with us"
             ></BreadCumb> 
-            <br />
+        <br />
               <About1
                 img1="/assets/images/intro/cab5.jpg"
                 img2="/assets/images/about/aboutThumb1_2.png"
@@ -44,7 +44,7 @@ const page = () => {
             <Choose4>
               </Choose4>  
             <Faq2></Faq2>
-            <Testimonial4></Testimonial4>                         
+            <Testimonial></Testimonial>                         
     </div>
   );
 };

@@ -14,11 +14,11 @@ const Cta2 = () => {
                 <div className="shape2 fix"><Image src="/assets/images/shape/testimonialShape2_2.png" alt="img" width={983} height={1074} /></div>
                 <div className="container">
                     <div className="service-wrapper style3">
-                        <h2 className="wow fadeInUp" data-wow-delay=".3s">Join our team to revolutionize women's urban mobility.</h2>
-                        <p className="text wow fadeInUp" data-wow-delay=".5s">At RIDY, we're creating innovative ride-sharing solutions that prioritize safety, 
+                        <h2 className="wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".3s">Join our team to revolutionize women's urban mobility.</h2>
+                        <p className="text wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-2s " data-wow-delay=".5s">At RIDY, we're creating innovative ride-sharing solutions that prioritize safety, 
                             sustainability, and empowerment. If you're passionate about transforming urban mobility and making a real impact, we want you on our team. Join us in reshaping the future of transportation for women everywhere.</p>
 
-                        <Link href="/contact"> <span className="theme-btn wow fadeInUp" data-wow-delay=".3s"> Join Our Team
+                        <Link href="/contact"> <span className="theme-btn wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-3s" data-wow-delay=".3s"> Join Our Team
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                 fill="none">
                                 <g clipPath="url(#clip0_199_944)">

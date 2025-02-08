@@ -163,7 +163,7 @@ const Cta2 = ()=>{
                             className: "service-wrapper style3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "wow fadeInUp",
+                                    className: "wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s ",
                                     "data-wow-delay": ".3s",
                                     children: "Join our team to revolutionize women's urban mobility."
                                 }, void 0, false, {
@@ -172,7 +172,7 @@ const Cta2 = ()=>{
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text wow fadeInUp",
+                                    className: "text wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-2s ",
                                     "data-wow-delay": ".5s",
                                     children: "At RIDY, we're creating innovative ride-sharing solutions that prioritize safety, sustainability, and empowerment. If you're passionate about transforming urban mobility and making a real impact, we want you on our team. Join us in reshaping the future of transportation for women everywhere."
                                 }, void 0, false, {
@@ -185,7 +185,7 @@ const Cta2 = ()=>{
                                     children: [
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "theme-btn wow fadeInUp",
+                                            className: "theme-btn wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-3s",
                                             "data-wow-delay": ".3s",
                                             children: [
                                                 " Join Our Team",
@@ -1070,7 +1070,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "title wow fadeInUp",
+                                                    className: "title animate__animated animate__fadeInRight wow fadeInUp",
                                                     "data-wow-delay": ".4s",
                                                     children: title
                                                 }, void 0, false, {
@@ -1079,7 +1079,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow animate__animated animate__fadeInRight   fadeInUp",
                                                     "data-wow-delay": ".6s",
                                                     children: content
                                                 }, void 0, false, {
@@ -1088,7 +1088,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "",
+                                                    className: "animate__animated animate__fadeInRight animate__delay-1s ",
                                                     "data-wow-delay": ".4s",
                                                     children: title2
                                                 }, void 0, false, {
@@ -1097,7 +1097,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-1s  ",
                                                     "data-wow-delay": ".6s",
                                                     children: content2
                                                 }, void 0, false, {
@@ -1106,7 +1106,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "",
+                                                    className: " animate__animated animate__fadeInRight animate__delay-2s ",
                                                     "data-wow-delay": ".4s",
                                                     children: title3
                                                 }, void 0, false, {
@@ -1115,7 +1115,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-2s ",
                                                     "data-wow-delay": ".6s",
                                                     children: content3
                                                 }, void 0, false, {
@@ -1158,7 +1158,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            className: "theme-btn wow fadeInUp",
+                                            className: "theme-btn wow fadeInUp animate__animated animate__fadeInUp animate__delay-3s ",
                                             "data-wow-delay": ".2s",
                                             href: btnurl,
                                             children: [

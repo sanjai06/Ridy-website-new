@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-const FeatureCard = ({img,title,content}) => {
+const FeatureCard = ({img,title,animation,content}) => {
     return (
-        <div className="fancy-box style2">
+        <div className={` fancy-box style2 ${animation} `} >
+            
         <div className="icon"><Image src={img} alt="img" width={80} height={80}   /></div>
         <div className="content wow fadeInUp" data-wow-delay=".2s">
             <h4>{title}</h4>

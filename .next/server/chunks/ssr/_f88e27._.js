@@ -147,7 +147,7 @@ const HeroBanner1 = ({ subtitle, title, content, btnname, btnurl, btntwo, btn2ur
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                            className: "intro-title wow fadeInUp",
+                                                            className: "intro-title wow  animate__fadeInLeft animate__animated   ",
                                                             "data-wow-delay": ".2s",
                                                             children: title
                                                         }, void 0, false, {
@@ -156,7 +156,7 @@ const HeroBanner1 = ({ subtitle, title, content, btnname, btnurl, btntwo, btn2ur
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "intro-desc wow fadeInUp",
+                                                            className: "intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s ",
                                                             "data-wow-delay": ".4s",
                                                             children: content
                                                         }, void 0, false, {
@@ -318,37 +318,21 @@ const HeroBanner1 = ({ subtitle, title, content, btnname, btnurl, btntwo, btn2ur
                                         className: "col-xl-5 order-1 order-xl-2",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "intro-thumb",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "thumbShape1",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/assets/images/shape/introThumbShape1_1.png",
-                                                        alt: "img",
-                                                        width: 624,
-                                                        height: 624
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/Components/HeroBanner/HeroBanner1.jsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 66
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/HeroBanner/HeroBanner1.jsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    className: "main-thumb img-custom-anim-right wow fadeInUp",
-                                                    src: img,
-                                                    alt: "img",
-                                                    width: 500,
-                                                    height: 600
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/HeroBanner/HeroBanner1.jsx",
-                                                    lineNumber: 110,
-                                                    columnNumber: 45
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                className: "main-thumb img-custom-anim-right wow fadeInUp ",
+                                                style: {
+                                                    borderRadius: "20px"
+                                                },
+                                                src: img,
+                                                alt: "img",
+                                                width: 400,
+                                                height: 500
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/Components/HeroBanner/HeroBanner1.jsx",
+                                                lineNumber: 110,
+                                                columnNumber: 45
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/HeroBanner1.jsx",
                                             lineNumber: 107,
                                             columnNumber: 33
@@ -597,7 +581,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "title wow fadeInUp",
+                                                    className: "title animate__animated animate__fadeInRight wow fadeInUp",
                                                     "data-wow-delay": ".4s",
                                                     children: title
                                                 }, void 0, false, {
@@ -606,7 +590,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow animate__animated animate__fadeInRight   fadeInUp",
                                                     "data-wow-delay": ".6s",
                                                     children: content
                                                 }, void 0, false, {
@@ -615,7 +599,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "",
+                                                    className: "animate__animated animate__fadeInRight animate__delay-1s ",
                                                     "data-wow-delay": ".4s",
                                                     children: title2
                                                 }, void 0, false, {
@@ -624,7 +608,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-1s  ",
                                                     "data-wow-delay": ".6s",
                                                     children: content2
                                                 }, void 0, false, {
@@ -633,7 +617,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "",
+                                                    className: " animate__animated animate__fadeInRight animate__delay-2s ",
                                                     "data-wow-delay": ".4s",
                                                     children: title3
                                                 }, void 0, false, {
@@ -642,7 +626,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "section-desc wow fadeInUp",
+                                                    className: "section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-2s ",
                                                     "data-wow-delay": ".6s",
                                                     children: content3
                                                 }, void 0, false, {
@@ -685,7 +669,7 @@ const About1 = ({ img1, img2, subtitle, title, content, FeatureList, btnname, ti
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            className: "theme-btn wow fadeInUp",
+                                            className: "theme-btn wow fadeInUp animate__animated animate__fadeInUp animate__delay-3s ",
                                             "data-wow-delay": ".2s",
                                             href: btnurl,
                                             children: [
@@ -919,7 +903,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "title",
+                                                    className: "title animate__animated animate__fadeInDown animate__delay-1s ",
                                                     children: "Download App"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -927,7 +911,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text",
+                                                    className: "text animate__animated animate__fadeInDown ",
                                                     children: "Easy registration with user-friendly features. "
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -960,7 +944,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "title",
+                                                    className: "title animate__animated animate__fadeInUp animate__delay-1s",
                                                     children: "Book Your Ride"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -968,7 +952,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text",
+                                                    className: "text animate__animated animate__fadeInUp",
                                                     children: "Set your pick-up and destination with a single click. "
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -1001,7 +985,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "title",
+                                                    className: "title animate__animated animate__fadeInDown animate__delay-1s",
                                                     children: "Enjoy the Ride"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -1009,7 +993,7 @@ const HowWork = ()=>{
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text",
+                                                    className: "text animate__animated animate__fadeInDown a",
                                                     children: "Experience safety, comfort, and reliability"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/HowWork/HowWork.jsx",
@@ -1084,39 +1068,28 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container border-radius ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "row gy-5  gx-60 d-flex align-items-center",
+                            style: {
+                                backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
+                                padding: "20px  ",
+                                borderRadius: "30px"
+                            },
+                            className: "row gy-5   gx-60 d-flex align-items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "col-xl-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "wcu-thumb",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "",
-                                            "data-wow-delay": ".4s",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                className: "imagesFeatureCard",
-                                                src: img1,
-                                                alt: "img",
-                                                width: 500,
-                                                height: 365
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 16,
-                                                columnNumber: 37
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                            lineNumber: 15,
-                                            columnNumber: 37
-                                        }, this)
+                                        className: "wcu-thumb"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                        lineNumber: 14,
+                                        lineNumber: 24,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                    lineNumber: 13,
+                                    lineNumber: 23,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,7 +1102,7 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                 "data-wow-delay": ".2s",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "subtitle",
+                                                        className: " subtitlenew    ",
                                                         children: [
                                                             subtitle,
                                                             " ",
@@ -1140,43 +1113,43 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                 height: 17
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 26,
+                                                                lineNumber: 31,
                                                                 columnNumber: 60
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 25,
+                                                        lineNumber: 30,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                        className: "title",
+                                                        className: "titlenew animate__animated animate__fadeInRight ",
                                                         children: title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 28,
+                                                        lineNumber: 33,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "section-desc",
+                                                        className: "",
                                                         children: content
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 29,
+                                                        lineNumber: 34,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 24,
+                                                lineNumber: 29,
                                                 columnNumber: 41
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "checklist-wrapper style1 wow fadeInUp",
+                                                className: "checklist-wrapper style1 wow fadeInUp  ",
                                                 "data-wow-delay": ".4s",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        className: "checklist style1",
+                                                        className: "checklist animate__animated animate__fadeInRight  animate__delay-1s   ",
                                                         children: FeatureList?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "imagesulli",
@@ -1188,28 +1161,28 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                             height: 30
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 36,
+                                                                            lineNumber: 41,
                                                                             columnNumber: 61
                                                                         }, this),
                                                                         item
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 35,
+                                                                    lineNumber: 40,
                                                                     columnNumber: 57
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 34,
+                                                                lineNumber: 39,
                                                                 columnNumber: 53
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 32,
+                                                        lineNumber: 37,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        className: "checklist style1",
+                                                        className: "checklist animate__animated animate__fadeInRight  animate__delay-2s  ",
                                                         children: FeatureList2?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "imagesulli",
@@ -1221,34 +1194,34 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                             height: 30
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 45,
+                                                                            lineNumber: 50,
                                                                             columnNumber: 61
                                                                         }, this),
                                                                         item
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 44,
+                                                                    lineNumber: 49,
                                                                     columnNumber: 57
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 43,
+                                                                lineNumber: 48,
                                                                 columnNumber: 53
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 41,
+                                                        lineNumber: 46,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 31,
+                                                lineNumber: 36,
                                                 columnNumber: 41
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                className: "theme-btn wow fadeInUp",
+                                                className: "theme-btn wow fadeInUp animate__animated animate__fadeInUp  animate__delay-2s ",
                                                 "data-wow-delay": ".6s",
                                                 href: "/about",
                                                 children: [
@@ -1268,12 +1241,12 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                     fill: "white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 55,
+                                                                    lineNumber: 60,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 54,
+                                                                lineNumber: 59,
                                                                 columnNumber: 49
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -1285,40 +1258,40 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                         fill: "white"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                        lineNumber: 61,
+                                                                        lineNumber: 66,
                                                                         columnNumber: 57
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 60,
+                                                                    lineNumber: 65,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 59,
+                                                                lineNumber: 64,
                                                                 columnNumber: 49
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 57,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 51,
+                                                lineNumber: 56,
                                                 columnNumber: 41
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                        lineNumber: 23,
+                                        lineNumber: 28,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                    lineNumber: 22,
+                                    lineNumber: 27,
                                     columnNumber: 33
                                 }, this)
                             ]
@@ -1367,9 +1340,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
 ;
-const FeatureCard = ({ img, title, content })=>{
+const FeatureCard = ({ img, title, animation, content })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fancy-box style2",
+        className: ` fancy-box style2 ${animation} `,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "icon",
@@ -1380,12 +1353,12 @@ const FeatureCard = ({ img, title, content })=>{
                     height: 80
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Card/FeatureCard.jsx",
-                    lineNumber: 6,
+                    lineNumber: 7,
                     columnNumber: 31
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Card/FeatureCard.jsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1396,7 +1369,7 @@ const FeatureCard = ({ img, title, content })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Card/FeatureCard.jsx",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1404,13 +1377,13 @@ const FeatureCard = ({ img, title, content })=>{
                         children: content
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Card/FeatureCard.jsx",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/Components/Card/FeatureCard.jsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 9
             }, this)
         ]
@@ -1473,6 +1446,7 @@ const Feature1 = ()=>{
                                         className: "wcu-content",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                animation: "animate__animated  animate__fadeInLeft ",
                                                 img: "/assets/images/icon/wcuIcon1_1.svg",
                                                 title: "Women-to-Women Service ",
                                                 content: "Every ride connects women with skilled, verified women drivers."
@@ -1482,21 +1456,23 @@ const Feature1 = ()=>{
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                animation: "animate__animated  animate__fadeInLeft animate__delay-1s ",
                                                 img: "/assets/images/icon/wcuIcon1_2.svg",
                                                 title: "Real-Time Safety",
                                                 content: "GPS tracking, emergency buttons & 24/7 customer support.  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 25,
+                                                lineNumber: 26,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                 img: "/assets/images/icon/wcuIcon1_3.svg",
+                                                animation: "animate__animated  animate__fadeInLeft animate__delay-2s ",
                                                 title: "Empowerment ",
                                                 content: "Empowering women drivers with a safe work environment."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 30,
+                                                lineNumber: 32,
                                                 columnNumber: 37
                                             }, this)
                                         ]
@@ -1526,22 +1502,22 @@ const Feature1 = ()=>{
                                                 height: 400
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 41,
+                                                lineNumber: 44,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                            lineNumber: 40,
+                                            lineNumber: 43,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 42,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                    lineNumber: 38,
+                                    lineNumber: 41,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1550,41 +1526,44 @@ const Feature1 = ()=>{
                                         className: "wcu-content",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                animation: "animate__animated  animate__fadeInRight ",
                                                 img: "/assets/images/icon/wcuIcon1_3.svg",
                                                 title: "Eco-Friendly Fleet  ",
                                                 content: "100% electric vehicles for sustainable urban transport.  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 48,
+                                                lineNumber: 51,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                animation: "animate__animated  animate__fadeInRight animate__delay-1s ",
                                                 img: "/assets/images/icon/wcuIcon1_4.svg",
                                                 title: "Custom Packages ",
                                                 content: "Perfect for college students, working professionals, and homemakers. "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 53,
+                                                lineNumber: 57,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                animation: "animate__animated  animate__fadeInRight animate__delay-2s  ",
                                                 img: "/assets/images/icon/wcuIcon1_4.svg",
                                                 title: "Affordable Pricing",
                                                 content: "Transparent pricing designed to make safe, reliable rides accessible to everyone."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 63,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 50,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Feature/Feature1.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 49,
                                     columnNumber: 29
                                 }, this)
                             ]
@@ -2954,7 +2933,7 @@ const page = ()=>{
                 cuscontent: "Happy Customers",
                 rating: "4.8/5",
                 ratingcon: "Ratings",
-                img: "/assets/images/intro/home.png"
+                img: "/assets/images/intro/home.jpg"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
                 lineNumber: 19,
@@ -2966,7 +2945,6 @@ const page = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                img1: "/assets/images/intro/cab5.jpg",
                 subtitle: " Impact Section  ",
                 title: "Get Benefit By Using  Ridy ",
                 content: " ",
@@ -2988,27 +2966,22 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 55,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Counter$2f$Counter1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 56,
+                lineNumber: 54,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 57,
+                lineNumber: 55,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 58,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 59,
+                lineNumber: 56,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Cta$2f$Cta1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -3020,7 +2993,7 @@ const page = ()=>{
                 img: "/assets/images/intro/cab6.jpg"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 60,
+                lineNumber: 57,
                 columnNumber: 13
             }, this)
         ]

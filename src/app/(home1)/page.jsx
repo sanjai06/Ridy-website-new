@@ -29,11 +29,10 @@ const page = () => {
                 cuscontent="Happy Customers"
                 rating="4.8/5"
                 ratingcon="Ratings"
-                img="/assets/images/intro/home.png"
+                img="/assets/images/intro/home.jpg"
             ></HeroBanner1>
             <HowWork></HowWork>
             <Choose2
-                img1="/assets/images/intro/cab5.jpg"
                 subtitle=" Impact Section  "
                 title="Get Benefit By Using  Ridy "
                 content=" "
@@ -50,13 +49,11 @@ const page = () => {
 
                 ]}
                 btnname="Download App"
-
             ></Choose2>
             <Feature1></Feature1>
             <Counter1></Counter1>
             <Faq1></Faq1>
             <Testimonial></Testimonial>
-            <br />
             <Cta1
                 subtitle="Our App"
                 title="Download our app and start your free trail to get started today!"

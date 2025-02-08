@@ -37,12 +37,12 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,ti
                                         <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                             {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
                                         </div>
-                                        <h2 className="title wow fadeInUp" data-wow-delay=".4s">{title}</h2>
-                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content}</p>
-                                        <h3 className="" data-wow-delay=".4s">{title2}</h3>
-                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content2}</p>
-                                        <h3 className="" data-wow-delay=".4s">{title3}</h3>
-                                        <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content3}</p>
+                                        <h2 className="title animate__animated animate__fadeInRight wow fadeInUp" data-wow-delay=".4s">{title}</h2>
+                                        <p className="section-desc wow animate__animated animate__fadeInRight   fadeInUp" data-wow-delay=".6s">{content}</p>
+                                        <h3 className="animate__animated animate__fadeInRight animate__delay-1s " data-wow-delay=".4s">{title2}</h3>
+                                        <p className="section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-1s  " data-wow-delay=".6s">{content2}</p>
+                                        <h3 className=" animate__animated animate__fadeInRight animate__delay-2s " data-wow-delay=".4s">{title3}</h3>
+                                        <p className="section-desc wow fadeInUp animate__animated animate__fadeInRight animate__delay-2s " data-wow-delay=".6s">{content3}</p>
 
 
                                     </div>
@@ -51,7 +51,7 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,title2 ,ti
                                         <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   /> {item}</li>
                                     ))}
                                     </ul>
-                                    <Link className="theme-btn wow fadeInUp" data-wow-delay=".2s" href={btnurl}>{btnname}
+                                    <Link className="theme-btn wow fadeInUp animate__animated animate__fadeInUp animate__delay-3s " data-wow-delay=".2s" href={btnurl}>{btnname}
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                             fill="none">
                                             <g clipPath="url(#clip0_18_41)">
