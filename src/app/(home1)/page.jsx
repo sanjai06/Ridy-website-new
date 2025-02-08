@@ -17,7 +17,7 @@ const page = () => {
     return (
         <div>
             <HeroBanner1
-                subtitle="<span>News!</span>Find Your New Ride "
+                subtitle="<span>Alert!</span>Find Your New Ride "
                 title="Right Initiative for Daily Yatra CTA "
                 content="“Seamless, safe, and sustainable transport services designed exclusively for women.” "
                 btnname="Become a Driver"
