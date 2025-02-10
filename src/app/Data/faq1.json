@@ -1,26 +1,23 @@
 [
   {  
-    "title": "Looking for a safe and reliable ride-sharing platform?",
-    "desc": "Join RIDY, a platform designed exclusively for women, ensuring safety, empowerment, and convenience at every step of your journey."
-  },
-  {
-    "title": "Need a secure and trusted way to travel in the city?",
-    "desc": "With RIDY, connect with verified women drivers and enjoy a seamless and stress-free travel experience."
-  },
-  {
-    "title": "Seeking a ride-sharing app tailored just for women?",
-    "desc": "RIDY provides a user-friendly platform that prioritizes safety, sustainability, and women-to-women empowerment."
+    "title": "1.How do I book a ride with RIDY? ",
+    "desc":"You can book a ride through the RIDY app by selecting your pickup and drop-off locations. Our verified women drivers will be assigned to ensure a safe and comfortable journey. "
   },
   {  
-    "title": "Looking for a platform that prioritizes your safety?",
-    "desc": "RIDY offers GPS tracking, emergency assistance, and a community of trusted women drivers for a secure journey."
+    "title": "2.Is RIDY exclusively for women riders? ",
+    "desc":"Yes, RIDY is a women-exclusive cab service, ensuring a secure travel experience for women by providing female drivers for every ride. "
   },
-  {
-    "title": "Need to plan your rides with ease?",
-    "desc": "RIDY's intuitive interface lets you schedule rides, track progress, and stay in control of your travel plans."
+  {  
+    "title": "3.Can I schedule a ride in advance? ",
+    "desc":"Yes, RIDY allows you to pre-book your ride in advance through the app, ensuring availability when you need it. "
   },
-  {
-    "title": "Seeking a community-focused ride-sharing solution?",
-    "desc": "Join RIDY and be a part of a platform that blends empowerment, safety, and seamless mobility into one experience."
-  }  
+  {  
+    "title": "4.How do I share my ride details for safety? ",
+    "desc":"The RIDY app provides a 'Share Ride' feature that allows you to send your trip details, including driver information and live location, to trusted contacts. "
+  },
+  {  
+    "title": "5.What payment options does RIDY accept? ",
+    "desc":"You can pay for your ride using UPI, credit/debit cards, digital wallets, or cash. "
+  }
+  
 ]

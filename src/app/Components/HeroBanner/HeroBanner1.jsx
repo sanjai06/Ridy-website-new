@@ -22,7 +22,6 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                             {parse(subtitle)} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   /> 
                                         </div>
                                         <h1 className="intro-title wow  animate__fadeInLeft animate__animated   " data-wow-delay=".2s">{title}</h1>
-                                        <p className="intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</p>
                                     </div>
                                     <div className="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
                                         <Link className="theme-btn" href={btnurl}>{btnname}

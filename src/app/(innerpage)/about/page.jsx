@@ -43,7 +43,6 @@ const page = () => {
 
             <Choose4>
               </Choose4>  
-            <Faq2></Faq2>
             <Testimonial></Testimonial>                         
     </div>
   );

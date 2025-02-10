@@ -1,18 +1,24 @@
 [
   {
-    "title": "01. Create Your Account",
-    "desc": "Sign up in minutes and become a part of the women-focused ride-sharing community designed for safety and empowerment."
+    "title":"1.Who can register as a RIDY Driver-Partner? ",
+    "desc" : "Only women who meet our eligibility criteria, including valid driving licenses and police verification, can register as RIDY Driver-Partners. "
   },
   {
-    "title": "02. Customize Your Preferences",
-    "desc": "Set up your ride preferences, choose your safety settings, and personalize your experience for seamless travel."
+    "title":"2.How do I sign up as a RIDY Driver-Partner? ",
+    "desc" : "You can apply through our website or app by submitting the necessary documents. Our team will verify and guide you through the onboarding process. "
   },
   {
-    "title": "03. Book a Ride",
-    "desc": "Find and book verified women drivers with real-time tracking and live updates for a secure journey."
+    "title":"3.What are the earning opportunities for RIDY Driver-Partners? ",
+    "desc" : "RIDY offers competitive earnings with flexible working hours. Drivers receive fair payouts along with incentives for high performance. "
   },
   {
-    "title": "04. Enjoy the Ride",
-    "desc": "Experience safe, sustainable, and empowering rides tailored just for women. We’re here for you every step of the way."
+    "title":"4.Do I need my own vehicle to drive for RIDY? ",
+    "desc" : "No, RIDY provides leasing options for drivers who do not own a vehicle. You can also register with your own vehicle if it meets our safety standards. "
+  },
+  {
+    "title":"5.In which cities is RIDY currently available? ",
+    "desc" : "RIDY is expanding rapidly. Currently, we operate in Guindy & Thoraipakkam , with plans to launch in more locations soon. "
   }
+ 
+ 
 ]

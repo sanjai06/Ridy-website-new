@@ -26,58 +26,36 @@ const Faq1 = () => {
         }
     }, [firstItemOpen]);
 
-    const FaqContent = {
-        Content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly',
-        img1: '/assets/images/intro/cab2.jpg',
-        img2: '/assets/images/intro/cab4.jpg'
-    }
+
+
 
     return (
-
-        <section className="faq-section section-padding fix">
-            <div className="container">
-                <div className="faq-wrapper style1">
-                    <div className="row gy-5 gy-xl-0 gx-60 d-flex align-items-start">
-                        <div className="col-xl-6">
-                            <div className="faq-content style1">
-                                <div className="section-title">
-                                    <SectionTitle
-                                        SubTitle="FAQs"
-                                        Title="Frequently Ask Questions"
-                                    ></SectionTitle>
-                                    <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{FaqContent.Content}</p>
-                                </div>
-                                <div className="faq-accordion">
-                                    <div className="accordion" id="accordion">
-                                        {data.slice(0, 4).map((item, index) => (
-                                            <div key={index} className={`accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`} data-wow-delay=".3s">
-                                                <h5 onClick={() => handleItemClick(index)} className="accordion-header">
-                                                    <button className="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
-                                                        aria-controls="faq1">
-                                                        {item.title}
-                                                    </button>
-                                                </h5>
-                                                <div ref={accordionContentRef} id="faq1" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                                                    <div className="accordion-body">
-                                                        {item.desc}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ))}
-                                    </div>
+        <>
+            <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
+            Rider  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
+            </div>
+            <div className="faq-accordion">
+                <div className="accordion" id="accordion">
+                    {data.slice(0, 4).map((item, index) => (
+                        <div key={index} className={`accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`} data-wow-delay=".3s">
+                            <h5 onClick={() => handleItemClick(index)} className="accordion-header">
+                                <button className="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                                    aria-controls="faq1">
+                                    {item.title}
+                                </button>
+                            </h5>
+                            <div ref={accordionContentRef} id="faq1" className="accordion-collapse collapse" data-bs-parent="#accordion">
+                                <div className="accordion-body">
+                                    {item.desc}
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6">
-                            <div className="faq-thumb">
-                                <Image className="main-thumb  wow fadeInUp" src={FaqContent.img1} alt="img" width={791} height={679} />
-                            </div>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
-        </section>
+        </>
+
     );
 };
 

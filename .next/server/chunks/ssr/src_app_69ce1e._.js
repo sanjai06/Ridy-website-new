@@ -215,7 +215,7 @@ const __TURBOPACK__default__export__ = SectionTitle;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"title\":\"Looking for a safe and reliable ride-sharing platform?\",\"desc\":\"Join RIDY, a platform designed exclusively for women, ensuring safety, empowerment, and convenience at every step of your journey.\"},{\"title\":\"Need a secure and trusted way to travel in the city?\",\"desc\":\"With RIDY, connect with verified women drivers and enjoy a seamless and stress-free travel experience.\"},{\"title\":\"Seeking a ride-sharing app tailored just for women?\",\"desc\":\"RIDY provides a user-friendly platform that prioritizes safety, sustainability, and women-to-women empowerment.\"},{\"title\":\"Looking for a platform that prioritizes your safety?\",\"desc\":\"RIDY offers GPS tracking, emergency assistance, and a community of trusted women drivers for a secure journey.\"},{\"title\":\"Need to plan your rides with ease?\",\"desc\":\"RIDY's intuitive interface lets you schedule rides, track progress, and stay in control of your travel plans.\"},{\"title\":\"Seeking a community-focused ride-sharing solution?\",\"desc\":\"Join RIDY and be a part of a platform that blends empowerment, safety, and seamless mobility into one experience.\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"title\":\"1.How do I book a ride with RIDY? \",\"desc\":\"You can book a ride through the RIDY app by selecting your pickup and drop-off locations. Our verified women drivers will be assigned to ensure a safe and comfortable journey. \"},{\"title\":\"2.Is RIDY exclusively for women riders? \",\"desc\":\"Yes, RIDY is a women-exclusive cab service, ensuring a secure travel experience for women by providing female drivers for every ride. \"},{\"title\":\"3.Can I schedule a ride in advance? \",\"desc\":\"Yes, RIDY allows you to pre-book your ride in advance through the app, ensuring availability when you need it. \"},{\"title\":\"4.How do I share my ride details for safety? \",\"desc\":\"The RIDY app provides a 'Share Ride' feature that allows you to send your trip details, including driver information and live location, to trusted contacts. \"},{\"title\":\"5.What payment options does RIDY accept? \",\"desc\":\"You can pay for your ride using UPI, credit/debit cards, digital wallets, or cash. \"}]"));}}),
 "[project]/src/app/Components/Faq/Faq1.jsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -256,172 +256,95 @@ const Faq1 = ()=>{
     }, [
         firstItemOpen
     ]);
-    const FaqContent = {
-        Content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly',
-        img1: '/assets/images/intro/cab2.jpg',
-        img2: '/assets/images/intro/cab4.jpg'
-    };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "faq-section section-padding fix",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "faq-wrapper style1",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "subtitle wow fadeInUp",
+                "data-wow-delay": ".2s",
+                children: [
+                    "Rider  ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        src: "/assets/images/icon/fireIcon.svg",
+                        alt: "img",
+                        width: 16,
+                        height: 17
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
+                        lineNumber: 35,
+                        columnNumber: 20
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
+                lineNumber: 34,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "faq-accordion",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "row gy-5 gy-xl-0 gx-60 d-flex align-items-start",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "col-xl-6",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "faq-content style1",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "section-title",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                SubTitle: "FAQs",
-                                                Title: "Frequently Ask Questions"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                lineNumber: 44,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "section-desc wow fadeInUp",
-                                                "data-wow-delay": ".6s",
-                                                children: FaqContent.Content
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                lineNumber: 48,
-                                                columnNumber: 37
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                        lineNumber: 43,
-                                        columnNumber: 33
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "faq-accordion",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "accordion",
-                                            id: "accordion",
-                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq1$2e$json__$28$json$29$__["default"].slice(0, 4).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
-                                                    "data-wow-delay": ".3s",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                                            onClick: ()=>handleItemClick(index),
-                                                            className: "accordion-header",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                className: "accordion-button collapsed",
-                                                                type: "button",
-                                                                "data-bs-toggle": "collapse",
-                                                                "data-bs-target": "#faq1",
-                                                                "aria-expanded": "true",
-                                                                "aria-controls": "faq1",
-                                                                children: item.title
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                                lineNumber: 55,
-                                                                columnNumber: 53
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                            lineNumber: 54,
-                                                            columnNumber: 49
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            ref: accordionContentRef,
-                                                            id: "faq1",
-                                                            className: "accordion-collapse collapse",
-                                                            "data-bs-parent": "#accordion",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "accordion-body",
-                                                                children: item.desc
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                                lineNumber: 62,
-                                                                columnNumber: 53
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                            lineNumber: 61,
-                                                            columnNumber: 49
-                                                        }, this)
-                                                    ]
-                                                }, index, true, {
-                                                    fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                                    lineNumber: 53,
-                                                    columnNumber: 45
-                                                }, this))
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                            lineNumber: 51,
-                                            columnNumber: 37
-                                        }, this)
+                    className: "accordion",
+                    id: "accordion",
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq1$2e$json__$28$json$29$__["default"].slice(0, 4).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
+                            "data-wow-delay": ".3s",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                    onClick: ()=>handleItemClick(index),
+                                    className: "accordion-header",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "accordion-button collapsed",
+                                        type: "button",
+                                        "data-bs-toggle": "collapse",
+                                        "data-bs-target": "#faq1",
+                                        "aria-expanded": "true",
+                                        "aria-controls": "faq1",
+                                        children: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 42,
                                         columnNumber: 33
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                lineNumber: 42,
-                                columnNumber: 29
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                            lineNumber: 41,
-                            columnNumber: 25
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "col-xl-6",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "faq-thumb",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    className: "main-thumb  wow fadeInUp",
-                                    src: FaqContent.img1,
-                                    alt: "img",
-                                    width: 791,
-                                    height: 679
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                    lineNumber: 74,
-                                    columnNumber: 33
+                                    lineNumber: 41,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ref: accordionContentRef,
+                                    id: "faq1",
+                                    className: "accordion-collapse collapse",
+                                    "data-bs-parent": "#accordion",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "accordion-body",
+                                        children: item.desc
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
+                                        lineNumber: 49,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 29
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                                lineNumber: 73,
-                                columnNumber: 29
-                            }, this)
-                        }, void 0, false, {
+                            ]
+                        }, index, true, {
                             fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                            lineNumber: 72,
+                            lineNumber: 40,
                             columnNumber: 25
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        }, this))
+                }, void 0, false, {
                     fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                    lineNumber: 40,
-                    columnNumber: 21
+                    lineNumber: 38,
+                    columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                lineNumber: 39,
-                columnNumber: 17
+                lineNumber: 37,
+                columnNumber: 13
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-            lineNumber: 38,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-        lineNumber: 37,
-        columnNumber: 9
-    }, this);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = Faq1;
 }}),
@@ -429,7 +352,7 @@ const __TURBOPACK__default__export__ = Faq1;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"title\":\"01. Create Your Account\",\"desc\":\"Sign up in minutes and become a part of the women-focused ride-sharing community designed for safety and empowerment.\"},{\"title\":\"02. Customize Your Preferences\",\"desc\":\"Set up your ride preferences, choose your safety settings, and personalize your experience for seamless travel.\"},{\"title\":\"03. Book a Ride\",\"desc\":\"Find and book verified women drivers with real-time tracking and live updates for a secure journey.\"},{\"title\":\"04. Enjoy the Ride\",\"desc\":\"Experience safe, sustainable, and empowering rides tailored just for women. We’re here for you every step of the way.\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"title\":\"1.Who can register as a RIDY Driver-Partner? \",\"desc\":\"Only women who meet our eligibility criteria, including valid driving licenses and police verification, can register as RIDY Driver-Partners. \"},{\"title\":\"2.How do I sign up as a RIDY Driver-Partner? \",\"desc\":\"You can apply through our website or app by submitting the necessary documents. Our team will verify and guide you through the onboarding process. \"},{\"title\":\"3.What are the earning opportunities for RIDY Driver-Partners? \",\"desc\":\"RIDY offers competitive earnings with flexible working hours. Drivers receive fair payouts along with incentives for high performance. \"},{\"title\":\"4.Do I need my own vehicle to drive for RIDY? \",\"desc\":\"No, RIDY provides leasing options for drivers who do not own a vehicle. You can also register with your own vehicle if it meets our safety standards. \"},{\"title\":\"5.In which cities is RIDY currently available? \",\"desc\":\"RIDY is expanding rapidly. Currently, we operate in Guindy & Thoraipakkam , with plans to launch in more locations soon. \"}]"));}}),
 "[project]/src/app/Components/Faq/Faq2.jsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -466,176 +389,95 @@ const Faq2 = ()=>{
     }, [
         firstItemOpen
     ]);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "faq-section section-padding fix",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "faq-container-wrapper style2",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "subtitle wow fadeInUp",
+                "data-wow-delay": ".2s",
+                children: [
+                    "Driver ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        src: "/assets/images/icon/fireIcon.svg",
+                        alt: "img",
+                        width: 16,
+                        height: 17
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
+                        lineNumber: 30,
+                        columnNumber: 24
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
+                lineNumber: 29,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "faq-accordion",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "faq-wrapper style2",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "section-title",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "subtitle wow fadeInUp",
-                                "data-wow-delay": ".2s",
-                                children: [
-                                    "How to use  RIDY?  ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/images/icon/fireIcon.svg",
-                                        alt: "img",
-                                        width: 16,
-                                        height: 17
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                        lineNumber: 34,
-                                        columnNumber: 48
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                lineNumber: 33,
-                                columnNumber: 29
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                            lineNumber: 32,
-                            columnNumber: 25
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "row gy-5 gx-100",
+                    className: "accordion",
+                    id: "accordion",
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq2$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
+                            "data-wow-delay": ".3s",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-6",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "faq-thumb",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            className: "imagesFeatureCard",
-                                            src: "/assets/images/intro/about.png",
-                                            alt: "img",
-                                            width: 600,
-                                            height: 400
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 37
-                                        }, this)
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                    onClick: ()=>handleItemClick(index),
+                                    className: "accordion-header",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "accordion-button collapsed",
+                                        type: "button",
+                                        "data-bs-toggle": "collapse",
+                                        "data-bs-target": "#faq1",
+                                        "aria-expanded": "true",
+                                        "aria-controls": "faq1",
+                                        children: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                        lineNumber: 40,
+                                        lineNumber: 37,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 36,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-6",
+                                    ref: accordionContentRef,
+                                    id: "faq1",
+                                    className: "accordion-collapse collapse",
+                                    "data-bs-parent": "#accordion",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "faq-content style1 mt-0",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "faq-accordion",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "accordion",
-                                                id: "accordion",
-                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq2$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
-                                                        "data-wow-delay": ".3s",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                                                onClick: ()=>handleItemClick(index),
-                                                                className: "accordion-header",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                                    className: "accordion-button collapsed",
-                                                                    type: "button",
-                                                                    "data-bs-toggle": "collapse",
-                                                                    "data-bs-target": "#faq1",
-                                                                    "aria-expanded": "true",
-                                                                    "aria-controls": "faq1",
-                                                                    children: item.title
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                                    lineNumber: 51,
-                                                                    columnNumber: 57
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                                lineNumber: 50,
-                                                                columnNumber: 53
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                ref: accordionContentRef,
-                                                                id: "faq1",
-                                                                className: "accordion-collapse collapse",
-                                                                "data-bs-parent": "#accordion",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "accordion-body",
-                                                                    children: item.desc
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                                    lineNumber: 58,
-                                                                    columnNumber: 57
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                                lineNumber: 57,
-                                                                columnNumber: 53
-                                                            }, this)
-                                                        ]
-                                                    }, index, true, {
-                                                        fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                        lineNumber: 49,
-                                                        columnNumber: 49
-                                                    }, this))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                                lineNumber: 47,
-                                                columnNumber: 41
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                            lineNumber: 46,
-                                            columnNumber: 37
-                                        }, this)
+                                        className: "accordion-body",
+                                        children: item.desc
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                        lineNumber: 45,
+                                        lineNumber: 44,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 43,
                                     columnNumber: 29
                                 }, this)
                             ]
-                        }, void 0, true, {
+                        }, index, true, {
                             fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                            lineNumber: 37,
+                            lineNumber: 35,
                             columnNumber: 25
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        }, this))
+                }, void 0, false, {
                     fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                    lineNumber: 31,
-                    columnNumber: 21
+                    lineNumber: 33,
+                    columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                lineNumber: 30,
-                columnNumber: 17
+                lineNumber: 32,
+                columnNumber: 13
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-            lineNumber: 29,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-        lineNumber: 28,
-        columnNumber: 9
-    }, this);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = Faq2;
 }}),
