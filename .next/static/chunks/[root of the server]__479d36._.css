@@ -28786,9 +28786,13 @@ input.main-search-input::placeholder {
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 8px;
+}
+
+.boxShadow {
+  box-shadow: 0 5px 15px #00000059;
 }
 
 .br {
@@ -28945,7 +28949,7 @@ input.main-search-input::placeholder {
 
 .intro-wrapper.style2 {
   position: relative;
-  background: #7444fd0f;
+  background: #fff;
 }
 
 .intro-wrapper.style2 .intro-content {
@@ -29532,7 +29536,6 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: #7444fd26;
   margin-bottom: 10px;
 }
 

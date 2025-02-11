@@ -6684,9 +6684,13 @@ input.main-search-input::placeholder {
 .buttons{
   display: flex;
   flex-direction: row; 
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 8px; 
+}
+.boxShadow{
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .br{
   border-radius: 20px;
@@ -6842,7 +6846,7 @@ input.main-search-input::placeholder {
 
 .intro-wrapper.style2 {
   position: relative;
-  background: rgba(116, 68, 253, 0.06);
+  background:white;
 }
 
 .intro-wrapper.style2 .intro-content {
@@ -7432,7 +7436,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: rgba(116, 68, 253, 0.15);
+  /* background: rgba(116, 68, 253, 0.15); */
   margin-bottom: 10px;
 }
 

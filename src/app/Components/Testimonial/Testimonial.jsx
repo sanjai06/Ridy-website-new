@@ -60,7 +60,7 @@ const Testimonial = () => {
 
                                     <Slider {...settings}>
                                     {data.map((item, index)=>(
-                                        <div key={index} className="swiper-slide">
+                                        <div key={index} className="swiper-slide boxShadow ">
                                             <div className="testimonial-card style1">
                                                 <div className="testimonial-header">
                                                     <div className="profile-thumb">
