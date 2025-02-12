@@ -1208,35 +1208,35 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, FeatureList, boximg1, boxtitle1, boxcontent1, btnname, boximg2, boxtitle2, boxcontent2 })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "wcu-section",
+        className: "wcu-section  ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "wcu-container-wrapper style2",
+            className: "wcu-container-wrapper  style2",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container",
+                className: "container  col-xl-10 ",
+                style: {
+                    borderRadius: "0px"
+                },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        borderRadius: "0px",
+                        background: "#fff"
+                    },
                     className: "wcu-wrapper style2  section-padding fix",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "container border-radius ",
+                        className: "container  ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            //   style={{
-                            //     backgroundImage: "url('/assets/images/intro/cab5.jpg')",
-                            //     backgroundSize: "cover",
-                            //     backgroundPosition: "center",
-                            //     backgroundRepeat: "no-repeat",
-                            //     padding:"20px  ",
-                            //     borderRadius:"30px",
-                            //   }}
+                            style: {
+                                backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
+                                height: "540px",
+                                borderRadius: "30px"
+                            },
                             className: "row gy-5   gx-60 d-flex align-items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-6",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "wcu-thumb"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                        lineNumber: 24,
-                                        columnNumber: 37
-                                    }, this)
+                                    className: "col-xl-6"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
                                     lineNumber: 23,
@@ -1263,13 +1263,13 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                 height: 17
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 31,
+                                                                lineNumber: 29,
                                                                 columnNumber: 60
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 30,
+                                                        lineNumber: 28,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1277,7 +1277,7 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                         children: title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 33,
+                                                        lineNumber: 31,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1285,13 +1285,13 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                         children: content
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 32,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 29,
+                                                lineNumber: 27,
                                                 columnNumber: 41
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1311,24 +1311,24 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                             height: 30
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 41,
+                                                                            lineNumber: 39,
                                                                             columnNumber: 61
                                                                         }, this),
                                                                         item
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 40,
+                                                                    lineNumber: 38,
                                                                     columnNumber: 57
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 39,
+                                                                lineNumber: 37,
                                                                 columnNumber: 53
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 37,
+                                                        lineNumber: 35,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1344,30 +1344,30 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                             height: 30
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 50,
+                                                                            lineNumber: 48,
                                                                             columnNumber: 61
                                                                         }, this),
                                                                         item
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 49,
+                                                                    lineNumber: 47,
                                                                     columnNumber: 57
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 48,
+                                                                lineNumber: 46,
                                                                 columnNumber: 53
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 46,
+                                                        lineNumber: 44,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 36,
+                                                lineNumber: 34,
                                                 columnNumber: 41
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1391,12 +1391,12 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                     fill: "white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 60,
+                                                                    lineNumber: 58,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 59,
+                                                                lineNumber: 57,
                                                                 columnNumber: 49
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -1408,40 +1408,40 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                                                         fill: "white"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                        lineNumber: 66,
+                                                                        lineNumber: 64,
                                                                         columnNumber: 57
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 65,
+                                                                    lineNumber: 63,
                                                                     columnNumber: 53
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 64,
+                                                                lineNumber: 62,
                                                                 columnNumber: 49
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 55,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 54,
                                                 columnNumber: 41
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                        lineNumber: 28,
+                                        lineNumber: 26,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 33
                                 }, this)
                             ]
@@ -2436,10 +2436,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$html$2d$reac
 ;
 ;
 ;
-const SectionTitle = ({ Title, SubTitle })=>{
+const SectionTitle = ({ Title, SubTitle, hidden })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    display: `${hidden}`
+                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
                 children: [
@@ -2805,17 +2808,17 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HowWork$2f$HowWork$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 44,
+                lineNumber: 43,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 46,
+                lineNumber: 45,
                 columnNumber: 13
             }, this)
         ]

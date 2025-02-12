@@ -6,8 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import FeatureCard from "../Card/FeatureCard";
 import ProjectCard from "../Card/ProjectCard";
+import SectionTitle from '../Common/SectionTitle';
 
-const HeroBanner2 = ({ title, content, innercontent, first, second, third,margintop }) => {
+
+const HeroBanner2 = ({ title,subTitle,hide, content, innercontent, first, second, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -18,9 +20,15 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third,margin
         <section className="intro-section mb-20 br">
             <div className="intro-wrapper style2" >
                 <div className="container  ">
-                    <div className="intro-content   margintop" style={{marginTop:`${margintop}`}}>
+                    <div className="intro-content   margintop" style={{ marginTop: `${margintop}` }}>
                         <div className="margintops">
-                            <h1 className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
+                            <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
+                                <SectionTitle 
+                                hidden={`${hide}`}
+                                    SubTitle={`${subTitle}`}
+                                    Title={`${title}`}
+                                ></SectionTitle>
+                            </div>
                             <h3 className="intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</h3>
                         </div>
                         <div className="homeimages  "
@@ -31,13 +39,13 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third,margin
                                 backgroundRepeat: "no-repeat",
                                 padding: "20px  ",
                                 borderRadius: "30px",
-                                height: "500px",
-                                position:"relative"
+                                height: "468px",
+                                position: "relative"
                             }}>
                             <div className="innerimagediv"   >
                                 <h2 className="  "
                                     style={{
-                                         fontSize: "34px" , color:"white" 
+                                        fontSize: "34px", color: "white"
 
                                     }}>{innercontent}</h2>
 

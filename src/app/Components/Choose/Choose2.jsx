@@ -2,27 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, FeatureList, boximg1, boxtitle1, boxcontent1,  btnname, boximg2, boxtitle2, boxcontent2 }) => {
+const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, FeatureList, boximg1, boxtitle1, boxcontent1, btnname, boximg2, boxtitle2, boxcontent2 }) => {
     return (
-        <section className="wcu-section">
-            <div className="wcu-container-wrapper style2">
-                <div className="container">
-                    <div className="wcu-wrapper style2  section-padding fix">
-                        <div className="container border-radius ">
-                            <div  
-                            //   style={{
-                            //     backgroundImage: "url('/assets/images/intro/cab5.jpg')",
-                            //     backgroundSize: "cover",
-                            //     backgroundPosition: "center",
-                            //     backgroundRepeat: "no-repeat",
-                            //     padding:"20px  ",
-                            //     borderRadius:"30px",
-                            //   }}
+        <section className="wcu-section  " >
+            <div className="wcu-container-wrapper  style2">
+                <div className="container  col-xl-10 " style={{ borderRadius: "0px",}}>
+                    <div style={{ borderRadius: "0px", background:"#fff"}} className="wcu-wrapper style2  section-padding fix">
+                        <div className="container  ">
+                            <div
+                                style={{
+                                    backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                    backgroundRepeat: "no-repeat",
+                                    height: "540px",
+                                    borderRadius: "30px",
+                                }}
 
-                             className="row gy-5   gx-60 d-flex align-items-center">
+                                className="row gy-5   gx-60 d-flex align-items-center">
                                 <div className="col-xl-6">
-                                    <div className="wcu-thumb"> 
-                                </div>
                                 </div>
                                 <div className="col-xl-6">
                                     <div className="advantage-content">

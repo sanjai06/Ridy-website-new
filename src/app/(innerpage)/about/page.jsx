@@ -38,7 +38,6 @@ const page = () => {
                 btnname="Discover More"
                 btnurl="/contact"
             ></About1> 
-       
             <HowWork></HowWork>
 
             <Choose4>

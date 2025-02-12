@@ -1,37 +1,37 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Choose1 = ({subtitle,title,content,FeatureList,FeatureList2,btnname,btnurl}) => {
+const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname, btnurl }) => {
     return (
-        
-        <section className="advantage-section fix">
+
+        <section style={{ marginTop: "-80px", paddingTop: "-30px" }} className="advantage-section fix">
             <div className="advantage-container-wrapper style1">
-                <div className="container">
+                <div className="container col-xl-10 ">
                     <div className="advantage-wrapper style1 section-padding">
-                        <div className="container">
+                        <div className="container ">
                             <div className="row gy-5 d-flex align-items-center">
-                                <div className="col-xl-6 order-2 order-xl-1">
+                                <div className="col-xl-11 order-2 order-xl-1">
                                     <div className="advantage-content">
-                                        <div className="section-title wow fadeInUp" data-wow-delay=".2s">
+                                        <div style={{ marginLeft: "50px" }} className="section-title wow fadeInUp" data-wow-delay=".2s">
                                             <div className="subtitle">
-                                                {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
+                                                {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
                                             <h2 className="title">{title}</h2>
                                             <p className="section-desc">{content}</p>
                                         </div>
-                                        <div className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
+                                        <div style={{ paddingLeft: "-150px" }} className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
                                             <ul className="checklist style1">
-                                            {FeatureList?.map((item, index) => (
-                                                <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   /> {item}</li>
-                                            ))}
+                                                {FeatureList?.map((item, index) => (
+                                                    <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} /> {item}</li>
+                                                ))}
                                             </ul>
                                             <ul className="checklist style1">
-                                            {FeatureList2?.map((item, index) => (
-                                                <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   />{item} </li>
-                                            ))}
+                                                {FeatureList2?.map((item, index) => (
+                                                    <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} />{item} </li>
+                                                ))}
                                             </ul>
                                         </div>
-                                        <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
+                                        <Link style={{ marginLeft: "50px" }} className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_43_54)">
@@ -48,12 +48,12 @@ const Choose1 = ({subtitle,title,content,FeatureList,FeatureList2,btnname,btnurl
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 order-1 order-xl-2">
+                                {/* <div className="col-xl-6 order-1 order-xl-2">
                                 <div className="thumb2 img-custom-anim-right wow fadeInRight" data-wow-delay=".4s"
                                             data-tilt data-tilt-max="15">
                                                 <Image className="imagesFeatureCard" src="/assets/images/intro/cab8.jpg" alt="img" width={450} height={400}   />
                                                 </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

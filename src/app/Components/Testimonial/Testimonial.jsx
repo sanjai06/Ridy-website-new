@@ -40,27 +40,27 @@ const Testimonial = () => {
 
     return (
         
-        <section className="testimonial-section">
-            <div className="testimonial-container-wrapper style1">
-                <div className="container">
-                    <div className="testimonial-wrapper style1 section-padding fix">
-                        <div className="shape1"><Image src="/assets/images/shape/testimonialShape1_1.png" alt="img" width={1149} height={758}   /></div>
-                        <div className="shape2"><Image src="/assets/images/shape/testimonialShape1_2.png" alt="img" width={983} height={758}   /></div>
-                        <div className="container">
-                            <div className="section-title text-center mxw-685 mx-auto">
+        <section className="testimonial-section ">
+            <div  className="testimonial-container-wrapper style1">
+                <div style={{borderRadius:"0" , background:"#fff"}} className="container  col-xl-10 ">
+                    <div style={{borderRadius:"10px" , background:"white" }} className="testimonial-wrapper style1 section-padding fix">
+                        {/* <div className="shape1"><Image src="/assets/images/shape/testimonialShape1_1.png" alt="img" width={1149} height={758}   /></div> */}
+                        {/* <div className="shape2"><Image src="/assets/images/shape/testimonialShape1_2.png" alt="img" width={983} height={758}   /></div> */}
+                        <div  className="container">
+                            <div  style={{marginTop:"-30px"}} className="section-title text-center mxw-685 mx-auto">
                                 <SectionTitle
                                         SubTitle="Testimonial"
-                                        Title="What our clients say?"
+                                        Title={`“What Peoples Say About RIDY“ `}
                                 ></SectionTitle>                                
                             </div>
-                            <div className="slider-area testimonialSliderOne">
+                            <div  className="slider-area testimonialSliderOne">
                                 <div className="swiper gt-slider" id="testimonialSliderOne" >
                                     
                                     <div className="swiper-wrapper cs_slider_gap_301">
 
                                     <Slider {...settings}>
                                     {data.map((item, index)=>(
-                                        <div key={index} className="swiper-slide boxShadow ">
+                                        <div key={index} className="swiper-slide testimonialshadow ">
                                             <div className="testimonial-card style1">
                                                 <div className="testimonial-header">
                                                     <div className="profile-thumb">

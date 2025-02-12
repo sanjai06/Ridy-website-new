@@ -19,11 +19,16 @@ import Cta1 from '../Components/Cta/Cta1';
 import Blog1 from '../Components/Blog/Blog1';
 import About2 from '../Components/About/About2';
 import Faq from '../Components/Faq/Faq';
+import Choose5 from '../Components/Choose/Choose5';
+import Choose1 from '../Components/Choose/Choose1';
+import Services2 from '../Components/Services/Services2';
 
 const page = () => {
     return (
         <div>
             <HeroBanner4
+                hide="none"
+                subTitle=""
                 title=" Right Initiative For Daily Yatra "
                 content="Women Focused Taxi Service "
                 first="Women Focused"
@@ -38,31 +43,16 @@ const page = () => {
             ></Feature5>
             <Feature6></Feature6>
             {/* <HowWork></HowWork> */}
-            {/* <Choose2
-                subtitle=" Impact Section  "
-                title="Get Benefit By Using  Ridy "
-                content=" "
-                FeatureList2={[
-                    "Sustainability First ",
-                    "Supporting green transportation goals with EVs.",
-                    " Reducing air pollution and carbon footprints.",
 
-                ]}
-                FeatureList={[
-                    "Impact Section ",
-                    "Creating thousands of job opportunities for women",
-                    "Offering financial independence and career growth. ",
-
-                ]}
-                btnname="Download App"
-            ></Choose2> */}
             <HeroBanner4
-                title=" Manual Booking-Fast & Flexible  "
+                subTitle="Manual Booking"
+                title="Manual Booking-Fast & Flexible "
                 innercontent="Manual Booking Features gives you full control over your schedule "
                 first="Easy Selection"
                 third="Flexible Timing "
                 second="Hassle Free Experience "
             ></HeroBanner4>
+            <br />
             <About5
                 subtitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
@@ -78,11 +68,54 @@ const page = () => {
                 img1="/assets/images/intro/cab5.jpg"
                 btnname="Ride with US "
                 btnurl="/about"
+                borderRadius="none"
             ></About5>
-            <Testimonial></Testimonial>
-            <Faq></Faq>
-            {/* <Faq1></Faq1> */}
 
+            <Choose5></Choose5>
+            <Feature1></Feature1>
+            <Choose2
+                subtitle="Ride Safe with RIDY    "
+                title="Get Benefit By Using  Ridy "
+                content=" "
+                FeatureList2={[
+                    " Screened & Trained Drivers ",
+                    " 24/7 Support ",
+
+
+                ]}
+                FeatureList={[
+
+                    "Trust us for Safe Rides ",
+                    " Safety is our Priority ",
+
+
+                ]}
+                btnname="Download App"
+            ></Choose2>
+            <Testimonial></Testimonial>
+            <Services2
+
+                btnname="Drive with US "
+                btnurl="/service"
+            ></Services2>
+            <Faq></Faq>
+            <Choose1
+                subtitle="Assured by RIDY   "
+                title=" drive with US "
+                FeatureList={[
+                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
+                    "Frequent Payouts : Get Paid 3 Times a Month ",
+                    " Incentives : Enjoy additional Incentives after completing some rides ",
+                ]}
+                FeatureList2={[
+                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
+                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  ",
+                ]}
+
+                btnname="Drive with us "
+                btnurl="/service"
+            ></Choose1>
+            <br />
             {/* <Cta1
                 subtitle="Our App"
                 title="Download our app and start your free trail to get started today!"

@@ -26,8 +26,8 @@ const Faq2 = () => {
 
     return (
         <>
-            <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                Driver <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
+            <div style={{marginTop:"20px",padding:"20px " , fontSize:"20px"}}  className="subtitle wow fadeInUp" data-wow-delay=".2s">
+                Driver
             </div>
             <div className="faq-accordion">
                 <div className="accordion" id="accordion">

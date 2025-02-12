@@ -6581,16 +6581,13 @@ input.main-search-input::placeholder {
   z-index: 2;
 }
 
-.buttons {
+.buttonsfaq {
+  margin: 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
   gap: 8px;
-}
-
-.boxShadow {
-  box-shadow: 0 5px 15px #00000059;
 }
 
 .br {
@@ -6747,7 +6744,6 @@ input.main-search-input::placeholder {
 
 .intro-wrapper.style2 {
   position: relative;
-  background: #fff;
 }
 
 .intro-wrapper.style2 .intro-content {
@@ -7334,6 +7330,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
+  background: #7444fd26;
   margin-bottom: 10px;
 }
 
@@ -8124,7 +8121,9 @@ input.main-search-input::placeholder {
   z-index: 3;
   padding: 30px;
   border-radius: 20px;
+  margin: 20px 0;
   background: #fff9;
+  box-shadow: 0 5px 15px #00000059;
 }
 
 .testimonial-card.style1 .testimonial-header {
@@ -8250,7 +8249,7 @@ input.main-search-input::placeholder {
   right: 20px;
 }
 
-.testimonialSliderTwo .swiper-slide {
+.testimonialshadow .testimonialSliderTwo .swiper-slide {
   transition: all .4s;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
@@ -8269,6 +8268,7 @@ input.main-search-input::placeholder {
   align-items: center;
   margin-bottom: 60px;
   justify-content: space-between;
+  background: #fff;
 }
 
 .testimonial-section-3 .section-title-area .array-button {

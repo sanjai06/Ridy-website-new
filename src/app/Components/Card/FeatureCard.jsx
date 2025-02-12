@@ -14,3 +14,4 @@ const FeatureCard = ({img,title,animation,content}) => {
 };
 
 export default FeatureCard;
+

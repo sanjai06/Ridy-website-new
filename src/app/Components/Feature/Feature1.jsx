@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FeatureCard from "../Card/FeatureCard";
+import FeatureCard2 from "../Card/FeatureCard2";
 import SectionTitle from "../Common/SectionTitle";
 
 const Feature1 = () => {
@@ -7,10 +8,10 @@ const Feature1 = () => {
         <section className="wcu-section section-padding fix">
             <div className="wcu-container-wrapper style1">
                 <div className="container">
-                    <div className="section-title text-center mxw-685 mx-auto wow fadeInUp" data-wow-delay=".2s">
+                    <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
-                            SubTitle="Why Choose RIDY"
-                            Title="Perfectly Designed for Women, Startups, and Communities"
+                            SubTitle="Why RIDY- Lady Cab ?"
+                            Title="Empowering Sustainable and Hassle-Free Mobility"
                         ></SectionTitle>
                     </div>
                     <div className="wcu-wrapper style1">
@@ -20,51 +21,40 @@ const Feature1 = () => {
                                     <FeatureCard
                                         animation="animate__animated  animate__fadeInLeft "
                                         img="/assets/images/icon/wcuIcon1_1.svg"
-                                        title="Women-to-Women Service "
-                                        content="Every ride connects women with skilled, verified women drivers."
+                                        title="100% Electric Fleet  "
                                     ></FeatureCard>
-                                    <FeatureCard
-                                        animation="animate__animated  animate__fadeInLeft animate__delay-1s "
-                                        img="/assets/images/icon/wcuIcon1_2.svg"
-                                        title="Real-Time Safety"
-                                        content="GPS tracking, emergency buttons & 24/7 customer support.  "
-                                    ></FeatureCard>
+                                   <FeatureCard
+                                   animation="animate__animated  animate__fadeInRight animate__delay-1s "
+                                   title="In – House Charging "
+                                   img="/assets/images/icon/wcuIcon1_2.svg"
+                                   >
+
+                                   </FeatureCard>
                                     <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_3.svg"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-2s "
-                                        title="Empowerment "
-                                        content="Empowering women drivers with a safe work environment."
+                                        title="Strategic Hub Locations  "
                                     ></FeatureCard>
 
                                 </div>
                             </div>
-                            <div className="col-xl-4 d-flex justify-content-center">
-                                <div className="wcu-thumb wow fadeInUp" data-wow-delay=".2s">
-                                    <div className="main-thumb wow bounceInUp" data-wow-delay=".6s">
-                                        <Image className="imagesFeatureCard" src="/assets/images/intro/cab1.jpg" alt="img" width={400} height={400} />
-                                    </div>
-
-                                </div>
-                            </div>
+                          
                             <div className="col-xl-4 d-flex justify-content-center justify-content-xl-end">
                                 <div className="wcu-content">
                                     <FeatureCard
                                         animation="animate__animated  animate__fadeInRight "
                                         img="/assets/images/icon/wcuIcon1_3.svg"
-                                        title="Eco-Friendly Fleet  "
-                                        content="100% electric vehicles for sustainable urban transport.  "
+                                        title="Smart Charging , Zero Hassle  "
                                     ></FeatureCard>
                                     <FeatureCard
                                         animation="animate__animated  animate__fadeInRight animate__delay-1s "
                                         img="/assets/images/icon/wcuIcon1_4.svg"
-                                        title="Custom Packages "
-                                        content="Perfect for college students, working professionals, and homemakers. "
+                                        title=" 20+ High Performance E – Vehicle  "
                                     ></FeatureCard>
                                     <FeatureCard
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
                                         img="/assets/images/icon/wcuIcon1_4.svg"
-                                        title="Affordable Pricing"
-                                        content="Transparent pricing designed to make safe, reliable rides accessible to everyone."
+                                        title="Sustainable Rides  "
                                     ></FeatureCard>
 
                                 </div>

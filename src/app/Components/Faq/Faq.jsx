@@ -30,24 +30,26 @@ const Faq = () => {
 
     return (
 
-        <section className="faq-section section-padding fix">
-            <div className="container">
+        <section style={{marginTop:"-60px"}} className="faq-section section-padding fix">
+            <div className="container col-xl-10 ">
                 <div className="faq-wrapper style1">
                     <div className="row gy-5 gy-xl-0 gx-60 d-flex align-items-start">
-                        <div className="col-xl-10">
+                        <div className="">
                             <div className="faq-content style1">
                                 <div className="section-title">
                                     <SectionTitle
                                         SubTitle="FAQs"
                                         Title="Frequently Ask Questions"
                                     ></SectionTitle>
-                                    <div className="buttons">
-                                        <button className="theme-btn wow br " onClick={() => setrender("Faq1")}>FAQ1</button>
-                                        <button className="theme-btn wow br " onClick={() => setrender("Faq2")}>FAQ2</button>
-                                        <button className="theme-btn wow br" onClick={() => setrender("Faq3")}>FAQ3</button>
+                                    <div className="buttonsfaq">
+                                        <button className="theme-btn wow br " onClick={() => setrender("Faq1")}>Rider</button>
+                                        <button className="theme-btn wow br " onClick={() => setrender("Faq2")}>Driver</button>
+                                        <button className="theme-btn wow br" onClick={() => setrender("Faq3")}>Invester</button>
                                         </div>
-                                </div>
+                                </div> 
+                             
                                 {renderFaq()}
+                                
                             </div>
                         </div>
 

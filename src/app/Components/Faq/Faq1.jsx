@@ -31,8 +31,8 @@ const Faq1 = () => {
 
     return (
         <>
-            <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-            Rider  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
+            <div style={{marginTop:"20px",padding:"20px " , fontSize:"20px"}}  className="subtitle wow fadeInUp" data-wow-delay=".2s">
+            Rider  
             </div>
             <div className="faq-accordion">
                 <div className="accordion" id="accordion">

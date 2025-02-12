@@ -4,13 +4,12 @@ import Link from "next/link";
 
 const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, boximg2, boxtitle2, boxcontent2, boxtitle3, boxcontent3, boximg3, img1, btnurl, btnname }) => {
     return (
-        <section className="about-section">
-            <div className="about-container-wrapper style2">
-                <div className="container">
-                    <div className="about-wrapper style2  section-padding fix">
-                        <div className="container">
-                            <div className="row gy-5 gx-60 d-flex align-items-center">
-
+        <section  className="about-section">
+            <div   className="about-container-wrapper style2">
+                <div   className="container col-xl-10">
+                    <div style={{borderRadius:"0" , background:"#fff"}} className="about-wrapper style2  section-padding fix">
+                        <div  className="container">
+                            <div  className="row gy-5 gx-60 d-flex align-items-center">
                                 <div className="col-xl-5">
                                     <div className="about-thumb">
                                         <Image className="imagesFeatureCard" style={{position:"relative"}} src={img1} alt="img" width={100} height={400} />
@@ -33,16 +32,17 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 order-2 order-xl-1">
+                                <div className="col-xl-1 order-2 order-xl-1"></div>
+                                <div className="col-xl-5 order-2 order-xl-1">
                                     <div className="about-content">
                                         <div className="section-title  ">
                                             <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                                 {subtitle}<Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h2 className="title wow fadeInUp" data-wow-delay=".4s">{title}</h2>
+                                            <h2 className="title animate__animated  animate__fadeInRight wow " data-wow-delay=".4s">{title}</h2>
                                             <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".6s">{content}</p>
                                         </div>
-                                        <div className="fancy-box style3 mb-20 wow fadeInUp" data-wow-delay=".2s">
+                                        <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-1s style3 mb-20 wow fadeInUp" data-wow-delay=".2s">
                                             <div className="icon">
                                                 <Image src={boximg1} alt="img" width={70} height={70} />
                                             </div>
@@ -51,7 +51,7 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                                 <p className="text">{boxcontent1}</p>
                                             </div>
                                         </div>
-                                        <div className="fancy-box style3 mb-20  wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-2s style3 mb-20  wow fadeInUp" data-wow-delay=".4s">
                                             <div className="icon">
                                                 <Image src={boximg2} alt="img" width={70} height={70} />
                                             </div>
@@ -60,7 +60,7 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                                 <p className="text">{boxcontent2}</p>
                                             </div>
                                         </div>
-                                        <div className="fancy-box style3 wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-3s style3 wow fadeInUp" data-wow-delay=".4s">
                                             <div className="icon">
                                                 <Image src={boximg3} alt="img" width={70} height={70} />
                                             </div>

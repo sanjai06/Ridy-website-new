@@ -547,13 +547,12 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "margintops",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "intro-title wow  animate__fadeInLeft animate__animated ",
-                                    "data-wow-delay": ".2s",
-                                    children: title
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                    SubTitle: "Our Features",
+                                    Title: `${title}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -562,13 +561,13 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                                     children: content
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 29,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -595,12 +594,12 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                                         children: innercontent
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 43,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 37,
+                                    lineNumber: 42,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -611,7 +610,7 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                                             title: first
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 46,
+                                            lineNumber: 51,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -619,7 +618,7 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                                             title: second
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 55,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -627,40 +626,40 @@ const HeroBanner2 = ({ title, content, innercontent, first, second, third, margi
                                             title: third
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 54,
+                                            lineNumber: 59,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 45,
+                                    lineNumber: 50,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                            lineNumber: 26,
+                            lineNumber: 31,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 9
     }, this);
 };
@@ -1232,22 +1231,15 @@ const Faq1 = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    marginTop: "20px",
+                    padding: "20px ",
+                    fontSize: "20px"
+                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
-                children: [
-                    "Rider  ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/assets/images/icon/fireIcon.svg",
-                        alt: "img",
-                        width: 16,
-                        height: 17
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
-                        lineNumber: 35,
-                        columnNumber: 20
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: "Rider"
+            }, void 0, false, {
                 fileName: "[project]/src/app/Components/Faq/Faq1.jsx",
                 lineNumber: 34,
                 columnNumber: 13
@@ -1332,7 +1324,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_1.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Jacob Jones\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_2.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Masirul Jones\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_3.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Adam Jones\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_1.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Wade Warren\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_2.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Masirul Jones\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_3.jpg\",\"subTitle\":\"Team Leader\",\"title\":\"Adam Jones\",\"desc\":\"There are many variations of passages of Lorem Ipsum available,a but chiropractor like majority have a suffered alteration in some form, by injected humour\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_1.jpg\",\"subTitle\":\"Driver Partner\",\"title\":\"Jacob Jones\",\"desc\":\"Ridy has completely transformed my work life. The flexible hours  given me the freedom earning a steady income.\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_2.jpg\",\"subTitle\":\"Driver Partner\",\"title\":\"Masirul Khan\",\"desc\":\"Being a driver for Ridy has been an empowering experience. I feel valued and appreciate the platform's focus on safety .\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_3.jpg\",\"subTitle\":\"Rider\",\"title\":\"Adam Smith\",\"desc\":\"As a regular Ridy user, I love the eco-friendly rides and the peace of mind knowing that my safety is always a priority.\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_1.jpg\",\"subTitle\":\"Rider\",\"title\":\"Wade Warren\",\"desc\":\"Ridy has redefined commuting for me. The rides are affordable, safe, and always punctual. Highly recommend .\"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_2.jpg\",\"subTitle\":\"Rider\",\"title\":\"Masirul Khan\",\"desc\":\"The focus on women-friendly services and sustainable rides makes Ridy stand out. It’s more than just a ride—it’s \"},{\"img\":\"/assets/images/testimoial/testimonialProfileThumb1_3.jpg\",\"subTitle\":\"Driver Partner\",\"title\":\"Adam Smith\",\"desc\":\"Joining Ridy as a driver has been one of the best decisions of my career. The zero ownership cost  made all the difference.\"}]"));}}),
 "[project]/src/app/Components/Testimonial/Testimonial.jsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -1385,301 +1377,276 @@ const Testimonial = ()=>{
         ]
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "testimonial-section",
+        className: "testimonial-section ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "testimonial-container-wrapper style1",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container",
+                style: {
+                    borderRadius: "0",
+                    background: "#fff"
+                },
+                className: "container  col-xl-10 ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        borderRadius: "10px",
+                        background: "white"
+                    },
                     className: "testimonial-wrapper style1 section-padding fix",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "shape1",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/images/shape/testimonialShape1_1.png",
-                                alt: "img",
-                                width: 1149,
-                                height: 758
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                lineNumber: 47,
-                                columnNumber: 49
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                            lineNumber: 47,
-                            columnNumber: 25
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "shape2",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/assets/images/shape/testimonialShape1_2.png",
-                                alt: "img",
-                                width: 983,
-                                height: 758
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                lineNumber: 48,
-                                columnNumber: 49
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                            lineNumber: 48,
-                            columnNumber: 25
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "section-title text-center mxw-685 mx-auto",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        SubTitle: "Testimonial",
-                                        Title: "What our clients say?"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                        lineNumber: 51,
-                                        columnNumber: 33
-                                    }, this)
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "container",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    marginTop: "-30px"
+                                },
+                                className: "section-title text-center mxw-685 mx-auto",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    SubTitle: "Testimonial",
+                                    Title: `“What Peoples Say About RIDY“ `
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                    lineNumber: 50,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "slider-area testimonialSliderOne",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "swiper gt-slider",
-                                        id: "testimonialSliderOne",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "swiper-wrapper cs_slider_gap_301",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    ...settings,
-                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$testimonial1$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "swiper-slide boxShadow ",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "testimonial-card style1",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "testimonial-header",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "profile-thumb",
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    src: item.img,
-                                                                                    alt: "img",
-                                                                                    width: 60,
-                                                                                    height: 60
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                    lineNumber: 67,
-                                                                                    columnNumber: 53
-                                                                                }, this)
+                                    lineNumber: 51,
+                                    columnNumber: 33
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                lineNumber: 50,
+                                columnNumber: 29
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "slider-area testimonialSliderOne",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "swiper gt-slider",
+                                    id: "testimonialSliderOne",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "swiper-wrapper cs_slider_gap_301",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                ...settings,
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$testimonial1$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "swiper-slide testimonialshadow ",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "testimonial-card style1",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "testimonial-header",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "profile-thumb",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                src: item.img,
+                                                                                alt: "img",
+                                                                                width: 60,
+                                                                                height: 60
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                lineNumber: 66,
-                                                                                columnNumber: 53
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "content",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                                                                        children: item.title
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                        lineNumber: 70,
-                                                                                        columnNumber: 57
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                        className: "text",
-                                                                                        children: item.subTitle
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                        lineNumber: 71,
-                                                                                        columnNumber: 57
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                lineNumber: 69,
+                                                                                lineNumber: 67,
                                                                                 columnNumber: 53
                                                                             }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                        lineNumber: 65,
-                                                                        columnNumber: 49
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "testimonial-body",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                                className: "star-wrapper style1",
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                            src: "/assets/images/icon/starIcon1_1.svg",
-                                                                                            alt: "img",
-                                                                                            width: 16,
-                                                                                            height: 15
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                            lineNumber: 76,
-                                                                                            columnNumber: 61
-                                                                                        }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                            lineNumber: 66,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "content",
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                                                                    children: item.title
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 70,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                                    className: "text",
+                                                                                    children: item.subTitle
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 71,
+                                                                                    columnNumber: 57
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                            lineNumber: 69,
+                                                                            columnNumber: 53
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                    lineNumber: 65,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "testimonial-body",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                                            className: "star-wrapper style1",
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        src: "/assets/images/icon/starIcon1_1.svg",
+                                                                                        alt: "img",
+                                                                                        width: 16,
+                                                                                        height: 15
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                                                                                         lineNumber: 76,
-                                                                                        columnNumber: 57
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                            src: "/assets/images/icon/starIcon1_1.svg",
-                                                                                            alt: "img",
-                                                                                            width: 16,
-                                                                                            height: 15
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                            lineNumber: 77,
-                                                                                            columnNumber: 61
-                                                                                        }, this)
+                                                                                        columnNumber: 61
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 76,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        src: "/assets/images/icon/starIcon1_1.svg",
+                                                                                        alt: "img",
+                                                                                        width: 16,
+                                                                                        height: 15
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                                                                                         lineNumber: 77,
-                                                                                        columnNumber: 57
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                            src: "/assets/images/icon/starIcon1_1.svg",
-                                                                                            alt: "img",
-                                                                                            width: 16,
-                                                                                            height: 15
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                            lineNumber: 78,
-                                                                                            columnNumber: 61
-                                                                                        }, this)
+                                                                                        columnNumber: 61
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 77,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        src: "/assets/images/icon/starIcon1_1.svg",
+                                                                                        alt: "img",
+                                                                                        width: 16,
+                                                                                        height: 15
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                                                                                         lineNumber: 78,
-                                                                                        columnNumber: 57
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                            src: "/assets/images/icon/starIcon1_1.svg",
-                                                                                            alt: "img",
-                                                                                            width: 16,
-                                                                                            height: 15
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                            lineNumber: 79,
-                                                                                            columnNumber: 61
-                                                                                        }, this)
+                                                                                        columnNumber: 61
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 78,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        src: "/assets/images/icon/starIcon1_1.svg",
+                                                                                        alt: "img",
+                                                                                        width: 16,
+                                                                                        height: 15
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                                                                                         lineNumber: 79,
-                                                                                        columnNumber: 57
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                            src: "/assets/images/icon/starIcon1_1.svg",
-                                                                                            alt: "img",
-                                                                                            width: 16,
-                                                                                            height: 15
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                            lineNumber: 80,
-                                                                                            columnNumber: 61
-                                                                                        }, this)
+                                                                                        columnNumber: 61
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 79,
+                                                                                    columnNumber: 57
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        src: "/assets/images/icon/starIcon1_1.svg",
+                                                                                        alt: "img",
+                                                                                        width: 16,
+                                                                                        height: 15
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                                                                                         lineNumber: 80,
-                                                                                        columnNumber: 57
+                                                                                        columnNumber: 61
                                                                                     }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                lineNumber: 75,
-                                                                                columnNumber: 53
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                className: "desc",
-                                                                                children: item.desc
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                                lineNumber: 82,
-                                                                                columnNumber: 53
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                        lineNumber: 74,
-                                                                        columnNumber: 49
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "quote-icon",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                            src: "/assets/images/icon/quoteIcon.svg",
-                                                                            alt: "img",
-                                                                            width: 30,
-                                                                            height: 30
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                                    lineNumber: 80,
+                                                                                    columnNumber: 57
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                            lineNumber: 75,
+                                                                            columnNumber: 53
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            className: "desc",
+                                                                            children: item.desc
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                            lineNumber: 85,
-                                                                            columnNumber: 49
+                                                                            lineNumber: 82,
+                                                                            columnNumber: 53
                                                                         }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                    lineNumber: 74,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "quote-icon",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                        src: "/assets/images/icon/quoteIcon.svg",
+                                                                        alt: "img",
+                                                                        width: 30,
+                                                                        height: 30
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                        lineNumber: 84,
+                                                                        lineNumber: 85,
                                                                         columnNumber: 49
                                                                     }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                                lineNumber: 64,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        }, index, false, {
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                                    lineNumber: 84,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                            lineNumber: 63,
-                                                            columnNumber: 41
-                                                        }, this))
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                    lineNumber: 61,
-                                                    columnNumber: 37
-                                                }, this)
+                                                            lineNumber: 64,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    }, index, false, {
+                                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                                        lineNumber: 63,
+                                                        columnNumber: 41
+                                                    }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                lineNumber: 59,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "slider-pagination"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                                lineNumber: 93,
+                                                lineNumber: 61,
                                                 columnNumber: 37
                                             }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                        lineNumber: 57,
-                                        columnNumber: 33
-                                    }, this)
-                                }, void 0, false, {
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                            lineNumber: 59,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "slider-pagination"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                            lineNumber: 93,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                                    lineNumber: 56,
-                                    columnNumber: 29
+                                    lineNumber: 57,
+                                    columnNumber: 33
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
-                            lineNumber: 49,
-                            columnNumber: 25
-                        }, this)
-                    ]
-                }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                                lineNumber: 56,
+                                columnNumber: 29
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
+                        lineNumber: 49,
+                        columnNumber: 25
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/src/app/Components/Testimonial/Testimonial.jsx",
                     lineNumber: 46,
                     columnNumber: 21
@@ -2236,22 +2203,15 @@ const Faq2 = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    marginTop: "20px",
+                    padding: "20px ",
+                    fontSize: "20px"
+                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
-                children: [
-                    "Driver ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/assets/images/icon/fireIcon.svg",
-                        alt: "img",
-                        width: 16,
-                        height: 17
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
-                        lineNumber: 30,
-                        columnNumber: 24
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: "Driver"
+            }, void 0, false, {
                 fileName: "[project]/src/app/Components/Faq/Faq2.jsx",
                 lineNumber: 29,
                 columnNumber: 13
@@ -2384,22 +2344,15 @@ const Faq3 = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    marginTop: "20px",
+                    padding: "20px ",
+                    fontSize: "20px"
+                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
-                children: [
-                    "Invester  ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/assets/images/icon/fireIcon.svg",
-                        alt: "img",
-                        width: 16,
-                        height: 17
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/Components/Faq/Faq3.jsx",
-                        lineNumber: 35,
-                        columnNumber: 27
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: "Invester"
+            }, void 0, false, {
                 fileName: "[project]/src/app/Components/Faq/Faq3.jsx",
                 lineNumber: 34,
                 columnNumber: 13
@@ -2539,13 +2492,13 @@ const Faq = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "faq-section section-padding fix",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container",
+            className: "container col-xl-10 ",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "faq-wrapper style1",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "row gy-5 gy-xl-0 gx-60 d-flex align-items-start",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "col-xl-10",
+                        className: "",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "faq-content style1",
                             children: [
@@ -2561,12 +2514,12 @@ const Faq = ()=>{
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "buttons",
+                                            className: "buttonsfaq",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "theme-btn wow br ",
                                                     onClick: ()=>setrender("Faq1"),
-                                                    children: "FAQ1"
+                                                    children: "Rider"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Faq/Faq.jsx",
                                                     lineNumber: 45,
@@ -2575,7 +2528,7 @@ const Faq = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "theme-btn wow br ",
                                                     onClick: ()=>setrender("Faq2"),
-                                                    children: "FAQ2"
+                                                    children: "Driver"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Faq/Faq.jsx",
                                                     lineNumber: 46,
@@ -2584,7 +2537,7 @@ const Faq = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     className: "theme-btn wow br",
                                                     onClick: ()=>setrender("Faq3"),
-                                                    children: "FAQ3"
+                                                    children: "Invester"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Faq/Faq.jsx",
                                                     lineNumber: 47,
