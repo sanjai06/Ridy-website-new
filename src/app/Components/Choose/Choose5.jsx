@@ -50,7 +50,7 @@ const Choose5 = () => {
                         </div>
                     </div>
                     <div className="row gy-5 gx-60">
-                    <Brand1 title=" Main Hubs in " 
+                    <Brand1 title=" Main Hubs in Chennai  " 
                     />
                     </div>
                 </div>

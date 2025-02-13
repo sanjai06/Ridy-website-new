@@ -6099,6 +6099,22 @@ input.main-search-input::placeholder {
   color: var(--white) !important;
 }
 
+.glass-div {
+  height: 50px;
+  background: #ffffff26;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px #0000001a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .play a {
   display: inline-block;
   padding: 18px 25px;

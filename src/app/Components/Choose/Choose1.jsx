@@ -19,7 +19,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                             <h1 className="title">{title}</h1>
                                             <p className="section-desc">{content}</p>
                                         </div>
-                                        <div style={{ paddingLeft: "-150px" }} className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
+                                        <div  className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
                                             <ul className="checklist style1">
                                                 {FeatureList?.map((item, index) => (
                                                     <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} /> {item}</li>

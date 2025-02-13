@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import data from '../../Data/services1.json';
+import data from '../../Data/services2.json';
 import Image from 'next/image';
 import SectionTitle from "../Common/SectionTitle";
 

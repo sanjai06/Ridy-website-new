@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, boximg2, boxtitle2, boxcontent2, boxtitle3, boxcontent3, boximg3, img1, btnurl, btnname }) => {
+const About5 = ({ subtitle,box4,boximg5, title, content,none, boximg1, boxtitle1,boxcontent4, boxcontent1, boximg2, boxtitle2, boxcontent2, boxtitle3, boxcontent3, boximg3, img1, btnurl, btnname }) => {
     return (
         <section  className="about-section">
             <div   className="about-container-wrapper style2">
@@ -60,7 +60,7 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                                 <p className="text">{boxcontent2}</p>
                                             </div>
                                         </div>
-                                        <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-3s style3 wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="fancy-box animate__animated  animate__fadeInRight mb-20 animate__delay-3s style3 wow fadeInUp" data-wow-delay=".4s">
                                             <div className="icon">
                                                 <Image src={boximg3} alt="img" width={70} height={70} />
                                             </div>
@@ -69,6 +69,16 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                                 <p className="text">{boxcontent3}</p>
                                             </div>
                                         </div>
+                                        <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-4s style3  wow fadeInUp" data-wow-delay=".2s">
+                                            <div className="icon">
+                                                <img style={{display:`${none}`}}  src={boximg5} alt="img" width={70} height={70} />
+                                            </div>
+                                            <div className="content">
+                                                <h4>{box4} </h4>
+                                                <p className="text">{boxcontent4}</p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
 

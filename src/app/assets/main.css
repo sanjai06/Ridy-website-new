@@ -6204,6 +6204,18 @@ input.main-search-input::placeholder {
 .footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .apple a:hover {
   color: var(--white) !important;
 }
+.glass-div {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.15);  /* Semi-transparent background */
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  color: white; 
+  display: flex;
+  justify-content: center;align-items: center;gap: 10px;flex-direction: row;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 .footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .play a {
   display: inline-block;

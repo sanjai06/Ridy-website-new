@@ -9,7 +9,7 @@ import ProjectCard from "../Card/ProjectCard";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const HeroBanner2 = ({ title,subTitle,hide, content, innercontent, first, second, third, margintop }) => {
+const HeroBanner2 = ({ title,subTitle,hide,  innercontent, first, second, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -29,7 +29,6 @@ const HeroBanner2 = ({ title,subTitle,hide, content, innercontent, first, second
                                     Title={`${title}`}
                                 ></SectionTitle>
                             </div>
-                            <h3 className="intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</h3>
                         </div>
                         <div className="homeimages  "
                             style={{
@@ -43,7 +42,7 @@ const HeroBanner2 = ({ title,subTitle,hide, content, innercontent, first, second
                                 position: "relative"
                             }}>
                             <div className="innerimagediv"   >
-                                <h2 className="  "
+                                <h2 className="animate__animated  animate__fadeInRight   "
                                     style={{
                                         fontSize: "34px", color: "white"
 
