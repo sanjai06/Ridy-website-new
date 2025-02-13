@@ -39,7 +39,7 @@ const About5 = ({ subtitle, title, content, boximg1, boxtitle1, boxcontent1, box
                                             <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                                 {subtitle}<Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h2 className="title animate__animated  animate__fadeInRight wow " data-wow-delay=".4s">{title}</h2>
+                                            <h1 className="title animate__animated  animate__fadeInRight wow " data-wow-delay=".4s">{title}</h1>
                                             <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".6s">{content}</p>
                                         </div>
                                         <div className="fancy-box animate__animated  animate__fadeInRight animate__delay-1s style3 mb-20 wow fadeInUp" data-wow-delay=".2s">

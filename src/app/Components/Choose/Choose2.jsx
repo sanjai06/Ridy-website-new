@@ -1,14 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
+import SectionTitle from '../Common/SectionTitle';
 
 
-const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, FeatureList, boximg1, boxtitle1, boxcontent1, btnname, boximg2, boxtitle2, boxcontent2 }) => {
+const Choose2 = ({ img1,hide, img2, img3, subTitle,title2, title, content, FeatureList2, FeatureList, boximg1, boxtitle1, boxcontent1, btnname, boximg2, boxtitle2, boxcontent2 }) => {
     return (
         <section className="wcu-section  " >
             <div className="wcu-container-wrapper  style2">
-                <div className="container  col-xl-10 " style={{ borderRadius: "0px",}}>
-                    <div style={{ borderRadius: "0px", background:"#fff"}} className="wcu-wrapper style2  section-padding fix">
+                <div className="container  col-xl-10 " style={{ borderRadius: "0px", }}>
+                    <div style={{ borderRadius: "0px", background: "#fff" }} className="wcu-wrapper style2  section-padding fix">
                         <div className="container  ">
+                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
+                                                <SectionTitle
+                                                    hidden={`${hide}`}
+                                                    SubTitle={`${subTitle}`}
+                                                    Title={`${title}`}
+                                                ></SectionTitle>
+                                            </div>
                             <div
                                 style={{
                                     backgroundImage: "url('/assets/images/intro/cab5.jpg')",
@@ -24,11 +32,9 @@ const Choose2 = ({ img1, img2, img3, subtitle, title, content, FeatureList2, Fea
                                 </div>
                                 <div className="col-xl-6">
                                     <div className="advantage-content">
+                                        
                                         <div className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <div className=" subtitlenew    ">
-                                                {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
-                                            </div>
-                                            <h2 className="titlenew animate__animated animate__fadeInRight ">{title}</h2>
+                                            <h2 className="titlenew animate__animated animate__fadeInRight ">{title2}</h2>
                                             <p className="">{content}</p>
                                         </div>
                                         <div className="checklist-wrapper style1 wow fadeInUp  " data-wow-delay=".4s">

@@ -16,7 +16,7 @@ const Choose5 = () => {
                                     <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                     RIDY Charge Stations    <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
                                     </div>
-                                    <h2 className="title wow fadeInUp animate__animated  animate__fadeInLeft" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h2>
+                                    <h1 className="title wow fadeInUp animate__animated  animate__fadeInLeft" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h1>
                                     <p className="text1 wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".6s"> We are Revolutionizing urban Transporatation with Eco-Friendly E-Vehicles powered by our own integrated E-Charging Stations </p>
                                 </div>
                                 <Link style={{marginTop:"50px "}} className="theme-btn rounded-5 wow fadeInUp" data-wow-delay=".4s" href="/contact">

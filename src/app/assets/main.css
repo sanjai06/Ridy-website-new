@@ -53,7 +53,6 @@ input:focus {
 input::placeholder {
   color: #767771;
 }
-
 h1,
 h2,
 h3,
@@ -69,15 +68,21 @@ h6 {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 120%;
+  background: linear-gradient(30deg, #80044e ,#f52aa4, #f41f9f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
+
 
 h2 {
   font-size: 40px;
   line-height: 145%;
   font-weight: 700;
+
 }
 
 @media (max-width: 767px) {
@@ -6243,7 +6248,7 @@ input.main-search-input::placeholder {
 
 .footer-widgets-wrapper.style1 .single-footer-widget .contact-box {
   border-radius: 20px;
-  background: #F9F9F9;
+  /* background: #F9F9F9; */
   padding: 52px 58px 52px 45px;
 }
 

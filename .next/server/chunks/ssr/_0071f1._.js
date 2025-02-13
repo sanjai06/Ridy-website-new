@@ -72,7 +72,7 @@ const Footer = ()=>{
                             className: "row",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-4 col-lg-4 col-md-6 wow fadeInUp",
+                                    className: "col-xl-3 col-lg-3 col-md-6 wow fadeInUp",
                                     "data-wow-delay": ".2s",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "single-footer-widget",
@@ -80,7 +80,17 @@ const Footer = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "widget-head",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/"
+                                                    href: "/",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: "/assets/images/logo/logo.png",
+                                                        alt: "img",
+                                                        width: 120,
+                                                        height: 75
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 17,
+                                                        columnNumber: 41
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                                     lineNumber: 16,
@@ -95,7 +105,7 @@ const Footer = ()=>{
                                                 className: "footer-content",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "It is a long established fact that from will be distracted by the readable from when looking."
+                                                        children: "RIDY is India’s First and Largest Women Focused EV Ride Hailing Service"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                                         lineNumber: 21,
@@ -120,24 +130,24 @@ const Footer = ()=>{
                                                                                 fill: "white"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                                lineNumber: 29,
-                                                                                columnNumber: 53
+                                                                                lineNumber: 31,
+                                                                                columnNumber: 49
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                            lineNumber: 27,
+                                                                            lineNumber: 29,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         " App Store"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                    lineNumber: 27,
+                                                                    lineNumber: 29,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                lineNumber: 26,
+                                                                lineNumber: 28,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -156,30 +166,30 @@ const Footer = ()=>{
                                                                                 fill: "#242331"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                                lineNumber: 37,
-                                                                                columnNumber: 53
+                                                                                lineNumber: 39,
+                                                                                columnNumber: 49
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                            lineNumber: 35,
+                                                                            lineNumber: 37,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         " Play Store"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                    lineNumber: 35,
+                                                                    lineNumber: 37,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                                lineNumber: 34,
+                                                                lineNumber: 36,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                        lineNumber: 25,
+                                                        lineNumber: 27,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
@@ -207,16 +217,16 @@ const Footer = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "widget-head",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                     children: " Pages "
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 51,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                lineNumber: 48,
+                                                lineNumber: 50,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -228,40 +238,54 @@ const Footer = ()=>{
                                                             children: "Home"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                            lineNumber: 53,
+                                                            lineNumber: 55,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 54,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/about",
-                                                            children: "About Us"
+                                                            children: "Ride"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 60,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 59,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/service",
-                                                            children: "service"
+                                                            children: "Drive"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 66,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 65,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/investwithus",
+                                                            children: "Invest"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                            lineNumber: 71,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 70,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -270,37 +294,111 @@ const Footer = ()=>{
                                                             children: "Contact Us"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 76,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                        lineNumber: 77,
+                                                        lineNumber: 75,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                lineNumber: 51,
+                                                lineNumber: 53,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 49,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 48,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-xl-2 col-lg-4 col-md-6 wow fadeInUp",
-                                    "data-wow-delay": ".8s"
+                                    className: "col-xl-3 col-lg-4 col-md-6 wow fadeInUp",
+                                    "data-wow-delay": ".8s",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "single-footer-widget",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "widget-head",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    children: " Utility Pages "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                    lineNumber: 86,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                lineNumber: 85,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                className: "list-area",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/project",
+                                                            children: "Terms & Conditions"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                            lineNumber: 90,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/blog",
+                                                            children: "Privacy Policy"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                            lineNumber: 95,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 94,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/contact",
+                                                            children: "Cancellation & Refund Policy"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                            lineNumber: 100,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 99,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                lineNumber: 88,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                        lineNumber: 84,
+                                        columnNumber: 29
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                    lineNumber: 85,
+                                    lineNumber: 83,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -311,11 +409,17 @@ const Footer = ()=>{
                                             className: "contact-box",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "subtitle",
-                                                    children: "Address"
+                                                    className: "widget-head",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                        children: " Utility Pages "
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                        lineNumber: 126,
+                                                        columnNumber: 41
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 125,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -355,7 +459,7 @@ const Footer = ()=>{
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                                                         lineNumber: 134,
-                                                                        columnNumber: 49
+                                                                        columnNumber: 45
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                         d: "M20.1667 6L11 12.4167L1.83337 6",
@@ -366,7 +470,7 @@ const Footer = ()=>{
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                                                         lineNumber: 138,
-                                                                        columnNumber: 49
+                                                                        columnNumber: 45
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
@@ -488,6 +592,14 @@ const Footer = ()=>{
                                                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                                                     lineNumber: 166,
                                                                     columnNumber: 95
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: "tel:35234523452345",
+                                                                    children: "+91 90435 88782 "
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/Components/Footer/Footer.jsx",
+                                                                    lineNumber: 167,
+                                                                    columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
@@ -504,17 +616,17 @@ const Footer = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                            lineNumber: 126,
+                                            lineNumber: 124,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                        lineNumber: 125,
+                                        lineNumber: 123,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Footer/Footer.jsx",
-                                    lineNumber: 124,
+                                    lineNumber: 122,
                                     columnNumber: 25
                                 }, this)
                             ]
@@ -546,7 +658,7 @@ const Footer = ()=>{
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Components/Footer/Footer.jsx",
                                 lineNumber: 179,
-                                columnNumber: 24
+                                columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                 className: "social-links",

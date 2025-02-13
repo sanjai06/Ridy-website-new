@@ -7,7 +7,7 @@ const SectionTitle = ({Title,SubTitle,hidden}) => {
           <div style={{display:`${hidden}`}} className="subtitle wow fadeInUp" data-wow-delay=".2s">
           {parse(SubTitle)} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
           </div>
-          <h2 className="title wow fadeInUp" data-wow-delay=".4s">{parse(Title)}</h2>
+          <h1  className="title wow fadeInUp" data-wow-delay=".4s">{parse(Title)}</h1>
         </div>
     );
 };

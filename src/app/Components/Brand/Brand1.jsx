@@ -9,7 +9,7 @@ const Brand1 = ({title,}) => {
         dots: false,
         infinite: true,
         speed: 2000,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
@@ -19,7 +19,7 @@ const Brand1 = ({title,}) => {
           {
             breakpoint: 1399,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
             }
           },
           {
@@ -41,7 +41,9 @@ const Brand1 = ({title,}) => {
             <div className="brand-slider-container-wrapper style1">
                 <div className="container">
                     <div className="brand-slider-wrapper style1">
-                        <h1 className="single-section-title wow fadeInUp" data-wow-delay=".2s">
+                        <h1 style={
+                          {fontSize:"30px"}
+                        } className="single-section-title wow fadeInUp" data-wow-delay=".2s">
                           {title}
                         </h1>
                         <div className="row">
@@ -51,7 +53,7 @@ const Brand1 = ({title,}) => {
                                     {data.map((item, index)=>(
                                         <div key={index} className="swiper-slide">
                                             <div className="brand-logo">
-                                           <h2 >{item.title}</h2>
+                                           <h3 style={{fontSize:"40px"}} >{item.title}</h3>
                                             </div>
                                         </div>
                                         ))}

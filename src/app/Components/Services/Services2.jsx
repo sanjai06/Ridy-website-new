@@ -11,8 +11,8 @@ const Services2 = ({ btnurl, btnname }) => {
                 <div className="container">
                     <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
-                            SubTitle="Women Drivers – Real Angels of RIDY "
-                            Title=""
+                            SubTitle=" Angels of RIDY "
+                            Title=" Women Drivers - Angels of RIDY"
                         ></SectionTitle>
                     </div>
                     <div className="service-wrapper style1">

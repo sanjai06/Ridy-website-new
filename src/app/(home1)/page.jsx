@@ -74,9 +74,10 @@ const page = () => {
             <Choose5></Choose5>
             <Feature1></Feature1>
             <Choose2
-                subtitle="Ride Safe with RIDY    "
-                title="Get Benefit By Using  Ridy "
+                subTitle="Ride Safe with RIDY    "
+                title=" Benefits  "
                 content=" "
+                title2={"Get Benefit By Using  Ridy "}
                 FeatureList2={[
                     " Screened & Trained Drivers ",
                     " 24/7 Support ",

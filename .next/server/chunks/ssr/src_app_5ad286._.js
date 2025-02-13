@@ -516,7 +516,7 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
                 lineNumber: 7,
                 columnNumber: 11
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "title wow fadeInUp",
                 "data-wow-delay": ".4s",
                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$html$2d$react$2d$parser$2f$esm$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])(Title)
@@ -710,7 +710,7 @@ const __TURBOPACK__default__export__ = HeroBanner2;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"title\":\" Chennai \"},{\"title\":\" Guindy   \"},{\"title\":\" Thoraipakkam \"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"title\":\" Guindy   \"},{\"title\":\" Thoraipakkam \"}]"));}}),
 "[project]/src/app/Components/Brand/Brand1.jsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -733,7 +733,7 @@ const Brand1 = ({ title })=>{
         dots: false,
         infinite: true,
         speed: 2000,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
@@ -743,7 +743,7 @@ const Brand1 = ({ title })=>{
             {
                 breakpoint: 1399,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 2
                 }
             },
             {
@@ -774,6 +774,9 @@ const Brand1 = ({ title })=>{
                     className: "brand-slider-wrapper style1",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            style: {
+                                fontSize: "30px"
+                            },
                             className: "single-section-title wow fadeInUp",
                             "data-wow-delay": ".2s",
                             children: title
@@ -795,41 +798,44 @@ const Brand1 = ({ title })=>{
                                                 className: "swiper-slide",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "brand-logo",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        style: {
+                                                            fontSize: "40px"
+                                                        },
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 56,
                                                         columnNumber: 44
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 55,
                                                     columnNumber: 45
                                                 }, this)
                                             }, index, false, {
                                                 fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                lineNumber: 52,
+                                                lineNumber: 54,
                                                 columnNumber: 41
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 52,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                    lineNumber: 49,
+                                    lineNumber: 51,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                lineNumber: 48,
+                                lineNumber: 50,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                            lineNumber: 47,
+                            lineNumber: 49,
                             columnNumber: 25
                         }, this)
                     ]
