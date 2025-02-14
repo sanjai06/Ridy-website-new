@@ -41,9 +41,9 @@ const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second
                                 position: "relative"
                             }}>
                             <div className="innerimagediv"   >
-                                <h2 className="animate__animated  animate__fadeInRight   "
+                                <h2 className=" textsmmd animate__animated  animate__fadeInRight   "
                                     style={{
-                                        fontSize: "34px", color: "white"
+                                         color: "white"
 
                                     }}>{innercontent}</h2>
 

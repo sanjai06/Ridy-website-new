@@ -262,7 +262,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const PricingCard = ({ name, price, monthly, content, FeatureList, btnname, btnurl })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "col-xl-4 col-md-6",
+        className: " pricecardshaow col-xl-4 col-md-6",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "pricing-card style1",
             children: [
@@ -276,41 +276,12 @@ const PricingCard = ({ name, price, monthly, content, FeatureList, btnname, btnu
                             lineNumber: 8,
                             columnNumber: 17
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "price-wrapper",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "price",
-                                    children: price
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                                    lineNumber: 10,
-                                    columnNumber: 21
-                                }, this),
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text",
-                                    children: [
-                                        " / ",
-                                        monthly
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                                    lineNumber: 10,
-                                    columnNumber: 60
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                            lineNumber: 9,
-                            columnNumber: 17
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text",
                             children: content
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                            lineNumber: 12,
+                            lineNumber: 10,
                             columnNumber: 17
                         }, this)
                     ]
@@ -339,12 +310,12 @@ const PricingCard = ({ name, price, monthly, content, FeatureList, btnname, btnu
                                             fill: "#1AD079"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                                            lineNumber: 19,
+                                            lineNumber: 17,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                                        lineNumber: 17,
+                                        lineNumber: 15,
                                         columnNumber: 37
                                     }, this),
                                     " ",
@@ -352,30 +323,17 @@ const PricingCard = ({ name, price, monthly, content, FeatureList, btnname, btnu
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                                lineNumber: 17,
+                                lineNumber: 15,
                                 columnNumber: 21
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                        lineNumber: 15,
+                        lineNumber: 13,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                    lineNumber: 14,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    className: "theme-btn style5",
-                    href: btnurl,
-                    children: [
-                        " ",
-                        btnname,
-                        " "
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/app/Components/Card/PricingCard.jsx",
-                    lineNumber: 28,
+                    lineNumber: 12,
                     columnNumber: 13
                 }, this)
             ]
@@ -418,7 +376,6 @@ const Pricing3 = ()=>{
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "pricing-section-3 section-padding fix",
-        "data-background": "/assets/images/pricing-bg.jpg",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container",
             children: [
@@ -428,7 +385,7 @@ const Pricing3 = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "subtitle",
                             children: [
-                                "Our Pricing ",
+                                "Income Model ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/assets/images/icon/fireIcon.svg",
                                     alt: "img",
@@ -437,279 +394,106 @@ const Pricing3 = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
                                     lineNumber: 20,
-                                    columnNumber: 33
+                                    columnNumber: 38
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
                             lineNumber: 19,
-                            columnNumber: 17
+                            columnNumber: 21
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "title",
-                            children: "Choose The Plans That Suits You!"
+                            children: "Invest in Future of Smart Mobility with RIDY "
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
                             lineNumber: 22,
-                            columnNumber: 17
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text",
-                            children: "There are many variations of passages of Lorem Ipsum available, but the majority have"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                            lineNumber: 23,
-                            columnNumber: 17
+                            columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
                     lineNumber: 18,
-                    columnNumber: 13
+                    columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "pricing-wrapper style1",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "tab-section d-flex justify-content-center align-items-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "nav nav-pills mb-3",
-                                id: "pills-tab",
-                                role: "tablist",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "tab-content",
+                        id: "pills-tabContent",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            role: "tabpanel",
+                            "aria-labelledby": "pills-monthly-tab",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    gap: "100px"
+                                },
+                                className: "row gy-5",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        className: `nav-item ${isActive === 'monthly' ? 'active' : ''}`,
-                                        onClick: ()=>setIsActive('monthly'),
-                                        role: "presentation",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "nav-link active",
-                                            id: "pills-monthly-tab",
-                                            "data-bs-toggle": "pill",
-                                            "data-bs-target": "#pills-monthly",
-                                            type: "button",
-                                            role: "tab",
-                                            "aria-controls": "pills-monthly",
-                                            "aria-selected": "true",
-                                            children: "Monthly"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                            lineNumber: 30,
-                                            columnNumber: 29
-                                        }, this)
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        name: "Fixed Rental Income Model",
+                                        content: " Fixed Rental Income Model (For Short-Term Investors)",
+                                        FeatureList: [
+                                            "  Investment: ₹10-12 Lakhs (10 E-Bikes)",
+                                            " Monthly Returns: ₹2000 – 3000/- (Based on the E-Bike)",
+                                            "Agreement: 4 years",
+                                            "Total Earnings in 4 Years: ₹14.4 Lakhs",
+                                            "ROI: 20-40% in 4 years",
+                                            "Break-even: 34 Months"
+                                        ],
+                                        btnname: "Get You Free plan",
+                                        btnurl: "/pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                        lineNumber: 29,
-                                        columnNumber: 25
+                                        lineNumber: 31,
+                                        columnNumber: 33
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        className: `nav-item ${isActive === 'yearly' ? 'active' : ''}`,
-                                        onClick: ()=>setIsActive('yearly'),
-                                        role: "presentation",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "nav-link",
-                                            id: "pills-yearly-tab",
-                                            "data-bs-toggle": "pill",
-                                            "data-bs-target": "#pills-yearly",
-                                            type: "button",
-                                            role: "tab",
-                                            "aria-controls": "pills-yearly",
-                                            "aria-selected": "false",
-                                            tabIndex: "-1",
-                                            children: "Yearly"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                            lineNumber: 35,
-                                            columnNumber: 29
-                                        }, this)
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        name: "Hub-Based Investment Model",
+                                        content: "Hub-Based Investment Model (For Long-Term Growth) ",
+                                        FeatureList: [
+                                            " Investment: ₹ 50 Lakhs (Includes E-bikes + Charging + Hub setup)",
+                                            "Monthly Returns: ₹ 90,000 (Net after RIDY’s 10% Management Fee)",
+                                            "Agreement: 5 years",
+                                            "Total Earnings in 5 Years: ₹ 86.4 Lakhs",
+                                            "ROI: 72.8% in 8 years",
+                                            "Break-even: 56 Months"
+                                        ],
+                                        btnname: "Get You Free plan",
+                                        btnurl: "/pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                        lineNumber: 34,
-                                        columnNumber: 25
+                                        lineNumber: 47,
+                                        columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                lineNumber: 28,
-                                columnNumber: 21
+                                lineNumber: 29,
+                                columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
                             lineNumber: 27,
-                            columnNumber: 17
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "tab-content",
-                            id: "pills-tabContent",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `tab-pane ${isActive === 'monthly' ? 'active' : ''}`,
-                                    id: "pills-monthly",
-                                    role: "tabpanel",
-                                    "aria-labelledby": "pills-monthly-tab",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "row gy-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Basic Plan",
-                                                price: "$14.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 46,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Standard Plan",
-                                                price: "$19.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 62,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Premium Plan Plan",
-                                                price: "$24.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 78,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                        lineNumber: 44,
-                                        columnNumber: 25
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                    lineNumber: 42,
-                                    columnNumber: 21
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `tab-pane ${isActive === 'yearly' ? 'active' : ''}`,
-                                    id: "pills-yearly",
-                                    role: "tabpanel",
-                                    "aria-labelledby": "pills-yearly-tab",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "row gy-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Basic Plan",
-                                                price: "$34.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 99,
-                                                columnNumber: 25
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Standard Plan",
-                                                price: "$64.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 115,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$PricingCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                name: "Premium Plan Plan",
-                                                price: "$84.99",
-                                                monthly: "Per Month",
-                                                content: "There are many variations of passages of Lorem Ipsum available, but the majority",
-                                                FeatureList: [
-                                                    "7 days free access",
-                                                    "Maximum of 5 collaborators",
-                                                    "Cloud backup 1GB",
-                                                    "Maximum 50 tasks per week",
-                                                    "Updates for 1 Year"
-                                                ],
-                                                btnname: "Get You Free plan",
-                                                btnurl: "/pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                                lineNumber: 131,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                        lineNumber: 97,
-                                        columnNumber: 25
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 21
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                            lineNumber: 41,
-                            columnNumber: 17
+                            columnNumber: 25
                         }, this)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
+                        lineNumber: 26,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
-                    lineNumber: 26,
-                    columnNumber: 13
+                    lineNumber: 24,
+                    columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",
             lineNumber: 17,
-            columnNumber: 9
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/Components/Pricing/Pricing3.jsx",

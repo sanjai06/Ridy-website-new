@@ -4,6 +4,7 @@ import Choose2 from '@/app/Components/Choose/Choose2';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import Counter1 from '@/app/Components/Counter/Counter1';
 import Cta1 from '@/app/Components/Cta/Cta1';
+import Faq from '@/app/Components/Faq/Faq';
 import Feature2 from '@/app/Components/Feature/Feature2';
 import HeroBanner4 from '@/app/Components/HeroBanner/Herobanner4';
 import Pricing1 from '@/app/Components/Pricing/Pricing1';
@@ -48,14 +49,17 @@ const page = () => {
         borderRadius="none"
       ></About5>
       <Pricing3></Pricing3> 
-      <Cta1
+      <Counter1></Counter1>
+      <Feature2></Feature2>
+      {/* <Cta1
         subtitle="Our App"
         title="Download our app and start your free trail to get started today!"
         content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised"
         btnurl1="https://play.google.com/store"
         btnurl2="https://www.apple.com/store"
         img="/assets/images/intro/cab6.jpg"
-      ></Cta1> 
+      ></Cta1>  */}
+    <Faq></Faq>
     </div>
   );
 };

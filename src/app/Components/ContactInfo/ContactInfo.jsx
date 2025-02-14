@@ -106,14 +106,14 @@ const ContactInfo = () => {
                         </div>
                     </div>
                     <div className="col-xl-6">
-                        <div className="contact-form style1">
-                            <h2 className="contact-title">
+                        <div className="contact-form style1 contactform">
+                            <h1 className="contact-title">
                                 Ready to Get Started?
-                            </h2>
+                            </h1>
                             <p className="desc">Take the first step towards safer, more sustainable rides. RIDY makes your
                                  journey easier, ensuring a seamless experience from start to finish. Join us today and embrace a new era of women’s mobility.</p>
 
-                            <form id="contact-form" className="contact-form-items">
+                            <form id="contact-form" className="contact-form-items contactform">
                                 <div className="row g-4">
                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                         <div className="form-clt">
@@ -125,6 +125,12 @@ const ContactInfo = () => {
                                         <div className="form-clt">
                                             <span>Your Email*</span>
                                             <input type="text" name="email2" id="email2" placeholder="Your Email" />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                        <div className="form-clt">
+                                            <span>Contact Number *</span>
+                                            <input type="number" name="contact" id="contact" placeholder="Your contact number " />
                                         </div>
                                     </div>
                                     <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">

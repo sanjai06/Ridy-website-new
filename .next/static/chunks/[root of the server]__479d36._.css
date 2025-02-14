@@ -26218,6 +26218,49 @@ input.main-search-input::placeholder {
   }
 }
 
+@media (width <= 480px) {
+  .mdsmhidden {
+    display: none;
+  }
+}
+
+.textsmmd {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+@media (width <= 480px) {
+  .textsmmd {
+    font-size: 26px;
+    margin-top: -60px;
+  }
+}
+
+@media (width <= 768px) {
+  .textsmmd {
+    font-size: 26px;
+    margin-top: -60px;
+  }
+}
+
+@media (width <= 480px) {
+  .rowreverce {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (width <= 768px) {
+  .rowreverce {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
 @media (width <= 575px) {
   .section-padding {
     padding: 60px 0;
@@ -33444,6 +33487,18 @@ input.main-search-input::placeholder {
 
 .contact-info-box.style1:hover .contact-content .title {
   color: var(--white);
+}
+
+@media (width <= 480px) {
+  .contactform {
+    padding: 0 20px;
+  }
+}
+
+@media (width <= 768px) {
+  .contactform {
+    padding: 0 10px;
+  }
 }
 
 .contact-info-box.style1:hover .contact-content .title:hover {

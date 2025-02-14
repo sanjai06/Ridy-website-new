@@ -7,7 +7,7 @@ const Feature2 = () => {
         <section className="feature-section section-padding fix">
             <div className="container">
                 <div className="feature-wrapper style1">
-                    <div className="row gy-5 gx-134">
+                    <div className="row rowreverce gy-5 gx-134">
                         <div className="col-xl-6 order-2 order-xl-1">
                             <div className="feature-content">
                                 <div className="section-title">

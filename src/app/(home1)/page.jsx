@@ -44,6 +44,7 @@ const page = () => {
                 second="Hassle Free Experience "
             ></HeroBanner4>
             <br />
+            <br />
             <About5
                 subtitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
@@ -63,7 +64,9 @@ const page = () => {
                 none="none"
             ></About5>
 
-            <Choose5></Choose5>
+            <Choose5
+            
+            ></Choose5>
             <Feature1></Feature1>
             <Choose2
                 subTitle="Ride Safe with RIDY    "
@@ -120,15 +123,13 @@ const page = () => {
                 subtitle="Assured by RIDY   "
                 title=" drive with US "
                 FeatureList={[
-
+                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
+                    "Frequent Payouts : Get Paid 3 Times a Month ",
                     " Incentives : Enjoy additional Incentives after completing some rides ",
                     "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
                     "Referral Programs : Secure a fixed Income by referring Drivers & Riders  ",
                 ]}
-                FeatureList2={[
-                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
-                    "Frequent Payouts : Get Paid 3 Times a Month ",
-                ]}
+             
                 btnname="Drive with us "
                 btnurl="/service"
             ></Choose1>
