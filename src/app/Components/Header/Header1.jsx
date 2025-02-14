@@ -41,7 +41,7 @@ export default function Header1({ variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" href="/">
-                  <Image src="/assets/images/logo/logo.png" alt="img" height={75} width={120} />
+                  <Image src="/assets/images/logo/logo.png" alt="img" height={55} width={100} />
                 </Link>
               </div>
               <div className="cs_main_header_center">
@@ -62,7 +62,7 @@ export default function Header1({ variant }) {
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
 
-                  <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
+                  
                   <div className="header-button ms-4">
                     <Link href="/contact" className="theme-btn">
                       <span>
@@ -78,7 +78,7 @@ export default function Header1({ variant }) {
           </div>
         </div>
       </header>
-      <div className={`search-wrap ${searchToggle ? 'active' : ''}`} >
+      {/* <div className={`search-wrap ${searchToggle ? 'active' : ''}`} >
         <div className="search-inner">
           <i onClick={() => setSearchToggle(!searchToggle)} id="search-close" className="bi bi-x-lg search-close"></i>
           <div className="search-cell">
@@ -89,7 +89,7 @@ export default function Header1({ variant }) {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
 
