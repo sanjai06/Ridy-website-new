@@ -1774,6 +1774,18 @@ const page = ()=>{
                 fileName: "[project]/src/app/(innerpage)/investwithus/page.jsx",
                 lineNumber: 50,
                 columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Cta$2f$Cta1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                subtitle: "Our App",
+                title: "Download our app and start your free trail to get started today!",
+                content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised",
+                btnurl1: "https://play.google.com/store",
+                btnurl2: "https://www.apple.com/store",
+                img: "/assets/images/intro/cab6.jpg"
+            }, void 0, false, {
+                fileName: "[project]/src/app/(innerpage)/investwithus/page.jsx",
+                lineNumber: 51,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
