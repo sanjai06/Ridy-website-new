@@ -44,7 +44,7 @@ const page = () => {
                img2="/assets/images/wcu/wcuThumb2_2.png" 
                img3="/assets/images/wcu/wcuThumb2_3.png" 
                subtitle="Customizations & Analysis" 
-               title="Manage your Team's Easily Communication." 
+               title="Manage your Team's Easy Communication." 
                content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even" 
                boximg1="/assets/images/icon/wcuIcon2_1.svg" 
                boxtitle1="Easy Collaboration" 
