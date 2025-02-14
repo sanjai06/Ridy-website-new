@@ -19,9 +19,6 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: `${hidden}`
-                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
                 children: [
@@ -44,6 +41,9 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
                 columnNumber: 11
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                style: {
+                    display: `${hidden}`
+                },
                 className: "title wow fadeInUp",
                 "data-wow-delay": ".4s",
                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$html$2d$react$2d$parser$2f$esm$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])(Title)
@@ -144,7 +144,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                             style: {
-                                                                fontSize: "40px"
+                                                                fontSize: "40px "
                                                             },
                                                             className: "titlenew animate__animated animate__fadeInRight ",
                                                             children: title2
@@ -871,12 +871,12 @@ const page = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                hide: "none",
                 subTitle: "Ride Safe With Ridy     ",
-                title: " Ride With Ridy  ",
                 content: " ",
                 title2: "Safe & Secure Journeys ",
                 btnname: "Book Ride",
-                btnurl: "/about"
+                btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
                 lineNumber: 17,
@@ -895,15 +895,10 @@ const page = ()=>{
                 lineNumber: 28,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HowWork$2f$HowWork$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 32,
-                columnNumber: 6
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
                 lineNumber: 33,
-                columnNumber: 6
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {

@@ -20,6 +20,8 @@ const Brand1 = ({ title, content }) => {
         breakpoint: 1399,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+
         }
       },
       {
@@ -31,6 +33,8 @@ const Brand1 = ({ title, content }) => {
         breakpoint: 575,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+
         }
       }
     ]
@@ -56,12 +60,12 @@ const Brand1 = ({ title, content }) => {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
-                borderRadius:"20px",
+                borderRadius: "20px",
                 padding: "20px  ",
                 height: "300px",
                 position: "relative"
               }} className="  slider-area brandSliderOne">
-                <div style={{marginTop:"150px"}} className="swiper gt-slider" id="brandSliderOne" >
+                <div style={{ marginTop: "150px" }} className="swiper gt-slider" id="brandSliderOne" >
                   <Slider {...settings}>
                     {data.map((item, index) => (
                       <div key={index} className="  swiper-slide">

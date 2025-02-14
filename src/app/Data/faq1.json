@@ -1,10 +1,12 @@
+
 [
-  {  
+  {
     "title": "1.How do I book a ride with RIDY? ",
     "desc":"You can book a ride through the RIDY app by selecting your pickup and drop-off locations. Our verified women drivers will be assigned to ensure a safe and comfortable journey. "
+
   },
-  {  
-    "title": "2.Is RIDY exclusively for women riders? ",
+  {
+     "title": "2.Is RIDY exclusively for women riders? ",
     "desc":"Yes, RIDY is a women-exclusive cab service, ensuring a secure travel experience for women by providing female drivers for every ride. "
   },
   {  
@@ -19,5 +21,5 @@
     "title": "5.What payment options does RIDY accept? ",
     "desc":"You can pay for your ride using UPI, credit/debit cards, digital wallets, or cash. "
   }
-  
+ 
 ]

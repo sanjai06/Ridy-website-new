@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-const Feature5 = ({title,content}) => {
+const Feature5 = ({title,content,item1,item2,item3,display}) => {
     return (
         <section className="feature-section fix section-padding pt-0">
             <div className="container">
-                <div className="homepagetext">
+                <div style={{display:`${display}`}} className="homepagetext">
                     <h1 className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
 
                     <h3 className="intro-desc wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</h3>
@@ -17,7 +17,7 @@ const Feature5 = ({title,content}) => {
                                 <Image src="/assets/images/icon/wcuIcon1_3.svg" alt="img" width={40} height={40} />
                             </div>
                             <div className="content">
-                                <h3>Affordable Pricing </h3>
+                                <h3>{item1} </h3>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Feature5 = ({title,content}) => {
                                 <Image src="/assets/images/icon/wcuIcon1_3.svg" alt="img" width={40} height={40} />
                             </div>
                             <div className="content">
-                                <h3>Women Drivers </h3>
+                                <h3>{item2}</h3>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Feature5 = ({title,content}) => {
                                 <Image src="/assets/images/icon/wcuIcon1_3.svg" alt="img" width={40} height={40} />
                             </div>
                             <div className="content ">
-                                <h3>Live Tracking  </h3>
+                                <h3>{item3}  </h3>
                             </div>
                         </div>
                     </div>

@@ -4066,6 +4066,12 @@ input.main-search-input::placeholder {
   background-position: center;
 }
 
+.pricecardshaow {
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow: 0 50px 100px -20px #32325d40, 0 30px 60px -30px #0000004d, inset 0 -2px 6px #0a254059;
+}
+
 .mask-content {
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;

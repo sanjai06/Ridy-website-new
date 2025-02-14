@@ -2,13 +2,11 @@ import Link from "next/link";
 
 const PricingCard = ({name,price,monthly,content,FeatureList,btnname,btnurl}) => {
     return (
-    <div className="col-xl-4 col-md-6">
+    <div className=" pricecardshaow col-xl-4 col-md-6">
         <div className="pricing-card style1">
             <div className="pricing-card-header">
                 <h6>{name}</h6>
-                <div className="price-wrapper">
-                    <span className="price">{price}</span> <span className="text"> / {monthly}</span>
-                </div>
+
                 <p className="text">{content}</p>
             </div>
             <div className="pricing-card-body">
@@ -25,7 +23,6 @@ const PricingCard = ({name,price,monthly,content,FeatureList,btnname,btnurl}) =>
 
                 </ul>
             </div>
-            <Link className="theme-btn style5" href={btnurl}> {btnname} </Link>
         </div>
     </div>
     );

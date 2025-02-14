@@ -175,9 +175,6 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: `${hidden}`
-                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
                 children: [
@@ -200,6 +197,9 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
                 columnNumber: 11
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                style: {
+                    display: `${hidden}`
+                },
                 className: "title wow fadeInUp",
                 "data-wow-delay": ".4s",
                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$html$2d$react$2d$parser$2f$esm$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])(Title)
@@ -244,7 +244,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 ;
 ;
 ;
-const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third, margintop })=>{
+const HeroBanner4 = ({ title, subTitle, hide, display, innercontent, first, second, third, margintop })=>{
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$loadBackgroudImages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])();
     }, []);
@@ -265,7 +265,6 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: " animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    hidden: `${hide}`,
                                     SubTitle: `${subTitle}`,
                                     Title: `${title}`
                                 }, void 0, false, {
@@ -307,15 +306,18 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
                                         children: innercontent
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                        lineNumber: 45,
+                                        lineNumber: 44,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 43,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: `${display}`
+                                    },
                                     className: "homeimagesdiv ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -323,7 +325,7 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
                                             title: first
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 53,
+                                            lineNumber: 52,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -331,7 +333,7 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
                                             title: second
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 57,
+                                            lineNumber: 56,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FeatureCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -339,19 +341,19 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
                                             title: third
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                            lineNumber: 61,
+                                            lineNumber: 60,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 51,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/HeroBanner/Herobanner4.jsx",
-                            lineNumber: 33,
+                            lineNumber: 32,
                             columnNumber: 25
                         }, this)
                     ]
@@ -376,7 +378,7 @@ const HeroBanner2 = ({ title, subTitle, hide, innercontent, first, second, third
         columnNumber: 9
     }, this);
 };
-const __TURBOPACK__default__export__ = HeroBanner2;
+const __TURBOPACK__default__export__ = HeroBanner4;
 }}),
 "[project]/src/app/Data/testimonial1.json (json)": ((__turbopack_context__) => {
 
@@ -793,7 +795,7 @@ const Faq1 = ()=>{
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "accordion",
                     id: "accordion",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq1$2e$json__$28$json$29$__["default"].slice(0, 4).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq1$2e$json__$28$json$29$__["default"].slice(0, 5).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
                             "data-wow-delay": ".3s",
                             children: [
@@ -1049,7 +1051,7 @@ const Faq3 = ()=>{
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "accordion",
                     id: "accordion",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq3$2e$json__$28$json$29$__["default"].slice(0, 4).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$faq3$2e$json__$28$json$29$__["default"].slice(0, 5).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: `accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`,
                             "data-wow-delay": ".3s",
                             children: [
@@ -1406,7 +1408,8 @@ const Brand1 = ({ title, content })=>{
             {
                 breakpoint: 1399,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    slidesToScroll: 1
                 }
             },
             {
@@ -1418,7 +1421,8 @@ const Brand1 = ({ title, content })=>{
             {
                 breakpoint: 575,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
@@ -1445,7 +1449,7 @@ const Brand1 = ({ title, content })=>{
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                            lineNumber: 46,
+                            lineNumber: 50,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1457,7 +1461,7 @@ const Brand1 = ({ title, content })=>{
                             children: content
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                            lineNumber: 51,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1494,58 +1498,58 @@ const Brand1 = ({ title, content })=>{
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 73,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 72,
                                                     columnNumber: 25
                                                 }, this)
                                             }, index, false, {
                                                 fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                                lineNumber: 67,
+                                                lineNumber: 71,
                                                 columnNumber: 23
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 69,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 68,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                                lineNumber: 54,
+                                lineNumber: 58,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                            lineNumber: 52,
+                            lineNumber: 56,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                    lineNumber: 43,
+                    lineNumber: 47,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-                lineNumber: 42,
+                lineNumber: 46,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-            lineNumber: 41,
+            lineNumber: 45,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/Components/Brand/Brand1.jsx",
-        lineNumber: 40,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 };

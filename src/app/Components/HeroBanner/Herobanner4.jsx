@@ -9,7 +9,7 @@ import ProjectCard from "../Card/ProjectCard";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const HeroBanner2 = ({ title,subTitle,hide,  innercontent, first, second, third, margintop }) => {
+const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -24,7 +24,6 @@ const HeroBanner2 = ({ title,subTitle,hide,  innercontent, first, second, third,
                         <div className="margintops">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
                                 <SectionTitle 
-                                hidden={`${hide}`}
                                     SubTitle={`${subTitle}`}
                                     Title={`${title}`}
                                 ></SectionTitle>
@@ -49,7 +48,7 @@ const HeroBanner2 = ({ title,subTitle,hide,  innercontent, first, second, third,
                                     }}>{innercontent}</h2>
 
                             </div>
-                            <div className="homeimagesdiv " >
+                            <div style={{display:`${display}`}} className="homeimagesdiv " >
                                 <FeatureCard
                                     img="/assets/images/icon/wcuIcon1_1.svg"
                                     title={first}
@@ -74,4 +73,4 @@ const HeroBanner2 = ({ title,subTitle,hide,  innercontent, first, second, third,
     );
 };
 
-export default HeroBanner2;
+export default HeroBanner4;

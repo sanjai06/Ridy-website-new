@@ -36,7 +36,7 @@ const Faq1 = () => {
             </div>
             <div className="faq-accordion">
                 <div className="accordion" id="accordion">
-                    {data.slice(0, 4).map((item, index) => (
+                    {data.slice(0, 5).map((item, index) => (
                         <div key={index} className={`accordion-item mb-3 wow fadeInUp ${index === openItemIndex ? "active" : ""}`} data-wow-delay=".3s">
                             <h5 onClick={() => handleItemClick(index)} className="accordion-header">
                                 <button className="accordion-button collapsed" type="button"

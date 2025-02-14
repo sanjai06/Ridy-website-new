@@ -6,53 +6,84 @@ import Services1 from '@/app/Components/Services/Services1';
 import Team2 from '@/app/Components/Team/Team2';
 import React from 'react';
 import About1 from '@/app/Components/About/About1';
+import HeroBanner4 from '@/app/Components/HeroBanner/Herobanner4';
+import Choose2 from '@/app/Components/Choose/Choose2';
+import Feature5 from '@/app/Components/Feature/Feature5';
+import Services2 from '@/app/Components/Services/Services2';
+import Faq from '@/app/Components/Faq/Faq';
 
 
 const page = () => {
   return (
     <div>
-        <BreadCumb
-              bgimg="/assets/images/bg/breadcumgBg.png"
-              Title="Drive with us "
-          ></BreadCumb>   
-           <Cta2></Cta2>
-           <br />
-           <About1 
-          img1="/assets/images/intro/cab7.jpg"
-          
-          subtitle="Why Drive with RIDY"
-          title="Join the RIDY Driver Community"
-          content="RIDY is transforming urban mobility by offering drivers a platform that prioritizes flexibility, safety, and opportunity. Be part of a growing movement that values your efforts and supports your success."
-          title2="Our Commitment"
-          content2="At RIDY, we ensure that every driver-partner enjoys a rewarding experience with consistent payouts, zero vehicle ownership costs, and robust driver support."
-          title3="Why Choose RIDY"
-          content3="From flexible working hours to empowering women drivers, RIDY is designed to create a driver-first ecosystem, fostering financial growth, safety, and job satisfaction."
-          btnname="Join Us Today"
-          btnurl="/contact"
-          ></About1>
-           <Services1></Services1>
-           <Choose1
-            subtitle=" join as driver   "
-            title=" drive with US " 
-            content=" Join the Ridy community and unlock a world of opportunities by being a valued driver-partner."
-           
-            
-            FeatureList={[
-                "Weekly Payouts And Bonus",
-                "Flexible Working Hours",
-                "Zero Ownership Cost",
+      <BreadCumb
+        bgimg="/assets/images/bg/breadcumgBg.png"
+        Title="Drive with us "
+      ></BreadCumb>
+      <Choose2
+        hide="none"
+        subTitle="Drive Safe With Ridy     "
+        title2="Join the most exclusive RIDY Driver Network "
+        btnname="Join as Driver"
+        btnurl="/contact"
+      ></Choose2>
+      <Feature5
+        display="none"
+        item1=" Women only Drivers"
+        item2=" No Investment need"
+        item3="Live Tracking "
 
-            ]}
-            FeatureList2={[
-              "Safety-First Approach",
-              "Comprehensive Training Programs",
-              "24/7 Support for Drivers",
-              "Empowering Women Drivers with Exclusive Benefits",
-            ]}
-            btnname="contact us "
-            btnurl="/contact"
-        ></Choose1>
-         
+
+      ></Feature5>
+      <Services2
+        subTitle="Why RIDY Driver ?"
+        title="It’s all about Empowerment, Flexibility & Stability"
+        btnname="Drive with US "
+        btnurl="/contact"
+      ></Services2>
+      <Choose1
+        subtitle=" join As Driver   "
+        title=" drive with US "
+
+        FeatureList={[
+          "Safety-First Approach",
+          "Comprehensive Training Programs",
+          "24/7 Support for Drivers",
+          "Empowering Women Drivers with Exclusive Benefits",
+
+        ]}
+        FeatureList2={[
+          "Weekly Payouts And Bonus",
+          "Flexible Working Hours",
+          "Zero Ownership Cost",
+        ]}
+        btnname="contact us "
+        btnurl="/contact"
+      ></Choose1>
+      <Choose2
+        subTitle="Documentation "
+        title=" Easy Documentation Process  "
+        content=" "
+        title2={"Just come with your proofs & Start Earning "}
+        FeatureList2={[
+          " 1.Valid Driving License  ",
+          " 2. Aadhaar Card",
+          "Bank Details"
+
+
+        ]}
+        FeatureList={[
+
+          "3. Permanent Address Proofs ",
+          " Safety is our Priority ",
+          "Emergency contact number "
+
+
+        ]}
+        btnname="Download App"
+        btnurl="/contact"
+      ></Choose2>
+      <Faq></Faq>
     </div>
   );
 };

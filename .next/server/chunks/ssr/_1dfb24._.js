@@ -508,9 +508,6 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: `${hidden}`
-                },
                 className: "subtitle wow fadeInUp",
                 "data-wow-delay": ".2s",
                 children: [
@@ -533,6 +530,9 @@ const SectionTitle = ({ Title, SubTitle, hidden })=>{
                 columnNumber: 11
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                style: {
+                    display: `${hidden}`
+                },
                 className: "title wow fadeInUp",
                 "data-wow-delay": ".4s",
                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$html$2d$react$2d$parser$2f$esm$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])(Title)
@@ -633,7 +633,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                             style: {
-                                                                fontSize: "40px"
+                                                                fontSize: "40px "
                                                             },
                                                             className: "titlenew animate__animated animate__fadeInRight ",
                                                             children: title2
@@ -1150,13 +1150,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
 ;
-const Feature5 = ({ title, content })=>{
+const Feature5 = ({ title, content, item1, item2, item3, display })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "feature-section fix section-padding pt-0",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: `${display}`
+                    },
                     className: "homepagetext",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1212,8 +1215,11 @@ const Feature5 = ({ title, content })=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "content",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            children: "Affordable Pricing "
-                                        }, void 0, false, {
+                                            children: [
+                                                item1,
+                                                " "
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Feature/Feature5.jsx",
                                             lineNumber: 20,
                                             columnNumber: 33
@@ -1260,7 +1266,7 @@ const Feature5 = ({ title, content })=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "content",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            children: "Women Drivers "
+                                            children: item2
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/Feature/Feature5.jsx",
                                             lineNumber: 30,
@@ -1308,8 +1314,11 @@ const Feature5 = ({ title, content })=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "content ",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            children: "Live Tracking  "
-                                        }, void 0, false, {
+                                            children: [
+                                                item3,
+                                                "  "
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Feature/Feature5.jsx",
                                             lineNumber: 40,
                                             columnNumber: 33
@@ -1943,6 +1952,10 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container col-xl-10 ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        background: "#fff",
+                        borderRadius: "0"
+                    },
                     className: "advantage-wrapper style1 section-padding",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container ",
@@ -1954,13 +1967,13 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                     className: "advantage-content",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                marginLeft: "50px"
-                                            },
                                             className: "section-title wow fadeInUp",
                                             "data-wow-delay": ".2s",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        marginLeft: "500px"
+                                                    },
                                                     className: "subtitle",
                                                     children: [
                                                         subtitle,
@@ -1982,6 +1995,9 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                     columnNumber: 45
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    style: {
+                                                        marginLeft: "50px"
+                                                    },
                                                     className: "title",
                                                     children: title
                                                 }, void 0, false, {
@@ -2004,10 +2020,13 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                             columnNumber: 41
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "checklist-wrapper style1 wow fadeInUp",
+                                            className: "checklist-wrapper col-xl-10 style1 wow fadeInUp",
                                             "data-wow-delay": ".4s",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                    style: {
+                                                        width: "auto"
+                                                    },
                                                     className: "checklist style1",
                                                     children: FeatureList?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: [
@@ -2181,7 +2200,7 @@ const __TURBOPACK__default__export__ = Choose1;
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"icon\":\"/assets/images/icon/serviceIcon3_1.svg\",\"title\":\"Women only Drivers\",\"desc\":\"Ensuring safety and empowerment with women-only drivers.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_2.svg\",\"title\":\"Monthly 3 Times Payout\",\"desc\":\"Get paid three times a month with flexible earnings.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_3.svg\",\"title\":\"Flexible Hours (09 – 06)\",\"desc\":\"Drive at your convenience with flexible working hours.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Live Tracking\",\"desc\":\"Track your ride in real-time for added security.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Zero Ownership Cost\",\"desc\":\"Drive without the burden of vehicle ownership expenses.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_6.svg\",\"title\":\"Referral Bonuses\",\"desc\":\"Earn extra by referring new drivers and riders.\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"icon\":\"/assets/images/icon/serviceIcon3_1.svg\",\"title\":\"Women only Drivers\",\"desc\":\"Ensuring safety and empowerment with women-only drivers.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_2.svg\",\"title\":\"Weekly Payouts\",\"desc\":\"Get consistent earnings credited every week, no waiting, no uncertainty.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_3.svg\",\"title\":\"Flexible Work Hours (10 AM - 6 PM)\",\"desc\":\"Drive at your convenience with flexible working hours.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"E-Charging Hubs\",\"desc\":\"Exclusive charging stations at our Guindy & Thoraipakkam hubs, ensuring seamless operations.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_5.svg\",\"title\":\"Zero Ownership Cost\",\"desc\":\"Drive without the burden of vehicle ownership expenses.\"},{\"icon\":\"/assets/images/icon/serviceIcon3_6.svg\",\"title\":\"Referral Bonuses\",\"desc\":\"Earn extra by referring new drivers and riders.\"}]"));}}),
 "[project]/src/app/Components/Services/Services2.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -2200,7 +2219,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 ;
 ;
 ;
-const Services2 = ({ btnurl, btnname })=>{
+const Services2 = ({ btnurl, btnname, subTitle, title })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "service-section section-padding fix",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2215,8 +2234,8 @@ const Services2 = ({ btnurl, btnname })=>{
                         className: " section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp",
                         "data-wow-delay": ".2s",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            SubTitle: " Angels of RIDY ",
-                            Title: " Women Drivers - Angels of RIDY"
+                            SubTitle: ` ${subTitle}`,
+                            Title: ` ${title}`
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Services/Services2.jsx",
                             lineNumber: 13,
@@ -2449,7 +2468,7 @@ const page = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HeroBanner$2f$Herobanner4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 hide: "none",
-                subTitle: "",
+                subTitle: "Ridy The Lady Cab",
                 title: " Right Initiative For Daily Yatra ",
                 innercontent: "Women Focused Taxi Service ",
                 first: "Women Focused",
@@ -2468,7 +2487,10 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "Seamless | Safe | Sustainable ",
-                content: "Designed Exclusively for Women "
+                content: "Designed Exclusively for Women ",
+                item1: "Affordable Pricing ",
+                item2: "Women Drivers ",
+                item3: "Live Tracking "
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
                 lineNumber: 28,
@@ -2476,7 +2498,7 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature6$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 32,
+                lineNumber: 36,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$HeroBanner$2f$Herobanner4$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2488,12 +2510,12 @@ const page = ()=>{
                 second: "Hassle Free Experience "
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 34,
+                lineNumber: 38,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 42,
+                lineNumber: 46,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2515,17 +2537,17 @@ const page = ()=>{
                 none: "none"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 43,
+                lineNumber: 47,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 62,
+                lineNumber: 66,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 63,
+                lineNumber: 67,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2542,50 +2564,30 @@ const page = ()=>{
                     " Safety is our Priority "
                 ],
                 btnname: "Download App",
-                btnurl: "/about"
+                btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 64,
+                lineNumber: 68,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Testimonial$2f$Testimonial$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 85,
+                lineNumber: 89,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Services$2f$Services2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                subTitle: "Angels of RIDY",
+                title: "Women Drivers - Angels of RIDY ",
                 btnname: "Drive with US ",
                 btnurl: "/service"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 86,
+                lineNumber: 90,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 91,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                subtitle: "Assured by RIDY   ",
-                title: " drive with US ",
-                FeatureList: [
-                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
-                    "Frequent Payouts : Get Paid 3 Times a Month ",
-                    " Incentives : Enjoy additional Incentives after completing some rides ",
-                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
-                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  "
-                ],
-                btnname: "Drive with us ",
-                btnurl: "/service"
-            }, void 0, false, {
-                fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 92,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 105,
+                lineNumber: 96,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$About$2f$About5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2596,18 +2598,41 @@ const page = ()=>{
                 boximg2: "/assets/images/icon/wcuIcon2_2.svg",
                 boximg3: "/assets/images/icon/wcuIcon2_2.svg",
                 boximg5: "/assets/images/icon/wcuIcon2_2.svg",
-                boxtitle1: "Earn Fixed Returns – Up to 15% IRR   ",
-                boxtitle2: "Monthly Passive Income ",
-                boxtitle3: "Zero Maintenance Hassle   ",
+                boxtitle1: " 15%+ IRR   ",
+                boxtitle2: " fixed income  ",
+                boxtitle3: "100% hassle-free  ",
+                box4: "Start with just 10 e-bikes ",
+                boxcontent1: "Earn 15%+ IRR over a 4 year investment",
+                boxcontent2: "Earn fixed income with tax benefits",
+                boxcontent3: "100% hassle-free investment with guaranteed returns",
+                boxcontent4: " Start with just 10 e-bikes or invest in a RIDY Hub",
                 img1: "/assets/images/intro/cab5.jpg",
                 btnname: "Ride with US ",
                 btnurl: "/about",
-                borderRadius: "none",
-                box4: "Be a Pioneer in Green Mobility! "
+                borderRadius: "none"
             }, void 0, false, {
                 fileName: "[project]/src/app/(home1)/page.jsx",
-                lineNumber: 106,
+                lineNumber: 98,
                 columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                subtitle: "Assured by RIDY   ",
+                title: " drive with US ",
+                FeatureList: [
+                    " Incentives : Enjoy additional Incentives after completing some rides ",
+                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
+                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  "
+                ],
+                FeatureList2: [
+                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
+                    "Frequent Payouts : Get Paid 3 Times a Month "
+                ],
+                btnname: "Drive with us ",
+                btnurl: "/service"
+            }, void 0, false, {
+                fileName: "[project]/src/app/(home1)/page.jsx",
+                lineNumber: 119,
+                columnNumber: 16
             }, this)
         ]
     }, void 0, true, {

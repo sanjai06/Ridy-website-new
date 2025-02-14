@@ -4,15 +4,15 @@ import data from '../../Data/services2.json';
 import Image from 'next/image';
 import SectionTitle from "../Common/SectionTitle";
 
-const Services2 = ({ btnurl, btnname }) => {
+const Services2 = ({ btnurl, btnname,subTitle,title }) => {
     return (
         <section className="service-section section-padding fix">
             <div style={{ marginTop: "-50px" }} className="service-container-wrapper style1">
                 <div className="container">
                     <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
-                            SubTitle=" Angels of RIDY "
-                            Title=" Women Drivers - Angels of RIDY"
+                            SubTitle= {` ${subTitle}`} 
+                            Title={` ${title}`}
                         ></SectionTitle>
                     </div>
                     <div className="service-wrapper style1">

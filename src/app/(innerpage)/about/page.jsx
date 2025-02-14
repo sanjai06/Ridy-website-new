@@ -15,22 +15,22 @@ const page = () => {
         Title="Ride with us"
       ></BreadCumb>
       <Choose2
+        hide="none"
         subTitle="Ride Safe With Ridy     "
-        title=" Ride With Ridy  "
         content=" "
         title2="Safe & Secure Journeys "
         btnname="Book Ride"
-        btnurl="/about"
+        btnurl="/contact"
       ></Choose2>
-     
+
       <Services1
       ></Services1>
-      <Brand1 
-      title="RIDY is now operational in Key Locations"
-      content="Ensuring Seamless and Eco-Friendly fleet "
+      <Brand1
+        title="RIDY is now operational in Key Locations"
+        content="Ensuring Seamless and Eco-Friendly fleet "
       ></Brand1>
-     {/* <HowWork></HowWork> */}
-     <Faq></Faq>
+      {/* <HowWork></HowWork> */}
+      <Faq></Faq>
     </div>
   );
 };

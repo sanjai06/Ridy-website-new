@@ -34,7 +34,7 @@ const Choose2 = ({ hide, subTitle,title2, title, content, FeatureList2, FeatureL
                                     <div className="advantage-content">
                                         
                                         <div className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <h2 style={{fontSize:"40px"}} className="titlenew animate__animated animate__fadeInRight ">{title2}</h2>
+                                            <h2 style={{fontSize:"40px "}} className="titlenew animate__animated animate__fadeInRight ">{title2}</h2>
                                             <p className="">{content}</p>
                                         </div>
                                         <div className="checklist-wrapper style1 wow fadeInUp  " data-wow-delay=".4s">

@@ -6,21 +6,21 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
 
         <section style={{ marginTop: "-80px", paddingTop: "-30px" }} className="advantage-section fix">
             <div className="advantage-container-wrapper style1">
-                <div className="container col-xl-10 ">
-                    <div className="advantage-wrapper style1 section-padding">
+                <div  className="container col-xl-10 ">
+                    <div style={{background:"#fff",borderRadius:"0"}} className="advantage-wrapper style1 section-padding">
                         <div className="container ">
                             <div className="row gy-5 d-flex align-items-center">
                                 <div className="col-xl-11 order-2 order-xl-1">
                                     <div className="advantage-content">
-                                        <div style={{ marginLeft: "50px" }} className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <div className="subtitle">
+                                        <div  className="section-title wow fadeInUp" data-wow-delay=".2s">
+                                            <div style={{ marginLeft: "500px" }} className="subtitle">
                                                 {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h1 className="title">{title}</h1>
+                                            <h1 style={{ marginLeft: "50px" }}  className="title">{title}</h1>
                                             <p className="section-desc">{content}</p>
                                         </div>
-                                        <div  className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
-                                            <ul className="checklist style1">
+                                        <div   className="checklist-wrapper col-xl-10 style1 wow fadeInUp" data-wow-delay=".4s">
+                                            <ul style={{width:"auto"}} className="checklist style1">
                                                 {FeatureList?.map((item, index) => (
                                                     <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} /> {item}</li>
                                                 ))}

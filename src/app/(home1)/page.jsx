@@ -16,7 +16,7 @@ const page = () => {
         <div>
             <HeroBanner4
                 hide="none"
-                subTitle=""
+                subTitle="Ridy The Lady Cab"
                 title=" Right Initiative For Daily Yatra "
                 innercontent="Women Focused Taxi Service "
                 first="Women Focused"
@@ -28,6 +28,10 @@ const page = () => {
             <Feature5
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
+                item1="Affordable Pricing "
+                item2="Women Drivers "
+                item3="Live Tracking "
+
             ></Feature5>
             <Feature6></Feature6>
 
@@ -80,29 +84,17 @@ const page = () => {
 
                 ]}
                 btnname="Download App"
-                btnurl="/about"
+                btnurl="/contact"
             ></Choose2>
             <Testimonial></Testimonial>
             <Services2
-
+                subTitle="Angels of RIDY"
+                title="Women Drivers - Angels of RIDY "
                 btnname="Drive with US "
                 btnurl="/service"
             ></Services2>
             <Faq></Faq>
-            <Choose1
-                subtitle="Assured by RIDY   "
-                title=" drive with US "
-                FeatureList={[
-                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
-                    "Frequent Payouts : Get Paid 3 Times a Month ",
-                    " Incentives : Enjoy additional Incentives after completing some rides ",
-                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
-                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  ",
-                ]}
-                btnname="Drive with us "
-                btnurl="/service"
-            ></Choose1>
-            <br />
+         
             <About5
                 subtitle="Future with RIDY  "
                 content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
@@ -111,15 +103,35 @@ const page = () => {
                 boximg2="/assets/images/icon/wcuIcon2_2.svg"
                 boximg3="/assets/images/icon/wcuIcon2_2.svg"
                 boximg5="/assets/images/icon/wcuIcon2_2.svg"
-                boxtitle1="Earn Fixed Returns – Up to 15% IRR   "
-                boxtitle2="Monthly Passive Income "
-                boxtitle3="Zero Maintenance Hassle   "
+                boxtitle1=" 15%+ IRR   "
+                boxtitle2=" fixed income  "
+                boxtitle3="100% hassle-free  "
+                box4="Start with just 10 e-bikes "
+                boxcontent1="Earn 15%+ IRR over a 4 year investment"
+                boxcontent2="Earn fixed income with tax benefits"
+                boxcontent3="100% hassle-free investment with guaranteed returns"
+                boxcontent4=" Start with just 10 e-bikes or invest in a RIDY Hub"
                 img1="/assets/images/intro/cab5.jpg"
                 btnname="Ride with US "
                 btnurl="/about"
                 borderRadius="none"
-                box4="Be a Pioneer in Green Mobility! "
             ></About5>
+               <Choose1
+                subtitle="Assured by RIDY   "
+                title=" drive with US "
+                FeatureList={[
+
+                    " Incentives : Enjoy additional Incentives after completing some rides ",
+                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
+                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  ",
+                ]}
+                FeatureList2={[
+                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
+                    "Frequent Payouts : Get Paid 3 Times a Month ",
+                ]}
+                btnname="Drive with us "
+                btnurl="/service"
+            ></Choose1>
 
         </div>
     );
