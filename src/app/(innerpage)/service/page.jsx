@@ -46,17 +46,18 @@ const page = () => {
         title=" drive with US "
 
         FeatureList={[
+          "Weekly Payouts And Bonus",
+          "Flexible Working Hours",
+          "Zero Ownership Cost",
           "Safety-First Approach",
           "Comprehensive Training Programs",
           "24/7 Support for Drivers",
           "Empowering Women Drivers with Exclusive Benefits",
 
         ]}
-        FeatureList2={[
-          "Weekly Payouts And Bonus",
-          "Flexible Working Hours",
-          "Zero Ownership Cost",
-        ]}
+        // FeatureList2={[
+        
+        // ]}
         btnname="contact us "
         btnurl="/contact"
       ></Choose1>
