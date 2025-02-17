@@ -74,15 +74,16 @@ const page = () => {
                 content=" "
                 title2={"Get Benefit By Using  Ridy "}
                 FeatureList2={[
-                    " Screened & Trained Drivers ",
-                    " 24/7 Support ",
+                    
 
 
                 ]}
                 FeatureList={[
 
-                    "Trust us for Safe Rides ",
+                    " Screened & Trained Drivers ",
                     " Safety is our Priority ",
+                    "Trust us for Safe Rides ",
+                    " 24/7 Support ",
 
 
                 ]}
