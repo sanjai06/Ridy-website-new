@@ -22,7 +22,7 @@ const page = () => {
       ></BreadCumb> */}
       <Choose2
         margintop="200px"
-        imgbg={"url('/assets/images/intro/cab5.jpg')"}
+        imgbg={"url('/assets/images/intro/cab6.jpg')"}
         title="Drive with us"
         subTitle="Drive Safe With Ridy     "
         title2="Join the most exclusive RIDY Driver Network "
@@ -55,7 +55,7 @@ const page = () => {
         item5="Comprehensive Training Programs"
         item6="24/7 Support for Drivers" 
         ></Choose1>
-    <Choose2
+    <Choose2 margintop="100px"
       imgbg={"url('/assets/images/intro/cab5.jpg')"}
       subTitle="Documentation "
       title=" Easy Documentation Process  "
@@ -81,7 +81,9 @@ const page = () => {
       btnurl="/contact"
     ></Choose2> 
     <br />
-    <Faq></Faq>
+    <Faq
+    margintop="-60px"
+    ></Faq>
     </div >
   );
 };

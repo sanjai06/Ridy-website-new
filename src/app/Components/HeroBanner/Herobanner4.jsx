@@ -37,7 +37,8 @@ const HeroBanner4 = ({ title,subTitle,hidden,  innercontent, first, second,imgbg
                                 backgroundRepeat: "no-repeat",
                                 padding: "20px  ",
                                 borderRadius: "30px",
-                                height: "468px",
+                                height: "500px",
+                                widows:"full",
                                 position: "relative"
                             }}>
                             <div className="innerimagediv"   >

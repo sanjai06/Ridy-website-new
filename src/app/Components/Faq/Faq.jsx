@@ -9,7 +9,7 @@ import Faq1 from "./Faq1";
 import Faq2 from "./Faq2";
 import Faq3 from "./Faq3";
 
-const Faq = () => {
+const Faq = ({margintop}) => {
 
     const [isActive, setIsActive] = useState('monthly');
 
@@ -34,8 +34,8 @@ const Faq = () => {
             <div className="container col-xl-10 ">
                 <div className="faq-wrapper style1">
                     <div className="row gy-5 gy-xl-0 gx-60 d-flex align-items-start">
-                        <div  style={{marginTop:"-40px~"}}  className="">
-                            <div className="faq-content style1">
+                        <div  className="">
+                            <div  style={{marginTop:`${margintop}`}}  className="faq-content style1">
                                 <div className="section-title">
                                     <SectionTitle
                                         SubTitle="FAQs"

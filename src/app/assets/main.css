@@ -53,6 +53,7 @@ input:focus {
 input::placeholder {
   color: #767771;
 }
+
 h1,
 h2,
 h3,
@@ -71,7 +72,7 @@ h1 {
   font-size: 46px;
   font-weight: 700;
   line-height: 120%;
-  background: linear-gradient(30deg, #80044e ,#f52aa4, #f41f9f);
+  background: linear-gradient(30deg, #80044e, #f52aa4, #f41f9f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -82,7 +83,7 @@ h2 {
   font-size: 40px;
   line-height: 145%;
   font-weight: 700;
-
+  color: #cac9c9;
 }
 
 @media (max-width: 767px) {
@@ -184,6 +185,7 @@ span {
 .form-contl input.style2 {
   border: none;
 }
+
 .slider-container {
   width: 90%;
   max-width: 400px;
@@ -202,50 +204,56 @@ span {
   text-align: center;
 }
 
-  .brodershaow {
-    border: 1px solid #eea5d1; 
-    display: flex;gap: 20px;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    padding: 20px ;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    padding: 10px;
-    background-color: #fff; 
+.brodershaow {
+  border: 1px solid #eea5d1;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding: 10px;
+  background-color: #fff;
 }
-.gap{
+
+.gap {
   gap: 40px;
 }
 
 @media (max-width:480px) {
-  .maaarginleftmdsm{
+  .maaarginleftmdsm {
     margin-left: -50px;
     margin-top: -30px;
   }
-  
+
 }
+
 @media (max-width:768px) {
-  .maaarginleftmdsm{
+  .maaarginleftmdsm {
     margin-left: -50px;
     margin-top: -30px;
   }
-  
+
 }
+
 @media (max-width:480px) {
-  .martopfancycard{
+  .martopfancycard {
     margin-top: -7px;
   }
-  
+
 }
+
 @media (max-width:768px) {
-  .martopfancycard{
+  .martopfancycard {
     margin-top: -7px;
   }
-  
+
 }
-.fancycard{
-  border: 2px solid #fe55e2; 
+
+.fancycard {
+  border: 2px solid #fe55e2;
   border-radius: 20px;
   padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -324,9 +332,7 @@ label {
 }
 
 .titlenew {
-  color: white;
-  margin-bottom: 10px;
-  margin-top: 10px; 
+  color: #fff;
   text-align: center;
 }
 
@@ -1914,9 +1920,11 @@ input[type=radio]:checked~label::before {
     opacity: 1;
   }
 }
-.slidericons{
+
+.slidericons {
   height: 40px;
 }
+
 @keyframes icon-anim {
   0% {
     top: 26px;
@@ -4188,24 +4196,29 @@ input.main-search-input::placeholder {
     padding: 80px 0;
   }
 }
+
 @media (max-width: 480px) {
   .mdsmhidden {
-   display: none;
-  } 
+    display: none;
+  }
 }
-.textsmmd{
+
+.textsmmd {
   font-size: 40px;
   font-weight: 600;
 }
+
 @media (max-width: 480px) {
-  .textsmmd{
+  .textsmmd {
     margin-top: -60px;
     margin-right: 10px;
   }
 }
+
 @media (max-width: 768px) {
-  .textsmmd{
-    font-size: 26px; margin-top: -60px;
+  .textsmmd {
+    font-size: 26px;
+    margin-top: -60px;
   }
 }
 
@@ -4213,17 +4226,20 @@ input.main-search-input::placeholder {
   .rowreverce {
     display: flex;
     flex-direction: column-reverse;
-  } 
-}@media (max-width: 768px) {
+  }
+}
+
+@media (max-width: 768px) {
   .rowreverce {
     display: flex;
     flex-direction: column-reverse;
-  } 
+  }
 }
 
-.flex{
+.flex {
   display: flex;
 }
+
 @media (max-width: 575px) {
   .section-padding {
     padding: 60px 0;
@@ -4275,12 +4291,14 @@ input.main-search-input::placeholder {
   background-size: cover;
   background-position: center center;
 }
-.pricecardshaow{  
+
+.pricecardshaow {
   margin-top: 100px;
   border-radius: 20px;
-  background:#fff;
+  background: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .mask-content {
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
@@ -6327,15 +6345,20 @@ input.main-search-input::placeholder {
 .footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .apple a:hover {
   color: var(--white) !important;
 }
+
 .glass-div {
   height: 50px;
-  background: rgba(255, 255, 255, 0.15);  /* Semi-transparent background */
-  backdrop-filter: blur(10px); 
+  background: rgba(255, 255, 255, 0.15);
+  /* Semi-transparent background */
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-  color: white; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;
   display: flex;
-  justify-content: center;align-items: center;gap: 10px;flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -6901,18 +6924,19 @@ input.main-search-input::placeholder {
 }
 
 .innerimagediv {
-  color: #fff;
-  right: 6%;
-  top: 25%;
+  color: #f90000;
+  left: 5%;
+  top: 28%;
   position: absolute;
-  width:520px;
-  font-size: 28px;
+  width: 520px;
+  font-weight: 800;
+  font-size: 30px;
 }
 
 @media (max-width:768px) {
   .innerimagediv {
     width: auto;
-    right: auto;
+    left: auto;
     font-size: 20px;
   }
 
@@ -6921,8 +6945,8 @@ input.main-search-input::placeholder {
 @media (max-width:480px) {
   .innerimagediv {
     width: auto;
-    font-size: 30px;
-    right: auto;
+    font-size: 26px;
+    left: auto;
   }
 
 }
@@ -6987,30 +7011,32 @@ input.main-search-input::placeholder {
     height: auto;
     top: 50%;
     width: 90%;
-    padding:  20px 20px;
+    padding: 20px 20px;
   }
 }
+
 @media (max-width: 480px) {
-  .mt{
-    margin-top:0;
+  .mt {
+    margin-top: 0;
   }
-  
+
 }
+
 @media (max-width: 768px) {
-  .mt{
+  .mt {
     margin-top: 0px;
   }
-  
+
 }
 
 @media (max-width: 480px) {
   .homeimagesdiv {
     flex-direction: column;
     justify-content: center;
-    align-items:start; 
+    align-items: start;
     top: 60%;
     width: 90%;
-    padding:  20px 20px 0;
+    padding: 20px 20px 0;
 
   }
 }
@@ -11530,20 +11556,21 @@ input.main-search-input::placeholder {
 .contact-info-box.style1:hover .contact-content .title {
   color: var(--white);
 }
-@media (max-width:480px) 
-{
-  .contactform{
-    padding: 0 20px ;
+
+@media (max-width:480px) {
+  .contactform {
+    padding: 0 20px;
   }
-  
+
 }
-@media (max-width:768px) 
-{
-  .contactform{
-    padding: 0 10px ;
+
+@media (max-width:768px) {
+  .contactform {
+    padding: 0 10px;
   }
-  
+
 }
+
 .contact-info-box.style1:hover .contact-content .title:hover {
   color: var(--white) !important;
 }

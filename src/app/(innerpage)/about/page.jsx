@@ -16,7 +16,7 @@ const page = () => {
       ></BreadCumb> */}
       <Choose2
         margintop="200px"
-        imgbg={"url('/assets/images/intro/cab5.jpg')"}
+        imgbg={"url('/assets/images/intro/cab4.jpg')"}
         title="Book Ride With Us"
         subTitle="Ride Safe With Ridy     "
         content="  "
@@ -34,7 +34,8 @@ const page = () => {
       ></Brand1>
       {/* <HowWork></HowWork> */}
       
-      <Faq></Faq>
+      <Faq margintop="-70px"
+      ></Faq>
     </div>
   );
 };

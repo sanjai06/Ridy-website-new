@@ -56,16 +56,16 @@ const Brand1 = ({ title,subTitle, content }) => {
             <div
               className="row   ">
               <div style={{
-                backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                backgroundImage: "url('/assets/images/intro/cab11.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
-                borderRadius: "20px",
+                borderRadius: "30px",
                 padding: "20px  ",
-                height: "460px",
+                height:"600px",
                 position: "relative"
               }} className="  slider-area brandSliderOne">
-                <div style={{ marginTop: "280px" }} className="swiper gt-slider" id="brandSliderOne" >
+                <div style={{ marginTop: "380px" }} className="swiper gt-slider" id="brandSliderOne" >
                   <Slider {...settings}>
                     {data.map((item, index) => (
                       <div key={index} className="  swiper-slide">

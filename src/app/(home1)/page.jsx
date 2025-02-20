@@ -36,7 +36,7 @@ const page = () => {
             <Feature6>
             </Feature6>
             <HeroBanner4
-                imgbg={"url('/assets/images/intro/cab5.jpg')"}
+                imgbg={"url('/assets/images/intro/cab9.jpg')"}
                 subTitle="Manual Booking"
                 title="Manual Booking-Fast & Flexible "
                 innercontent="Manual Booking Features gives you full control over your schedule "
@@ -63,7 +63,7 @@ const page = () => {
                 boximg3="/assets/images/icon/wcuIcon2_2.svg"
                 boxtitle3="Affordable & Convenient "
                 boxcontent3="Budget friendly rides for Stress Free Ride "
-                img1="/assets/images/intro/cab5.jpg"
+                img1="/assets/images/intro/cab7.jpg"
                 btnname="Ride with US "
                 btnurl="/about"
                 borderRadius="none"
@@ -72,7 +72,7 @@ const page = () => {
             <Feature1></Feature1>
             <Choose2
                 margintop="0"
-                imgbg={"url('/assets/images/intro/cab5.jpg')"}
+                imgbg={"url('/assets/images/intro/cab4.jpg')"}
                 subTitle="Ride Safe with RIDY    "
                 title=" Benefits Using Ridy  "
                 content=" "
@@ -120,7 +120,7 @@ const page = () => {
                 boxcontent2="Earn fixed income with tax benefits"
                 boxcontent3="100% hassle-free investment with guaranteed returns"
                 boxcontent4=" Start with just 10 e-bikes or invest in a RIDY Hub"
-                img1="/assets/images/intro/cab5.jpg"
+                img1="/assets/images/intro/cab8.jpg"
                 btnname="Ride with US "
                 btnurl="/about"
                 borderRadius="none"
@@ -135,7 +135,9 @@ const page = () => {
                 item4="Easy Onboarding "
                 item5="Referral Programs "
             ></Choose1>
-            <Faq></Faq>
+            <Faq margintop="-40px"
+            >
+            </Faq>
 
         </div>
     );

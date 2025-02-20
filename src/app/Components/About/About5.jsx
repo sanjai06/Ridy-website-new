@@ -20,7 +20,7 @@ const About5 = ({ subtitle, box4, boximg5, mtop,title, subTitle, content, none, 
                             <div className="row rowreverce gy-5 gx-60 d-flex align-items-center">
                                 <div className="col-xl-6">
                                     <div className="about-thumb">
-                                        <Image className="imagesFeatureCard mdsmhidden " style={{ position: "relative" }} src={img1} alt="img" width={100} height={450} />
+                                        <Image className="imagesFeatureCard mdsmhidden " style={{ position: "relative" }} src={img1} alt="img" width={500} height={500} />
                                     </div>
                                 </div>
                                 <div className="col-xl-6 order-xl-1">

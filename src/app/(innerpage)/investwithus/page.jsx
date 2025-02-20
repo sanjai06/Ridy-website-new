@@ -22,7 +22,7 @@ const page = () => {
       ></BreadCumb> */}
       <Choose2
         margintop="200px"
-        imgbg={"url('/assets/images/intro/cab5.jpg')"}
+        imgbg={"url('/assets/images/intro/cab9.jpg')"}
         title="invest with us"
         subTitle="Invest With Ridy  "
         title2="Join the electric Revolution with supporting women"
@@ -46,7 +46,7 @@ const page = () => {
         boxcontent2="Earn fixed income with tax benefits"
         boxcontent3="100% hassle-free investment with guaranteed returns"
         boxcontent4=" Start with just 10 e-bikes or invest in a RIDY Hub"
-        img1="/assets/images/intro/cab5.jpg"
+        img1="/assets/images/intro/cab10.jpg"
         btnname="Ride with US "
         btnurl="/contact"
         borderRadius="none"
@@ -54,19 +54,19 @@ const page = () => {
       <Pricing3
 
       >
-
       </Pricing3>
       <Counter1></Counter1>
       <Feature2></Feature2>
-      {/* <Cta1
+      <Cta1
         subtitle="Our App"
-        title="Download our app and start your free trail to get started today!"
-        content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised"
+        title="Download our app and start your Ride , Drive  to get started today!"
+        content="RIDY offers a variety of safe and reliable ride options, ensuring a seamless travel experience tailored for women"
         btnurl1="https://play.google.com/store"
         btnurl2="https://www.apple.com/store"
         img="/assets/images/intro/cab6.jpg"
-      ></Cta1>  */}
-      <Faq></Faq>
+      ></Cta1> 
+      <Faq margintop="-40px"
+      ></Faq>
     </div>
   );
 };
