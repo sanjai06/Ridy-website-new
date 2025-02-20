@@ -3,11 +3,11 @@ import Link from "next/link";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, btnname }) => {
+const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg,btnname }) => {
     return (
-        <section style={{ marginTop: "-50px" }} className="wcu-section  " >
-            <div className="wcu-container-wrapper  style2">
-                <div className="container  col-xl-10 " style={{ borderRadius: "0px", }}>
+        <section style={{ marginTop: "160px" }}  className="wcu-section  " >
+            <div   className="wcu-container-wrapper  style2">
+                <div  className="container  col-xl-1500 " style={{ borderRadius: "0px",marginTop:"-120px" }}>
                     <div style={{ borderRadius: "0px", background: "#fff" }} className="wcu-wrapper style2  section-padding fix">
                         <div className="container  ">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
@@ -19,7 +19,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                             </div>
                             <div
                                 style={{
-                                    backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                    backgroundImage:`${imgbg}`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                     backgroundRepeat: "no-repeat",

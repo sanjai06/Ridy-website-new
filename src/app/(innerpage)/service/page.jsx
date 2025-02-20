@@ -16,17 +16,19 @@ import Faq from '@/app/Components/Faq/Faq';
 const page = () => {
   return (
     <div>
-      <BreadCumb
+      {/* <BreadCumb
         bgimg="/assets/images/bg/breadcumgBg.png"
-        Title="Drive with us "
-      ></BreadCumb>
+        Title=" "
+      ></BreadCumb> */}
       <Choose2
-        hide="none"
+        imgbg={"url('/assets/images/intro/cab5.jpg')"}
+        title="Drive with us"
         subTitle="Drive Safe With Ridy     "
         title2="Join the most exclusive RIDY Driver Network "
         btnname="Join as Driver"
         btnurl="/contact"
       ></Choose2>
+      <br />
       <Feature5
         display="none"
         item1=" Women only Drivers"
@@ -37,7 +39,7 @@ const page = () => {
       ></Feature5>
       <Services2
         subTitle="Why RIDY Driver ?"
-        title="It’s all about Empowerment, Flexibility & Stability"
+        title=" Empowerment, Flexibility & Stability"
         btnname="Drive with US "
         btnurl="/contact"
       ></Services2>
@@ -56,12 +58,13 @@ const page = () => {
 
         ]}
         // FeatureList2={[
-        
+
         // ]}
         btnname="contact us "
         btnurl="/contact"
       ></Choose1>
       <Choose2
+        imgbg={"url('/assets/images/intro/cab5.jpg')"}
         subTitle="Documentation "
         title=" Easy Documentation Process  "
         content=" "

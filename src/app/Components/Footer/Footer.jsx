@@ -5,9 +5,6 @@ const Footer = () => {
     return (
         <footer className="footer-section position-relative">
             <div className="footer-widgets-wrapper style1 fix">
-                <div className="shape1"><img src="/assets/images/shape/footerShape1_1.png" alt="shape" /></div>
-                <div className="shape2"><img src="/assets/images/shape/footerShape1_2.png" alt="shape" /></div>
-                <div className="shape3"><img src="/assets/images/shape/footerShape1_3.png" alt="shape" /></div>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -22,9 +19,10 @@ const Footer = () => {
                                         RIDY is India’s First and Largest
                                         Women Focused EV Ride Hailing
                                         Service
-
-                                    </p>
-                                    <div className="store-links">
+                                    </p> 
+                                    {/* if need add the app download link */}
+                                    
+                                    {/* <div className="store-links">
                                         <div className="apple">
                                             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="17"
                                                 viewBox="0 0 19 17" fill="none">
@@ -41,14 +39,14 @@ const Footer = () => {
                                                     fill="#242331" />
                                             </svg> Play Store</a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                             <div className="single-footer-widget">
                                 <div className="widget-head">
-                                    <h1> Pages </h1>
+                                    <h3> Pages </h3>
                                 </div>
                                 <ul className="list-area">
                                     <li>
@@ -83,7 +81,7 @@ const Footer = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                             <div className="single-footer-widget">
                                 <div className="widget-head">
-                                    <h1> Utility Pages </h1>
+                                    <h3> Utility Pages </h3>
                                 </div>
                                 <ul className="list-area">
                                     <li>
@@ -122,7 +120,7 @@ const Footer = () => {
                         <div className="col-xl-3 col-lg-3 col-md-6">
                             <div className="single-footer-widget">
                                 <div className="">
-                                    <div className="widget-head"> <h1> Address </h1> </div>
+                                    <div className="widget-head"> <h3> Address </h3> </div>
                                     <div className="widget-head">Main Hubs In Chennai </div>
                                     <div className="text mb-20 ">   GUindy | Thoraipakkam 
                                     </div>

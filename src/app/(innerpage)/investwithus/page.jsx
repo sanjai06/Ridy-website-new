@@ -16,12 +16,13 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <BreadCumb
+      {/* <BreadCumb
         bgimg="/assets/images/bg/breadcumgBg.png"
-        Title="invest with us "
-      ></BreadCumb>
+        Title=" "
+      ></BreadCumb> */}
       <Choose2
-        hide="none"
+        imgbg={"url('/assets/images/intro/cab5.jpg')"}
+        title="invest with us"
         subTitle="Invest With Ridy  "
         title2="Join the electric Revolution with supporting women"
         btnname="Invest In Us "
@@ -48,7 +49,7 @@ const page = () => {
         btnurl="/contact"
         borderRadius="none"
       ></About5>
-      <Pricing3></Pricing3> 
+      <Pricing3></Pricing3>
       <Counter1></Counter1>
       <Feature2></Feature2>
       {/* <Cta1
@@ -59,7 +60,7 @@ const page = () => {
         btnurl2="https://www.apple.com/store"
         img="/assets/images/intro/cab6.jpg"
       ></Cta1>  */}
-    <Faq></Faq>
+      <Faq></Faq>
     </div>
   );
 };

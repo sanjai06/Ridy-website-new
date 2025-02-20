@@ -12,11 +12,11 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                             <div className="row gy-5 d-flex align-items-center">
                                 <div className="col-xl-11 order-2 order-xl-1">
                                     <div className="advantage-content">
-                                        <div  className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <div style={{ marginLeft: "500px" }} className="subtitle">
+                                        <div style={{textAlign:"center"}}  className="section-title wow fadeInUp" data-wow-delay=".2s">
+                                            <div className="subtitle">
                                                 {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h1 style={{ marginLeft: "50px" }}  className="title">{title}</h1>
+                                            <h1  className="title">{title}</h1>
                                             <p className="section-desc">{content}</p>
                                         </div>
                                         <div style={{display:"flex",flexDirection:"column"}}  className=" rowrevese checklist-wrapper col-xl-10 style1 wow fadeInUp" data-wow-delay=".4s">
@@ -33,7 +33,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                 ))}
                                             </ul>
                                         </div>
-                                        <Link style={{ marginLeft: "50px" }} className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
+                                        {/* <Link style={{ marginLeft: "50px" }} className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_43_54)">
@@ -47,7 +47,7 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                                 {/* <div className="col-xl-6 order-1 order-xl-2">

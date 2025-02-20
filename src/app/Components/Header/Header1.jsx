@@ -62,15 +62,23 @@ export default function Header1({ variant }) {
               <div className="cs_main_header_right">
                 <div className="header-btn d-flex align-items-center">
 
-                  
+
                   <div className="header-button ms-4">
                     <Link href="/contact" className="theme-btn">
                       <span>
-                      Download App
+                        Ride app
                         <i className="bi bi-arrow-right"></i>
                       </span>
                     </Link>
 
+                  </div>
+                  <div className="header-button ms-4">
+                    <Link href="/contact" className="theme-btn">
+                      <span>
+                        Driver app
+                        <i className="bi bi-arrow-right"></i>
+                      </span>
+                    </Link>
                   </div>
                 </div>
               </div>

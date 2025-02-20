@@ -12,8 +12,7 @@ const Services1 = () => {
             <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
                             SubTitle=" Angels of RIDY "
-                            Title=" Book RIDY Rides"
-                            hidden="none"
+                            Title=" Book Ride in Ridy "
                         ></SectionTitle>
                     </div>
                 <div className="service-wrapper style1">

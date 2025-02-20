@@ -319,13 +319,13 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                     className: "advantage-content",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                textAlign: "center"
+                                            },
                                             className: "section-title wow fadeInUp",
                                             "data-wow-delay": ".2s",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        marginLeft: "500px"
-                                                    },
                                                     className: "subtitle",
                                                     children: [
                                                         subtitle,
@@ -347,9 +347,6 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                                     columnNumber: 45
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    style: {
-                                                        marginLeft: "50px"
-                                                    },
                                                     className: "title",
                                                     children: title
                                                 }, void 0, false, {
@@ -441,72 +438,6 @@ const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname,
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
                                             lineNumber: 22,
-                                            columnNumber: 41
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            style: {
-                                                marginLeft: "50px"
-                                            },
-                                            className: "theme-btn wow fadeInUp",
-                                            "data-wow-delay": ".6s",
-                                            href: btnurl,
-                                            children: [
-                                                " ",
-                                                btnname,
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    width: "16",
-                                                    height: "16",
-                                                    viewBox: "0 0 16 16",
-                                                    fill: "none",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
-                                                            clipPath: "url(#clip0_43_54)",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                                d: "M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z",
-                                                                fill: "white"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                                lineNumber: 40,
-                                                                columnNumber: 53
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                            lineNumber: 39,
-                                                            columnNumber: 49
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
-                                                                id: "clip0_43_54",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                                    width: "16",
-                                                                    height: "16",
-                                                                    fill: "white"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                                    lineNumber: 46,
-                                                                    columnNumber: 57
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                                lineNumber: 45,
-                                                                columnNumber: 53
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                            lineNumber: 44,
-                                                            columnNumber: 49
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                                    lineNumber: 37,
-                                                    columnNumber: 45
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/app/Components/Choose/Choose1.jsx",
-                                            lineNumber: 36,
                                             columnNumber: 41
                                         }, this)
                                     ]
@@ -650,8 +581,7 @@ const Services1 = ()=>{
                         "data-wow-delay": ".2s",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$SectionTitle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             SubTitle: " Angels of RIDY ",
-                            Title: " Book RIDY Rides",
-                            hidden: "none"
+                            Title: " Book RIDY Rides"
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Services/Services1.jsx",
                             lineNumber: 13,
@@ -687,12 +617,12 @@ const Services1 = ()=>{
                                                     height: 40
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                    lineNumber: 26,
+                                                    lineNumber: 25,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                lineNumber: 25,
+                                                lineNumber: 24,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -707,12 +637,12 @@ const Services1 = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                            lineNumber: 29,
+                                                            lineNumber: 28,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                        lineNumber: 29,
+                                                        lineNumber: 28,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -720,34 +650,34 @@ const Services1 = ()=>{
                                                         children: item.desc
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                        lineNumber: 30,
+                                                        lineNumber: 29,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                                lineNumber: 28,
+                                                lineNumber: 27,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                        lineNumber: 23,
+                                        lineNumber: 22,
                                         columnNumber: 29
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                                    lineNumber: 22,
+                                    lineNumber: 21,
                                     columnNumber: 25
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                            lineNumber: 20,
+                            lineNumber: 19,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Services/Services1.jsx",
-                        lineNumber: 19,
+                        lineNumber: 18,
                         columnNumber: 17
                     }, this)
                 ]
@@ -1396,10 +1326,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 ;
 ;
 ;
-const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, btnname })=>{
+const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         style: {
-            marginTop: "-50px"
+            marginTop: "50px"
         },
         className: "wcu-section  ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1436,7 +1366,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                    backgroundImage: `${imgbg}`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                     backgroundRepeat: "no-repeat",
@@ -1693,15 +1623,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const Feature5 = ({ title, content, item1, item2, item3, display })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "feature-section fix section-padding pt-0",
+        className: "feature-section fix section-padding   pt-0",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container",
+            className: "container   ",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
                         display: `${display}`
                     },
-                    className: "homepagetext",
+                    className: " mt homepagetext",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "intro-title wow  animate__fadeInLeft animate__animated ",
@@ -1952,164 +1882,88 @@ const Services2 = ({ btnurl, btnname, subTitle, title })=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "service-wrapper style1",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "row gy-5",
-                                children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$services2$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "col-xl-4 col-md-4 col-sm-5 col-xs-6 ",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: "flex",
-                                                flexDirection: "column",
-                                                justifyContent: "center",
-                                                alignItems: "center"
-                                            },
-                                            className: "service-box style3 wow fadeInLeft",
-                                            "data-wow-delay": ".3s",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "icon-box style3",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: item.icon,
-                                                        alt: "img",
-                                                        width: 40,
-                                                        height: 40
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                        lineNumber: 24,
-                                                        columnNumber: 45
-                                                    }, this)
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "row gy-5",
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Data$2f$services2$2e$json__$28$json$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "col-xl-4 col-md-4 col-sm-5 col-xs-6 ",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            display: "flex",
+                                            flexDirection: "column",
+                                            justifyContent: "center",
+                                            alignItems: "center"
+                                        },
+                                        className: "service-box style3 wow fadeInLeft",
+                                        "data-wow-delay": ".3s",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "icon-box style3",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: item.icon,
+                                                    alt: "img",
+                                                    width: 40,
+                                                    height: 40
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                    lineNumber: 23,
-                                                    columnNumber: 41
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "content",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/service/service-details",
-                                                                children: [
-                                                                    " ",
-                                                                    item.title
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                                lineNumber: 27,
-                                                                columnNumber: 49
-                                                            }, this)
-                                                        }, void 0, false, {
+                                                    lineNumber: 24,
+                                                    columnNumber: 45
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/Components/Services/Services2.jsx",
+                                                lineNumber: 23,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "content",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/service/service-details",
+                                                            children: [
+                                                                " ",
+                                                                item.title
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/Services/Services2.jsx",
                                                             lineNumber: 27,
-                                                            columnNumber: 45
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text",
-                                                            children: item.desc
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                            lineNumber: 28,
-                                                            columnNumber: 45
+                                                            columnNumber: 49
                                                         }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                    lineNumber: 26,
-                                                    columnNumber: 41
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                            lineNumber: 22,
-                                            columnNumber: 37
-                                        }, this)
-                                    }, index, false, {
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Services/Services2.jsx",
+                                                        lineNumber: 27,
+                                                        columnNumber: 45
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text",
+                                                        children: item.desc
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/Components/Services/Services2.jsx",
+                                                        lineNumber: 28,
+                                                        columnNumber: 45
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/Components/Services/Services2.jsx",
+                                                lineNumber: 26,
+                                                columnNumber: 41
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                        lineNumber: 21,
-                                        columnNumber: 33
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                lineNumber: 19,
-                                columnNumber: 25
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "",
-                                style: {
-                                    textAlign: "center",
-                                    marginTop: "40px"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    className: "theme-btn wow fadeInUp",
-                                    "data-wow-delay": ".6s",
-                                    href: btnurl,
-                                    children: [
-                                        " ",
-                                        btnname,
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            width: "16",
-                                            height: "16",
-                                            viewBox: "0 0 16 16",
-                                            fill: "none",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
-                                                    clipPath: "url(#clip0_43_54)",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z",
-                                                        fill: "white"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                        lineNumber: 40,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                    lineNumber: 39,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
-                                                        id: "clip0_43_54",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                            width: "16",
-                                                            height: "16",
-                                                            fill: "white"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                            lineNumber: 46,
-                                                            columnNumber: 45
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                        lineNumber: 45,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 37
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                            lineNumber: 37,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                        lineNumber: 22,
+                                        columnNumber: 37
+                                    }, this)
+                                }, index, false, {
                                     fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 29
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/Components/Services/Services2.jsx",
-                                lineNumber: 35,
-                                columnNumber: 25
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                    lineNumber: 21,
+                                    columnNumber: 33
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/Components/Services/Services2.jsx",
+                            lineNumber: 19,
+                            columnNumber: 25
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/app/Components/Services/Services2.jsx",
                         lineNumber: 18,
                         columnNumber: 21
@@ -2210,16 +2064,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 const page = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$BreadCumb$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                bgimg: "/assets/images/bg/breadcumgBg.png",
-                Title: "Drive with us "
-            }, void 0, false, {
-                fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                hide: "none",
+                imgbg: "url('/assets/images/intro/cab5.jpg')",
+                title: "Drive with us",
                 subTitle: "Drive Safe With Ridy     ",
                 title2: "Join the most exclusive RIDY Driver Network ",
                 btnname: "Join as Driver",
@@ -2229,6 +2076,11 @@ const page = ()=>{
                 lineNumber: 23,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: "[project]/src/app/(innerpage)/service/page.jsx",
+                lineNumber: 31,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Feature$2f$Feature5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 display: "none",
                 item1: " Women only Drivers",
@@ -2236,17 +2088,17 @@ const page = ()=>{
                 item3: "Live Tracking "
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 30,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Services$2f$Services2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 subTitle: "Why RIDY Driver ?",
-                title: "It’s all about Empowerment, Flexibility & Stability",
+                title: " Empowerment, Flexibility & Stability",
                 btnname: "Drive with US ",
                 btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2267,10 +2119,11 @@ const page = ()=>{
                 btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 44,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                imgbg: "url('/assets/images/intro/cab5.jpg')",
                 subTitle: "Documentation ",
                 title: " Easy Documentation Process  ",
                 content: " ",
@@ -2289,12 +2142,12 @@ const page = ()=>{
                 btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 64,
+                lineNumber: 66,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/service/page.jsx",
-                lineNumber: 87,
+                lineNumber: 90,
                 columnNumber: 7
             }, this)
         ]

@@ -9,7 +9,7 @@ import ProjectCard from "../Card/ProjectCard";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second, third, margintop }) => {
+const HeroBanner4 = ({ title,subTitle,hidden,  innercontent, first, second,imgbg, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -22,7 +22,7 @@ const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second
                 <div className="container  ">
                     <div className="intro-content   margintop" style={{ marginTop: `${margintop}` }}>
                         <div className="margintops">
-                            <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
+                            <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
                                 <SectionTitle 
                                     SubTitle={`${subTitle}`}
                                     Title={`${title}`}
@@ -31,7 +31,7 @@ const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second
                         </div>
                         <div className="homeimages  "
                             style={{
-                                backgroundImage: "url('/assets/images/intro/cab5.jpg')",
+                                backgroundImage: `${imgbg}`,
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat",
@@ -48,7 +48,7 @@ const HeroBanner4 = ({ title,subTitle,hide,display,  innercontent, first, second
                                     }}>{innercontent}</h2>
 
                             </div>
-                            <div style={{display:`${display}`}} className="homeimagesdiv " >
+                            <div style={{display:`${hidden}`,}}   className="homeimagesdiv " >
                                 <FeatureCard
                                     img="/assets/images/icon/wcuIcon1_1.svg"
                                     title={first}

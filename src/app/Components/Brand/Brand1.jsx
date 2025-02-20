@@ -2,8 +2,9 @@
 import Slider from "react-slick";
 import data from '../../Data/brand1.json';
 import Image from "next/image";
+import SectionTitle from '../Common/SectionTitle';
 
-const Brand1 = ({ title, content }) => {
+const Brand1 = ({ title,subTitle, content }) => {
 
   const settings = {
     dots: false,
@@ -44,14 +45,13 @@ const Brand1 = ({ title, content }) => {
     <div style={{ marginTop: "-0", height: "auto" }} className="brand-slider-section  section-padding fix">
       <div className="brand-slider-container-wrapper style1">
         <div className="container">
-          <div
-
-            className="brand-slider-wrapper style1">
-            <h1 style={
-              { fontSize: "30px" }
-            } className="single-section-title wow mb-20 fadeInUp" data-wow-delay=".2s">
-              {title}
-            </h1>
+          <div className="brand-slider-wrapper style1">
+            <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
+              <SectionTitle
+                SubTitle={`${subTitle}`}
+                Title={`${title}`}
+              ></SectionTitle>
+            </div>
             <h3 style={{ textAlign: "center" }} className="intro-desc wow mb-20 fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".4s">{content}</h3>
             <div
               className="row   ">
@@ -62,10 +62,10 @@ const Brand1 = ({ title, content }) => {
                 backgroundRepeat: "no-repeat",
                 borderRadius: "20px",
                 padding: "20px  ",
-                height: "300px",
+                height: "460px",
                 position: "relative"
               }} className="  slider-area brandSliderOne">
-                <div style={{ marginTop: "150px" }} className="swiper gt-slider" id="brandSliderOne" >
+                <div style={{ marginTop: "280px" }} className="swiper gt-slider" id="brandSliderOne" >
                   <Slider {...settings}>
                     {data.map((item, index) => (
                       <div key={index} className="  swiper-slide">

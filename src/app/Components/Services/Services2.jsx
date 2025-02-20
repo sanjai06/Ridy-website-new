@@ -6,8 +6,8 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Services2 = ({ btnurl, btnname,subTitle,title }) => {
     return (
-        <section className="service-section section-padding fix">
-            <div style={{ marginTop: "-50px" }} className="service-container-wrapper style1">
+        <section style={{marginTop:"-0px"}} className="service-section section-padding fix">
+            <div style={{ marginTop: "-120px" }} className="service-container-wrapper style1">
                 <div className="container">
                     <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
@@ -23,7 +23,7 @@ const Services2 = ({ btnurl, btnname,subTitle,title }) => {
                                         <div className="icon-box style3">
                                             <Image src={item.icon} alt="img" width={40} height={40} />
                                         </div>
-                                        <div className="content">
+                                        <div style={{textAlign:"center"}} className="content">
                                             <h3><Link href="/service/service-details"> {item.title}</Link></h3>
                                             <p className="text">{item.desc}</p>
                                         </div>
@@ -32,7 +32,7 @@ const Services2 = ({ btnurl, btnname,subTitle,title }) => {
                             ))}
 
                         </div>
-                        <div className="" style={{ textAlign: "center", marginTop: "40px" }}>
+                        {/* <div className="" style={{ textAlign: "center", marginTop: "40px" }}>
                             <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     viewBox="0 0 16 16" fill="none">
@@ -48,7 +48,7 @@ const Services2 = ({ btnurl, btnname,subTitle,title }) => {
                                     </defs>
                                 </svg>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
