@@ -13,13 +13,13 @@ const Pricing3 = () => {
     }, []);
 
     return (
-        <section className="pricing-section-3 section-padding fix" >
+        <section style={{marginTop:"-60px"}} className="pricing-section-3 section-padding fix" >
             <div className="container">
                 <div className="section-title text-center mxw-685 mx-auto">
                     <div className="subtitle">
                         Income Model <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                     </div>
-                    <p className="title">Invest in Future of Smart Mobility with RIDY </p>
+                    <h1 className="title">Invest in Future of Smart Mobility with RIDY </h1>
                 </div>
                 <div className="pricing-wrapper style1">
 

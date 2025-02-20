@@ -26,7 +26,7 @@ const page = () => {
                 margintop="146px"
             ></HeroBanner4>
             <Feature5
-                mtop="-80px"
+                mtop="-20px"
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
                 item1="Affordable Pricing "
@@ -50,7 +50,8 @@ const page = () => {
                 item3=" Hassle Free Experience "
             ></Feature5>
             <About5
-                subtitle=""
+                subtitle="Business With Us "
+                mtop="-70px"
                 subTitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
                 boximg1="/assets/images/icon/wcuIcon2_1.svg"
@@ -70,6 +71,7 @@ const page = () => {
             ></About5>
             <Feature1></Feature1>
             <Choose2
+                margintop="0"
                 imgbg={"url('/assets/images/intro/cab5.jpg')"}
                 subTitle="Ride Safe with RIDY    "
                 title=" Benefits Using Ridy  "
@@ -102,6 +104,7 @@ const page = () => {
             ></Services2>
 
             <About5
+                mtop="-70px"
                 subTitle="Future with RIDY "
                 content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
                 title="Your Future With RIDY "
@@ -122,20 +125,16 @@ const page = () => {
                 btnurl="/about"
                 borderRadius="none"
             ></About5>
-            {/* <Choose1
+            <Choose1
                 subtitle="Assured by RIDY   "
                 title=" drive with US "
-                FeatureList={[
-                    " Boost your Daily Earnings : Earn 50% of your Daily Income ",
-                    "Frequent Payouts : Get Paid 3 Times a Month ",
-                    " Incentives : Enjoy additional Incentives after completing some rides ",
-                    "Easy Onboarding :  Get Started quickly after Documentation Verifications ",
-                    "Referral Programs : Secure a fixed Income by referring Drivers & Riders  ",
-                ]}
-
-                btnname="Drive with us "
-                btnurl="/service"
-            ></Choose1> */}
+                item2=" Safety is Priority "
+                item1=" Boost your  Earnings "
+                item6="Frequent Payouts "
+                item3="Incentives "
+                item4="Easy Onboarding "
+                item5="Referral Programs "
+            ></Choose1>
             <Faq></Faq>
 
         </div>

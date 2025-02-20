@@ -77,10 +77,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 ;
 ;
 ;
-const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname })=>{
+const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         style: {
-            marginTop: "160px"
+            marginTop: `${margintop}`
         },
         className: "wcu-section  ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -137,7 +137,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "col-xl-6",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "advantage-content",
+                                            className: "advantage-content margintopchoos2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "section-title wow fadeInUp",
@@ -166,7 +166,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "checklist-wrapper style1 wow fadeInUp  ",
+                                                    className: "checklist-wrapper style1 wow fadeInUp   ",
                                                     "data-wow-delay": ".4s",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -203,7 +203,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                            className: "checklist animate__animated animate__fadeInRight  animate__delay-2s  ",
+                                                            className: "checklist maaarginleftmdsm  animate__animated animate__fadeInRight  animate__delay-2s  ",
                                                             children: FeatureList2?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "imagesulli",
@@ -215,24 +215,24 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                                                 height: 30
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                                lineNumber: 54,
+                                                                                lineNumber: 55,
                                                                                 columnNumber: 61
                                                                             }, this),
                                                                             item
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                        lineNumber: 53,
+                                                                        lineNumber: 54,
                                                                         columnNumber: 57
                                                                     }, this)
                                                                 }, index, false, {
                                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                    lineNumber: 52,
+                                                                    lineNumber: 53,
                                                                     columnNumber: 53
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                            lineNumber: 50,
+                                                            lineNumber: 51,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
@@ -245,7 +245,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     className: "",
                                                     style: {
                                                         textAlign: "center",
-                                                        marginTop: "46px"
+                                                        marginTop: "0px"
                                                     },
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                         className: "theme-btn wow fadeInUp",
@@ -268,12 +268,12 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                                             fill: "white"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 65,
+                                                                            lineNumber: 66,
                                                                             columnNumber: 57
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                        lineNumber: 64,
+                                                                        lineNumber: 65,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -285,34 +285,34 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                                                 fill: "white"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                                lineNumber: 71,
+                                                                                lineNumber: 72,
                                                                                 columnNumber: 61
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                            lineNumber: 70,
+                                                                            lineNumber: 71,
                                                                             columnNumber: 57
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                        lineNumber: 69,
+                                                                        lineNumber: 70,
                                                                         columnNumber: 53
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                                lineNumber: 62,
+                                                                lineNumber: 63,
                                                                 columnNumber: 49
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                        lineNumber: 61,
+                                                        lineNumber: 62,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Choose/Choose2.jsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 61,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
@@ -638,6 +638,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$
 ;
 const Services1 = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        style: {
+            marginTop: "-50px"
+        },
         className: "service-section section-padding fix",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "service-container-wrapper style1",
@@ -871,16 +874,17 @@ const page = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Choose$2f$Choose2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                margintop: "200px",
                 imgbg: "url('/assets/images/intro/cab5.jpg')",
                 title: "Book Ride With Us",
                 subTitle: "Ride Safe With Ridy     ",
-                content: " ",
-                title2: "Safe & Secure Journeys ",
+                content: "  ",
+                title2: " Book Your Ride With Us For Safe & Secure Journeys ",
                 btnname: "Book Ride",
                 btnurl: "/contact"
             }, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Services$2f$Services1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
@@ -899,7 +903,7 @@ const page = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Faq$2f$Faq$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/(innerpage)/about/page.jsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, this)
         ]

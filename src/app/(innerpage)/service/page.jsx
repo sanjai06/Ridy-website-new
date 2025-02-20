@@ -21,6 +21,7 @@ const page = () => {
         Title=" "
       ></BreadCumb> */}
       <Choose2
+        margintop="200px"
         imgbg={"url('/assets/images/intro/cab5.jpg')"}
         title="Drive with us"
         subTitle="Drive Safe With Ridy     "
@@ -28,8 +29,9 @@ const page = () => {
         btnname="Join as Driver"
         btnurl="/contact"
       ></Choose2>
-      <br />
       <Feature5
+        mtop="-120px"
+        title=" Join As Driver  "
         display="none"
         item1=" Women only Drivers"
         item2=" No Investment need"
@@ -46,49 +48,41 @@ const page = () => {
       <Choose1
         subtitle=" join As Driver   "
         title=" drive with US "
+        item1="Weekly Payouts And Bonus"
+        item2="Flexible Working Hours"
+        item3="Zero Ownership Cost"
+        item4="Safety-First Approach"
+        item5="Comprehensive Training Programs"
+        item6="24/7 Support for Drivers" 
+        ></Choose1>
+    <Choose2
+      imgbg={"url('/assets/images/intro/cab5.jpg')"}
+      subTitle="Documentation "
+      title=" Easy Documentation Process  "
+      content=" "
+      title2={"Just come with your proofs & Start Earning "}
 
-        FeatureList={[
-          "Weekly Payouts And Bonus",
-          "Flexible Working Hours",
-          "Zero Ownership Cost",
-          "Safety-First Approach",
-          "Comprehensive Training Programs",
-          "24/7 Support for Drivers",
-          "Empowering Women Drivers with Exclusive Benefits",
-
-        ]}
-        // FeatureList2={[
-
-        // ]}
-        btnname="contact us "
-        btnurl="/contact"
-      ></Choose1>
-      <Choose2
-        imgbg={"url('/assets/images/intro/cab5.jpg')"}
-        subTitle="Documentation "
-        title=" Easy Documentation Process  "
-        content=" "
-        title2={"Just come with your proofs & Start Earning "}
-        FeatureList2={[
-          " 1.Valid Driving License  ",
-          " 2. Aadhaar Card",
-          "Bank Details"
+      FeatureList2={[
+        " 1.Valid Driving License  ",
+        " 2. Aadhaar Card",
+        "Bank Details"
 
 
-        ]}
-        FeatureList={[
+      ]}
+      FeatureList={[
 
-          "3. Permanent Address Proofs ",
-          " Safety is our Priority ",
-          "Emergency contact number "
+        "3. Permanent Address Proofs ",
+        " Safety is our Priority ",
+        "Emergency contact number "
 
 
-        ]}
-        btnname="Download App"
-        btnurl="/contact"
-      ></Choose2>
-      <Faq></Faq>
-    </div>
+      ]}
+      btnname="Download App"
+      btnurl="/contact"
+    ></Choose2> 
+    <br />
+    <Faq></Faq>
+    </div >
   );
 };
 

@@ -30,11 +30,11 @@ const Faq = () => {
 
     return (
 
-        <section style={{marginTop:"-60px"}} className="faq-section section-padding fix">
+        <section  className="faq-section section-padding fix">
             <div className="container col-xl-10 ">
                 <div className="faq-wrapper style1">
                     <div className="row gy-5 gy-xl-0 gx-60 d-flex align-items-start">
-                        <div className="">
+                        <div  style={{marginTop:"-40px~"}}  className="">
                             <div className="faq-content style1">
                                 <div className="section-title">
                                     <SectionTitle

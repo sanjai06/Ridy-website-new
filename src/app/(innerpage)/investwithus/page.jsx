@@ -21,6 +21,7 @@ const page = () => {
         Title=" "
       ></BreadCumb> */}
       <Choose2
+        margintop="200px"
         imgbg={"url('/assets/images/intro/cab5.jpg')"}
         title="invest with us"
         subTitle="Invest With Ridy  "
@@ -29,6 +30,7 @@ const page = () => {
         btnurl="/contact"
       ></Choose2>
       <About5
+        mtop="-60px"
         subtitle="Future with RIDY  "
         content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
         title="Your Future With RIDY "
@@ -49,7 +51,11 @@ const page = () => {
         btnurl="/contact"
         borderRadius="none"
       ></About5>
-      <Pricing3></Pricing3>
+      <Pricing3
+
+      >
+
+      </Pricing3>
       <Counter1></Counter1>
       <Feature2></Feature2>
       {/* <Cta1

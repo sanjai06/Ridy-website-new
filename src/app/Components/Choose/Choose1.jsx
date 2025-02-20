@@ -1,67 +1,88 @@
 import Image from "next/image";
 import Link from "next/link";
+import FeatureCard from "../Card/FeatureCard";
 
-const Choose1 = ({ subtitle, title, content, FeatureList, FeatureList2, btnname, btnurl }) => {
+const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, item1 }) => {
     return (
 
-        <section style={{ marginTop: "-80px", paddingTop: "-30px" }} className="advantage-section fix">
+        <section className="advantage-section fix">
             <div className="advantage-container-wrapper style1">
-                <div  className="container col-xl-10 ">
-                    <div style={{background:"#fff",borderRadius:"0"}} className="advantage-wrapper style1 section-padding">
+                <div className="container col-xl-10 ">
+                    <div style={{ background: "#fff", borderRadius: "0" }} className="advantage-wrapper style1 section-padding">
                         <div className="container ">
                             <div className="row gy-5 d-flex align-items-center">
-                                <div className="col-xl-11 order-2 order-xl-1">
+                                <div style={{ marginTop: "0" }} className="col-xl-11 order-2 order-xl-1">
                                     <div className="advantage-content">
-                                        <div style={{textAlign:"center"}}  className="section-title wow fadeInUp" data-wow-delay=".2s">
+                                        <div style={{ textAlign: "center" }} className="section-title wow fadeInUp" data-wow-delay=".2s">
                                             <div className="subtitle">
                                                 {subtitle} <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                             </div>
-                                            <h1  className="title">{title}</h1>
+                                            <h1 className="title">{title}</h1>
                                             <p className="section-desc">{content}</p>
                                         </div>
-                                        <div style={{display:"flex",flexDirection:"column"}}  className=" rowrevese checklist-wrapper col-xl-10 style1 wow fadeInUp" data-wow-delay=".4s">
-                                            <ul style={{width:"auto"}} className="checklist style1">
-                                                {FeatureList?.map((item, index) => (
-                                                    <li className="flex" key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} />
-                                                     {item}
-                                                     </li>
-                                                ))}
-                                            </ul>
-                                            <ul className="checklist style1">
-                                                {FeatureList2?.map((item, index) => (
-                                                    <li className="flex" key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} />{item} </li>
-                                                ))}
-                                            </ul>
+                                        <div className="wcu-wrapper  style1">
+                                            <div className="row gy-5 mb-20  d-flex   justify-content-center">
+                                                <div className="col-xl-4 d-flex martopfancycard  justify-content-center">
+                                                    <div className="wcu-content martopfancycard ">
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInLeft  animate__delay-1s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item1}
+                                                        ></FeatureCard>
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInLeft  animate__delay-2s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item2}
+                                                        >
+                                                        </FeatureCard>
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInLeft  animate__delay-3s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item3}
+                                                        >
+                                                        </FeatureCard>
+
+                                                    </div>
+                                                </div>
+
+                                                <div className="col-xl-4 d-flex martopfancycard  justify-content-center ">
+                                                    <div  className="wcu-content  ">
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInRight  animate__delay-1s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item4}
+                                                        >
+                                                        </FeatureCard>
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInRight  animate__delay-2s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item5}
+                                                        >
+                                                        </FeatureCard>
+                                                        <FeatureCard
+                                                            fancycard="fancycard"
+                                                            animation="animate__animated animate__fadeInRight  animate__delay-3s "
+                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            title={item6}
+                                                        >
+                                                        </FeatureCard>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        {/* <Link style={{ marginLeft: "50px" }} className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                viewBox="0 0 16 16" fill="none">
-                                                <g clipPath="url(#clip0_43_54)">
-                                                    <path
-                                                        d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z"
-                                                        fill="white" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_43_54">
-                                                        <rect width="16" height="16" fill="white" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
-                                        </Link> */}
                                     </div>
                                 </div>
-                                {/* <div className="col-xl-6 order-1 order-xl-2">
-                                <div className="thumb2 img-custom-anim-right wow fadeInRight" data-wow-delay=".4s"
-                                            data-tilt data-tilt-max="15">
-                                                <Image className="imagesFeatureCard" src="/assets/images/intro/cab8.jpg" alt="img" width={450} height={400}   />
-                                                </div>
-                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

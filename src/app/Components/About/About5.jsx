@@ -3,16 +3,16 @@ import Link from "next/link";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const About5 = ({ subtitle, box4, boximg5, title, subTitle, content, none, boximg1, boxtitle1, boxcontent4, boxcontent1, boximg2, boxtitle2, boxcontent2, boxtitle3, boxcontent3, boximg3, img1, btnurl, btnname }) => {
+const About5 = ({ subtitle, box4, boximg5, mtop,title, subTitle, content, none, boximg1, boxtitle1, boxcontent4, boxcontent1, boximg2, boxtitle2, boxcontent2, boxtitle3, boxcontent3, boximg3, img1, btnurl, btnname }) => {
     return (
-        <section style={{ marginTop: "-100px" }} className="about-section">
+        <section style={{ marginTop:`${mtop}` }} className="about-section">
             <div className="about-container-wrapper style2">
                 <div className="container col-xl-10">
                     <div style={{ borderRadius: "0", background: "#fff" }} className="about-wrapper style2  section-padding fix">
                         <div className="container">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
                                 <SectionTitle
-                                    SubTitle={`${subTitle}`}
+                                    SubTitle={`${subtitle}`}
                                     Title={`${title}`}
                                 ></SectionTitle>
 

@@ -3,11 +3,11 @@ import Link from "next/link";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg,btnname }) => {
+const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname }) => {
     return (
-        <section style={{ marginTop: "160px" }}  className="wcu-section  " >
-            <div   className="wcu-container-wrapper  style2">
-                <div  className="container  col-xl-1500 " style={{ borderRadius: "0px",marginTop:"-120px" }}>
+        <section style={{ marginTop: `${margintop}` }} className="wcu-section  " >
+            <div className="wcu-container-wrapper  style2">
+                <div className="container  col-xl-1500 " style={{ borderRadius: "0px", marginTop: "-120px" }}>
                     <div style={{ borderRadius: "0px", background: "#fff" }} className="wcu-wrapper style2  section-padding fix">
                         <div className="container  ">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
@@ -19,7 +19,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                             </div>
                             <div
                                 style={{
-                                    backgroundImage:`${imgbg}`,
+                                    backgroundImage: `${imgbg}`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                     backgroundRepeat: "no-repeat",
@@ -31,13 +31,13 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                 <div className="col-xl-6">
                                 </div>
                                 <div className="col-xl-6">
-                                    <div className="advantage-content">
+                                    <div className="advantage-content margintopchoos2">
 
                                         <div className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <h2   className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
+                                            <h2 className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
                                             <p className="">{content}</p>
                                         </div>
-                                        <div className="checklist-wrapper style1 wow fadeInUp  " data-wow-delay=".4s">
+                                        <div className="checklist-wrapper style1 wow fadeInUp   " data-wow-delay=".4s">
                                             <ul className="checklist animate__animated animate__fadeInRight  animate__delay-1s   ">
                                                 {FeatureList?.map((item, index) => (
                                                     <li key={index}>
@@ -47,7 +47,8 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     </li>
                                                 ))}
                                             </ul>
-                                            <ul className="checklist animate__animated animate__fadeInRight  animate__delay-2s  ">
+                                            {/*  */}
+                                            <ul className="checklist maaarginleftmdsm  animate__animated animate__fadeInRight  animate__delay-2s  ">
                                                 {FeatureList2?.map((item, index) => (
                                                     <li key={index}>
                                                         <div className="imagesulli">
@@ -57,7 +58,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                 ))}
                                             </ul>
                                         </div>
-                                        <div className="" style={{ textAlign: "center",marginTop:"46px" }}>
+                                        <div className="" style={{ textAlign: "center", marginTop:"0px" }}>
                                             <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     viewBox="0 0 16 16" fill="none">
@@ -73,7 +74,6 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                                                     </defs>
                                                 </svg>
                                             </Link>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -81,6 +81,7 @@ const Choose2 = ({ hide, subTitle, title2, title, content, FeatureList2, Feature
                         </div>
                     </div>
                 </div>
+            </div>
 
         </section>
     );

@@ -6,7 +6,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Services1 = () => {
     return (
-<section className="service-section section-padding fix">
+<section style={{marginTop:"-50px"}} className="service-section section-padding fix">
         <div className="service-container-wrapper style1">
             <div className="container">
             <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">

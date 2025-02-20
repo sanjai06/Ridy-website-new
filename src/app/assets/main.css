@@ -1,5 +1,5 @@
 :root {
-  --body: #ff63e5;
+  --body: #ffffff;
   --black: #000;
   --white: #fff;
   --theme: #ea1997;
@@ -217,6 +217,33 @@ span {
 .gap{
   gap: 40px;
 }
+
+@media (max-width:480px) {
+  .maaarginleftmdsm{
+    margin-left: -50px;
+    margin-top: -30px;
+  }
+  
+}
+@media (max-width:768px) {
+  .maaarginleftmdsm{
+    margin-left: -50px;
+    margin-top: -30px;
+  }
+  
+}
+@media (max-width:480px) {
+  .martopfancycard{
+    margin-top: -7px;
+  }
+  
+}
+@media (max-width:768px) {
+  .martopfancycard{
+    margin-top: -7px;
+  }
+  
+}
 .fancycard{
   border: 2px solid #fe55e2; 
   border-radius: 20px;
@@ -299,7 +326,8 @@ label {
 .titlenew {
   color: white;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 10px; 
+  text-align: center;
 }
 
 .checklist-wrapper ul li {
@@ -4250,6 +4278,7 @@ input.main-search-input::placeholder {
 .pricecardshaow{  
   margin-top: 100px;
   border-radius: 20px;
+  background:#fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .mask-content {

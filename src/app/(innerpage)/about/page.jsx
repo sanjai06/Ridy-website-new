@@ -14,13 +14,13 @@ const page = () => {
         bgimg="/assets/images/bg/breadcumgBg.png"
         Title="Ride with us"
       ></BreadCumb> */}
-
       <Choose2
+        margintop="200px"
         imgbg={"url('/assets/images/intro/cab5.jpg')"}
         title="Book Ride With Us"
         subTitle="Ride Safe With Ridy     "
-        content=" "
-        title2="Safe & Secure Journeys "
+        content="  "
+        title2=" Book Your Ride With Us For Safe & Secure Journeys "
         btnname="Book Ride"
         btnurl="/contact"
       ></Choose2>
@@ -28,11 +28,12 @@ const page = () => {
       <Services1
       ></Services1>
       <Brand1
-      subTitle="Ridy location"
+        subTitle="Ridy location"
         title="RIDY's operational Locations "
         content="Ensuring Seamless and Eco-Friendly fleet "
       ></Brand1>
       {/* <HowWork></HowWork> */}
+      
       <Faq></Faq>
     </div>
   );

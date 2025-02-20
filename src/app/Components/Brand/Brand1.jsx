@@ -42,7 +42,7 @@ const Brand1 = ({ title,subTitle, content }) => {
   };
 
   return (
-    <div style={{ marginTop: "-0", height: "auto" }} className="brand-slider-section  section-padding fix">
+    <div style={{ marginTop: "-20px", height: "auto" }} className="brand-slider-section  section-padding fix">
       <div className="brand-slider-container-wrapper style1">
         <div className="container">
           <div className="brand-slider-wrapper style1">
