@@ -54,7 +54,7 @@ import Slider from "react-slick";
 import data from '../../Data/brand1.json';
 import Image from "next/image";
 
-const Feature5 = ({ title, item1, item2, item3, mtop }) => {
+const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
 
     const settings = {
         dots: false,
@@ -106,7 +106,7 @@ const Feature5 = ({ title, item1, item2, item3, mtop }) => {
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
                                         <div className="icon">
-                                            <Image src="/assets/images/icon/wcuIcon1_2.svg" alt="img" width={40} height={40} />
+                                            <Image src={img1} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
                                             <h3 style={{fontSize:"24px"}}>{item2} </h3>
@@ -116,7 +116,7 @@ const Feature5 = ({ title, item1, item2, item3, mtop }) => {
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
                                         <div className="icon">
-                                            <Image src="/assets/images/icon/wcuIcon1_2.svg" alt="img" width={40} height={40} />
+                                            <Image src={img2} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
                                             <h3 style={{fontSize:"24px"}}>{item1} </h3>
@@ -127,7 +127,7 @@ const Feature5 = ({ title, item1, item2, item3, mtop }) => {
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
                                         <div className="icon">
-                                            <Image src="/assets/images/icon/wcuIcon1_3.svg" alt="img" width={40} height={40} />
+                                            <Image src={img3} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
                                             <h3  style={{fontSize:"24px"}}>{item3} </h3>

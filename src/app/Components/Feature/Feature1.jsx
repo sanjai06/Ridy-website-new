@@ -21,19 +21,19 @@ const Feature1 = () => {
                                     <FeatureCard
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft "
-                                        img="/assets/images/icon/wcuIcon1_1.svg"
+                                        img="/assets/images/icon/10.svg"
                                         title="100% Electric Fleet  "
                                     ></FeatureCard>
                                     <FeatureCard
                                         fancycard="fancycard"
-                                        animation="animate__animated  animate__fadeInRight animate__delay-1s "
+                                        animation="animate__animated  animate__fadeInLeft animate__delay-1s "
                                         title="In – House Charging "
-                                        img="/assets/images/icon/wcuIcon1_2.svg"
+                                        img="/assets/images/icon/2.svg"
                                     >
                                     </FeatureCard>
                                     <FeatureCard
                                         fancycard="fancycard"
-                                        img="/assets/images/icon/wcuIcon1_3.svg"
+                                        img="/assets/images/icon/4.svg"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-2s "
                                         title="Strategic Hub Locations  "
                                     ></FeatureCard>
@@ -46,19 +46,19 @@ const Feature1 = () => {
                                     <FeatureCard
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight "
-                                        img="/assets/images/icon/wcuIcon1_3.svg"
-                                        title="Smart Charging , Zero Hassle  "
+                                        img="/assets/images/icon/2.svg"
+                                        title="Smart Charging,Zero Hassle  "
                                     ></FeatureCard>
                                     <FeatureCard
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight animate__delay-1s "
-                                        img="/assets/images/icon/wcuIcon1_4.svg"
+                                        img="/assets/images/icon/5.svg"
                                         title=" 20+ High Performance E – Vehicle  "
                                     ></FeatureCard>
                                     <FeatureCard
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
-                                        img="/assets/images/icon/wcuIcon1_4.svg"
+                                        img="/assets/images/icon/3.svg"
                                         title="Sustainable Rides  "
                                     ></FeatureCard>
 

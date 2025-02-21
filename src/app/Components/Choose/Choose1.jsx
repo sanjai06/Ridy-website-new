@@ -27,20 +27,20 @@ const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, 
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-1s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item1}
                                                         ></FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-2s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item2}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-3s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item3}
                                                         >
                                                         </FeatureCard>
@@ -53,21 +53,21 @@ const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, 
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-1s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item4}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-2s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item5}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-3s "
-                                                            img="/assets/images/icon/checkmarkIcon.svg"
+                                                            img="/assets/images/icon/checkmarke.svg"
                                                             title={item6}
                                                         >
                                                         </FeatureCard>

@@ -30,6 +30,9 @@ const page = () => {
         btnurl="/contact"
       ></Choose2>
       <Feature5
+      img1="/assets/images/icon/5.svg"
+      img2="/assets/images/icon/1.svg"
+      img3="/assets/images/icon/4.svg"
         mtop="-120px"
         title=" Join As Driver  "
         display="none"

@@ -51,15 +51,15 @@ const HeroBanner4 = ({ title,subTitle,hidden,  innercontent, first, second,imgbg
                             </div>
                             <div style={{display:`${hidden}`,}}   className="homeimagesdiv " >
                                 <FeatureCard
-                                    img="/assets/images/icon/wcuIcon1_1.svg"
+                                    img="/assets/images/icon/1.svg"
                                     title={first}
                                 ></FeatureCard>
                                 <FeatureCard
-                                    img="/assets/images/icon/wcuIcon1_2.svg"
+                                    img="/assets/images/icon/2.svg"
                                     title={second}
                                 ></FeatureCard>
                                 <FeatureCard
-                                    img="/assets/images/icon/wcuIcon1_3.svg"
+                                    img="/assets/images/icon/3.svg"
                                     title={third}
                                 ></FeatureCard>
                             </div>

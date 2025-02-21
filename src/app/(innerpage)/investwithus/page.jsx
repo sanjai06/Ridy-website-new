@@ -34,10 +34,10 @@ const page = () => {
         subtitle="Future with RIDY  "
         content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
         title="Your Future With RIDY "
-        boximg1="/assets/images/icon/wcuIcon2_1.svg"
-        boximg2="/assets/images/icon/wcuIcon2_2.svg"
-        boximg3="/assets/images/icon/wcuIcon2_2.svg"
-        boximg5="/assets/images/icon/wcuIcon2_2.svg"
+        boximg1="/assets/images/icon/12.svg"
+        boximg2="/assets/images/icon/14.svg"
+        boximg3="/assets/images/icon/11.svg"
+        boximg4="/assets/images/icon/15.svg"
         boxtitle1=" 15%+ IRR   "
         boxtitle2=" fixed income  "
         boxtitle3="100% hassle-free  "
@@ -64,7 +64,7 @@ const page = () => {
         btnurl1="https://play.google.com/store"
         btnurl2="https://www.apple.com/store"
         img="/assets/images/intro/cab6.jpg"
-      ></Cta1> 
+      ></Cta1>
       <Faq margintop="-40px"
       ></Faq>
     </div>

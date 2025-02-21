@@ -29,26 +29,26 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
 
                                 className="homeimages">
                                 <div className="innerimagediv"   >
-                                    <h2 className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
+                                    <h2 style={{marginBottom:"14px"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
                                     <p className="">{content}</p>
-                                    <div className="col-xl-12">
+                                    <div  className="col-xl-12">
                                         <div className="advantage-content   ">
-                                            <div className="checklist-wrapper style1 wow fadeInUp   " data-wow-delay=".4s">
-                                                <ul className="checklist animate__animated animate__fadeInRight  animate__delay-1s   ">
+                                            <div  className="checklist-wrapper style1 wow fadeInUp   " data-wow-delay=".4s">
+                                                <ul className="checklist animate__animated animate__fadeInRight   animate__delay-1s   ">
                                                     {FeatureList?.map((item, index) => (
                                                         <li key={index}>
                                                             <div className="imagesulli">
-                                                                <Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} />{item}
+                                                                <Image src="/assets/images/icon/checkmarke.svg" alt="img" width={30} height={30} />{item}
                                                             </div>
                                                         </li>
                                                     ))}
-                                                </ul>
-                                                {/*  */}
+                                                </ul> 
+
                                                 <ul className="checklist maaarginleftmdsm  animate__animated animate__fadeInRight  animate__delay-2s  ">
                                                     {FeatureList2?.map((item, index) => (
                                                         <li key={index}>
                                                             <div className="imagesulli">
-                                                                <Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30} />{item}
+                                                                <Image src="/assets/images/icon/checkmarke.svg" alt="img" width={30} height={30} />{item}
                                                             </div>
                                                         </li>
                                                     ))}
