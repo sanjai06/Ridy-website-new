@@ -55,7 +55,7 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                                 </ul>
                                             </div>
                                             <div className="" style={{ textAlign: "center", marginTop: "0px" }}>
-                                                <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
+                                                <Link className="theme-btn maaarginleftbutton wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                         viewBox="0 0 16 16" fill="none">
                                                         <g clipPath="url(#clip0_43_54)">

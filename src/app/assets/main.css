@@ -22,7 +22,7 @@
 
 
 body {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -224,15 +224,15 @@ span {
 
 @media (max-width:480px) {
   .maaarginleftmdsm {
-    margin-left: -50px;
-    margin-top: -30px;
+    margin-left: -30px;
+    margin-top: -32px;
   }
 
 }
 
-@media (max-width:768px) {
-  .maaarginleftmdsm {
-    margin-left: -50px;
+/*  */
+@media (max-width:480px) {
+  .maaarginleftbutton {
     margin-top: -30px;
   }
 
@@ -6924,9 +6924,8 @@ input.main-search-input::placeholder {
 }
 
 .innerimagediv {
-  color: #f90000;
-  left: 5%;
-  top: 28%;
+  left: 20%;
+  top: 20%;
   position: absolute;
   width: 520px;
   font-weight: 800;
@@ -6936,8 +6935,9 @@ input.main-search-input::placeholder {
 @media (max-width:768px) {
   .innerimagediv {
     width: auto;
-    left: auto;
-    font-size: 20px;
+    left: 5%;
+    top: 28%;
+    font-size: 16px;
   }
 
 }
@@ -6945,8 +6945,9 @@ input.main-search-input::placeholder {
 @media (max-width:480px) {
   .innerimagediv {
     width: auto;
+    top: 28%;
     font-size: 26px;
-    left: auto;
+    left: 6%;
   }
 
 }
