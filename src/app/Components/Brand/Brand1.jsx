@@ -60,7 +60,7 @@ const Brand1 = ({ title,subTitle, content }) => {
                 backgroundSize:"cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
-                borderRadius: "30px",
+                borderRadius: "20px",
                 padding: "20px  ",
                 height:"500px",
                 position: "relative"

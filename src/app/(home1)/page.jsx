@@ -15,7 +15,7 @@ const page = () => {
     return (
         <div>
             <HeroBanner4
-                imgbg={"url('/assets/images/intro/cab5.jpg')"}
+                imgbg={"url('/assets/images/intro/cab6.jpg')"}
                 hide="none"
                 subTitle="Ridy The Lady Cab"
                 title=" Right Initiative For Daily Yatra "
@@ -23,7 +23,7 @@ const page = () => {
                 first="Women Focused"
                 second="100% Electric Rides "
                 third="Safety First  "
-                margintop="146px"
+                margintop="70px"
             ></HeroBanner4>
             <Feature5
                 img1="/assets/images/icon/1.svg"

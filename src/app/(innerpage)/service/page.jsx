@@ -22,7 +22,7 @@ const page = () => {
       ></BreadCumb> */}
       <Choose2
         margintop="200px"
-        imgbg={"url('/assets/images/intro/cab6.jpg')"}
+        imgbg={"url('/assets/images/intro/cab11.jpg')"}
         title="Drive with us"
         subTitle="Drive Safe With Ridy     "
         title2="Join the most exclusive RIDY Driver Network "
