@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Laksh/OneDrive/Documents/Ridy-website-new/src/app/%28home1%29/layout.jsx"],"sourcesContent":["import React from 'react';\r\nimport Header1 from '../../Components/Header/Header1';\r\nimport Footer from '../../Components/Footer/Footer';\r\n\r\nconst DefalultLayout = ({ children }) => {\r\n    return (\r\n        <div className='main-page-area'>\r\n            <Header1></Header1>\r\n            {children}\r\n            <Footer></Footer>\r\n        </div>\r\n    );\r\n};\r\n\r\nexport default DefalultLayout;"],"names":[],"mappings":";;;;AAAA;;;;;;;;;;;;;;;AAIA,MAAM,iBAAiB,CAAC,EAAE,QAAQ,EAAE;IAChC,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;;;;;YACA;0BACD,8OAAC;;;;;;;;;;;AAGb;uCAEe"}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
