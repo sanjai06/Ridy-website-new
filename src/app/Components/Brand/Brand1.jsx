@@ -44,7 +44,7 @@ const Brand1 = ({ title,subTitle, content }) => {
   return (
     <div style={{ marginTop: "-20px", height: "auto" }} className="brand-slider-section  section-padding fix">
       <div className="brand-slider-container-wrapper style1">
-        <div className="container">
+        <div className="container col-xl-10">
           <div className="brand-slider-wrapper style1">
             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
               <SectionTitle
@@ -57,12 +57,12 @@ const Brand1 = ({ title,subTitle, content }) => {
               className="row   ">
               <div style={{
                 backgroundImage: "url('/assets/images/intro/cab11.jpg')",
-                backgroundSize: "cover",
+                backgroundSize:"cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 borderRadius: "30px",
                 padding: "20px  ",
-                height:"600px",
+                height:"500px",
                 position: "relative"
               }} className="  slider-area brandSliderOne">
                 <div style={{ marginTop: "380px" }} className="swiper gt-slider" id="brandSliderOne" >
