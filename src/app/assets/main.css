@@ -20,9 +20,49 @@
   --box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
 }
 
+.textsm {
+  font-size: 28px !important;
+  color: #f748b1 !important;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 486px) {
+  .textsm {
+    box-shadow: #ea1997;
+    font-weight: 600 !important;
+  }
+
+}
+
+.backgroundimagehome {
+  border-radius: 30px;
+}
+
+@media (max-width: 486px) {
+  .textsm {
+    border-radius: 0px;
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+.featuremargintop {
+  margin-top: -60px;
+}
+
+@media (max-width: 486px) {
+  .featuremargintop {
+    margin-top: -10px;
+
+  }
+}
+
+.cardmargintop {
+  margin-top: -46px;
+}
 
 body {
-  font-family: "Poppins";
+  font-family: "sans-serif , poppins ";
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -72,7 +112,7 @@ h1 {
   font-size: 46px;
   font-weight: 700;
   line-height: 120%;
-  background: linear-gradient(30deg, #80044e, #f52aa4, #f41f9f);
+  background: linear-gradient(30deg, #840350, #f52aa4, #dc4aa2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -6884,7 +6924,7 @@ input.main-search-input::placeholder {
 }
 
 .margintops {
-  margin-top: -60px;
+  margin-top: -110px;
   margin-bottom: 30px;
 
 
@@ -8810,7 +8850,7 @@ input.main-search-input::placeholder {
 
 .feature-provide-box-items {
   border-radius: 16px;
-  background: #E4E6FF;
+  background: #fadaed;
   padding: 40px;
   position: relative;
   transition: all 0.4s ease-in-out;
@@ -8825,6 +8865,7 @@ input.main-search-input::placeholder {
 
 .feature-provide-box-items .icon {
   transition: all 0.4s ease-in-out;
+  text-align: center;
 }
 
 .feature-provide-box-items .item-shape {
@@ -8847,6 +8888,7 @@ input.main-search-input::placeholder {
   margin-top: 30px;
   position: relative;
   z-index: 9;
+  text-align: center;
 }
 
 .feature-provide-box-items .content h3 {

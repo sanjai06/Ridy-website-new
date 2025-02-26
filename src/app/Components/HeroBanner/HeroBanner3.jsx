@@ -4,62 +4,67 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import Link from "next/link";
 import Image from "next/image";
+import FeatureCard from "../Card/FeatureCard";
+import ProjectCard from "../Card/ProjectCard";
+import SectionTitle from '../Common/SectionTitle';
 
-const HeroBanner3 = ({bgimg,subtitle,title,content,btnname,btnurl,btnname2,btnurl2,img1,img2}) => {
+
+const HeroBanner3 = ({ title, Title2, display,  subTitle, hidden,  first, second, imgbg, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
     }, []);
 
     return (
-<section className="hero-section hero-3 bg-cover" data-background={bgimg} >
-        <div className="container-fluid">
-            <div className="row g-4 align-items-center">
-                <div className="col-xxl-8 col-xl-6">
-                    <div className="hero-content">
-                        <h6 className="wow fadeInUp">{subtitle}</h6>
-                        <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                           {parse(title)}
-                        </h1>
-                        <p className="wow fadeInUp" data-wow-delay=".5s">
-                           {content}
-                        </p>
-                        <div className="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
-                            <Link className="theme-btn" href={btnurl}>{btnname}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                    viewBox="0 0 16 16" fill="none">
-                                    <g clipPath="url(#clip0_11_22)">
-                                        <path
-                                            d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z"
-                                            fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_11_22">
-                                            <rect width="16" height="16" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
 
-                            </Link>
-                            <Link className="theme-btn style2 wow fadeInUp" data-wow-delay=".2s"
-                                href={btnurl2}>{btnname2} <i className="bi bi-android2"></i>
-                                
-                            </Link>
+        <section className="intro-section mb-20 br">
+            <div className="intro-wrapper style2" >
+                <div className="  ">
+                    <div className="intro-content   margintop" style={{ marginTop: `${margintop}` }}>
+                        <div className="margintops">
+                            <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
+                                <SectionTitle
+                                    Title2={`${Title2}`}
+                                    SubTitle={`${subTitle}`}
+                                    Title={`${title}`}
+                                    hidden={`${display}`}
+
+                                ></SectionTitle>
+                            </div>
+                        </div>
+                        <div className=" backgroundimagehome "
+                            style={{
+                                backgroundImage: `${imgbg}`,
+                                backgroundSize: "cover",
+                                backgroundPosition: " top  center ",
+                                padding: "20px  ",
+                                height: "600px",
+                                width: "90%",
+                                position: "relative",
+                                margin: "auto "
+                            }}>
+                            <div style={{ display: `${hidden}`, }} className="homeimagesdiv " >
+                                <FeatureCard 
+                                    img="/assets/images/icon/1.svg"
+                                    title={first}
+                                ></FeatureCard>
+                                <FeatureCard
+                                    img="/assets/images/icon/2.svg"
+                                    title={second}
+                                ></FeatureCard>
+                                <FeatureCard
+                                    img="/assets/images/icon/3.svg"
+                                    title={third}
+                                ></FeatureCard>
+                            </div>
+
                         </div>
                     </div>
-                </div>
-                <div className="col-xxl-4 col-xl-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div className="hero-image">
-                    <Image src={img1} alt="img" width={754} height={658}   />
-                        <div className="mobile-image">
-                        <Image src={img2} alt="img" width={180} height={363}   />
-                        </div>
-                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
 
+        </section>
     );
 };
 

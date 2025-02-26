@@ -9,7 +9,7 @@ import ProjectCard from "../Card/ProjectCard";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const HeroBanner4 = ({ title,subTitle,hidden,  innercontent, first, second,imgbg, third, margintop }) => {
+const HeroBanner4 = ({ title, Title2, display, display2, subTitle, hidden, innercontent, first, second, imgbg, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -18,38 +18,43 @@ const HeroBanner4 = ({ title,subTitle,hidden,  innercontent, first, second,imgbg
     return (
 
         <section className="intro-section mb-20 br">
-            <div className="intro-wrapper style2" >
-                <div className="container  ">
-                    <div className="intro-content   margintop" style={{ marginTop: `${margintop}` }}>
+            <div   style={{ marginTop: `${margintop}` }} className="intro-wrapper style2" >
+                <div  className="  ">
+                    <div className="intro-content   margintop">
                         <div className="margintops">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
-                                <SectionTitle 
+                                <SectionTitle
+                                    Title2={`${Title2}`}
                                     SubTitle={`${subTitle}`}
                                     Title={`${title}`}
+                                    hidden={`${display}`}
+                                    hidden2={`${display2}`}
+
                                 ></SectionTitle>
                             </div>
                         </div>
-                        <div className="homeimages  "
+                        <div className="backgroundimagehome  "
                             style={{
                                 backgroundImage: `${imgbg}`,
                                 backgroundSize: "cover",
-                                backgroundPosition: "center",
+                                backgroundPosition: " center  center",
                                 backgroundRepeat: "no-repeat",
                                 padding: "20px  ",
-                                borderRadius: "30px",
+                                width: "90%",
+                                margin:"auto",
                                 height: "500px",
-                                widows:"full",
                                 position: "relative"
+
                             }}>
                             <div className="innerimagediv"   >
                                 <h2 className=" textsmmd animate__animated  animate__fadeInRight   "
                                     style={{
-                                         color: "white"
+                                        color: "white"
 
                                     }}>{innercontent}</h2>
 
                             </div>
-                            <div style={{display:`${hidden}`,}}   className="homeimagesdiv " >
+                            <div style={{ display: `${hidden}`, }} className="homeimagesdiv " >
                                 <FeatureCard
                                     img="/assets/images/icon/1.svg"
                                     title={first}

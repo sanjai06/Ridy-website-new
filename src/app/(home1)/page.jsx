@@ -10,26 +10,28 @@ import Faq from '../Components/Faq/Faq';
 import Choose5 from '../Components/Choose/Choose5';
 import Choose1 from '../Components/Choose/Choose1';
 import Services2 from '../Components/Services/Services2';
+import HeroBanner3 from '../Components/HeroBanner/HeroBanner3';
 
 const page = () => {
     return (
         <div>
-            <HeroBanner4
-                imgbg={"url('/assets/images/intro/cab6.jpg')"}
+            <HeroBanner3
+                display="none"
+                imgbg={"url('/assets/images/intro/cab10.jpg')"}
                 hide="none"
+                Title2="Women Focused Taxi Service"
                 subTitle="Ridy The Lady Cab"
                 title=" Right Initiative For Daily Yatra "
-                innercontent="Women Focused Taxi Service "
                 first="Women Focused"
                 second="100% Electric Rides "
                 third="Safety First  "
-                margintop="70px"
-            ></HeroBanner4>
+                margintop="100px"
+            ></HeroBanner3>
             <Feature5
                 img1="/assets/images/icon/1.svg"
                 img2="/assets/images/icon/5.svg"
                 img3="/assets/images/icon/4.svg"
-                mtop="-20px"
+                mtop="-70px"
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
                 item1="Affordable Pricing "
@@ -39,18 +41,18 @@ const page = () => {
             <Feature6>
             </Feature6>
             <HeroBanner4
+                margintop="-50px"
                 imgbg={"url('/assets/images/intro/cab9.jpg')"}
                 subTitle="Manual Booking"
                 title="Manual Booking-Fast & Flexible "
-                innercontent="Manual Booking Features gives you full control over your schedule "
                 hidden="none"
+                Title2="Manual Booking Feature gives you full control over schedule "
             ></HeroBanner4>
-            <Feature5
-            img1="/assets/images/icon/9.svg"
-            img2="/assets/images/icon/10.svg"
-            img3="/assets/images/icon/11.svg"
+            <Feature5 
+                img1="/assets/images/icon/9.svg"
+                img2="/assets/images/icon/10.svg"
+                img3="/assets/images/icon/11.svg"
                 mtop="-180px"
-                title=" Exclusively "
                 item1=" Easy Selection "
                 item2="Flexible Timing "
                 item3=" Hassle Free Experience "

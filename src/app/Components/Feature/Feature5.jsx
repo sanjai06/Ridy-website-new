@@ -93,11 +93,11 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
 
     return (
 
-        <div style={{ marginTop:`${mtop}`, height: "auto" }} className="brand-slider-section  section-padding fix">
+        <div style={{ marginTop:`${mtop}`, height: "auto" }} className="brand-slider-section    section-padding fix">
             <div className="brand-slider-container-wrapper style1">
                 <div className="container">
                     <div className=" mt homepagetext">
-                        <h1 className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
+                        <h1  className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
                     </div>
                     <div className="  slider-area ">
                         <div  className="swiper gt-slider" id="brandSliderOne" >
