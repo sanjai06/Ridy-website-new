@@ -105,7 +105,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
-                                        <div className="icon">
+                                        <div className="icon iconbg2">
                                             <Image src={img1} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
@@ -115,7 +115,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                 </div>
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
-                                        <div className="icon">
+                                        <div className="icon iconbg2 ">
                                             <Image src={img2} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
@@ -126,7 +126,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                 
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
-                                        <div className="icon">
+                                        <div className="icon iconbg2">
                                             <Image src={img3} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">

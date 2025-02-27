@@ -6,7 +6,7 @@ import SectionTitle from '../Common/SectionTitle';
 const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname }) => {
     return (
         <section style={{ marginTop: `${margintop}` }} className="wcu-section  " >
-            <div className="wcu-container-wrapper  style2">
+            <div className="wcu-container-wrapper benefitsmargintop  style2">
                 <div className="container  col-xl-1500 " style={{ borderRadius: "0px", marginTop: "-120px" }}>
                     <div style={{ borderRadius: "0px", background: "#fff" }} className="wcu-wrapper style2  section-padding fix">
                         <div className="container  ">
@@ -19,21 +19,22 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                             </div>
                             <div
                                 style={{
+                                    marginTop:"-30px",
                                     backgroundImage: `${imgbg}`,
-                                    backgroundSize: "cover",
-                                    backgroundPosition: "center",
+                                    backgroundSize: "cover ",
+                                    backgroundPosition: " center center",
                                     backgroundRepeat: "no-repeat",
                                     height: "560px",
                                     borderRadius: "30px",
                                 }}
 
                                 className="homeimages">
-                                <div className="innerimagediv"   >
-                                    <h2 style={{marginBottom:"14px"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
+                                <div className="innerimagediv "    >
+                                    <h2 style={{textAlign:"start",marginBottom:"14px",fontWeight:"800"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
                                     <p className="">{content}</p>
                                     <div  className="col-xl-12">
                                         <div className="advantage-content   ">
-                                            <div  className="checklist-wrapper style1 wow fadeInUp   " data-wow-delay=".4s">
+                                            <div style={{margintop:"40px"}}    className="checklist-wrapper style1 wow fadeInUp   " data-wow-delay=".4s">
                                                 <ul className="checklist animate__animated animate__fadeInRight   animate__delay-1s   ">
                                                     {FeatureList?.map((item, index) => (
                                                         <li key={index}>
@@ -43,7 +44,6 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                                         </li>
                                                     ))}
                                                 </ul> 
-
                                                 <ul className="checklist maaarginleftmdsm  animate__animated animate__fadeInRight  animate__delay-2s  ">
                                                     {FeatureList2?.map((item, index) => (
                                                         <li key={index}>
@@ -54,7 +54,7 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                                     ))}
                                                 </ul>
                                             </div>
-                                            <div className="" style={{ textAlign: "center", marginTop: "0px" }}>
+                                            <div className="" style={{ textAlign: "start", marginTop: "30px" }}>
                                                 <Link className="theme-btn maaarginleftbutton wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                         viewBox="0 0 16 16" fill="none">

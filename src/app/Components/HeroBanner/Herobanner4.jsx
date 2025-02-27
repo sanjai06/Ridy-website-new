@@ -42,7 +42,7 @@ const HeroBanner4 = ({ title, Title2, display, display2, subTitle, hidden, inner
                                 padding: "20px  ",
                                 width: "90%",
                                 margin:"auto",
-                                height: "500px",
+                                height: "528px",
                                 position: "relative"
 
                             }}>

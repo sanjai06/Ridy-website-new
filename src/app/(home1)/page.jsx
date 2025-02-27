@@ -31,7 +31,7 @@ const page = () => {
                 img1="/assets/images/icon/1.svg"
                 img2="/assets/images/icon/5.svg"
                 img3="/assets/images/icon/4.svg"
-                mtop="-70px"
+                mtop="-60px"
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
                 item1="Affordable Pricing "
@@ -48,18 +48,19 @@ const page = () => {
                 hidden="none"
                 Title2="Manual Booking Feature gives you full control over schedule "
             ></HeroBanner4>
-            <Feature5 
+            
+            <Feature5
                 img1="/assets/images/icon/9.svg"
                 img2="/assets/images/icon/10.svg"
                 img3="/assets/images/icon/11.svg"
-                mtop="-180px"
+                mtop="-150px"
                 item1=" Easy Selection "
                 item2="Flexible Timing "
                 item3=" Hassle Free Experience "
             ></Feature5>
             <About5
                 subtitle="Business With Us "
-                mtop="-70px"
+                title2={"Ridy-Lady Cab"}
                 subTitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
                 boximg1="/assets/images/icon/12.svg"
@@ -79,17 +80,13 @@ const page = () => {
             ></About5>
             <Feature1></Feature1>
             <Choose2
-                margintop="0"
-                imgbg={"url('/assets/images/intro/cab4.jpg')"}
+                margintop="-120px"
+                imgbg={"url('/assets/images/intro/cab5.jpg')"}
                 subTitle="Ride Safe with RIDY    "
                 title=" Benefits Using Ridy  "
                 content=" "
                 title2={"Get Benefit By Using  Ridy "}
-                FeatureList2={[
-
-
-
-                ]}
+               
                 FeatureList={[
 
                     " Screened & Trained Drivers ",
@@ -112,8 +109,9 @@ const page = () => {
             ></Services2>
 
             <About5
+                hidden2={"none"}
                 mtop="-70px"
-                subTitle="Future with RIDY "
+                subtitle={"Future with RIDY "}
                 content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
                 title="Your Future With RIDY "
                 boximg1="/assets/images/icon/12.svg"
@@ -143,7 +141,7 @@ const page = () => {
                 item4="Easy Onboarding "
                 item5="Referral Programs "
             ></Choose1>
-            <Faq margintop="-40px"
+            <Faq margintop="-50px"
             >
             </Faq>
 

@@ -5,26 +5,28 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Feature1 = () => {
     return (
-        <section style={{ marginTop: "-100px" }} className="wcu-section section-padding fix">
+        <section style={{ marginTop: "-180px" }} className="wcu-section section-padding fix">
             <div className="wcu-container-wrapper style1">
                 <div className="container">
                     <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
                         <SectionTitle
                             SubTitle="Why RIDY- Lady Cab ?"
-                            Title="Empowering Sustainable and Hassle-Free Mobility"
+                            Title="Sustainable and Hassle-Free Mobility"
                         ></SectionTitle>
                     </div>
                     <div className="wcu-wrapper  style1">
-                        <div className="row gy-5 mb-20  d-flex   justify-content-center">
-                            <div className="col-xl-4 d-flex  justify-content-center">
+                        <div className=" row gy-5 mb-20  d-flex   justify-content-center">
+                            <div style={{ marginTop: "-10px" }} className="col-xl-4 d-flex  justify-content-center">
                                 <div className="wcu-content ">
                                     <FeatureCard
+                                        fontSize={"18px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft "
                                         img="/assets/images/icon/10.svg"
                                         title="100% Electric Fleet  "
                                     ></FeatureCard>
                                     <FeatureCard
+                                        fontSize={"18px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-1s "
                                         title="In – House Charging "
@@ -32,6 +34,7 @@ const Feature1 = () => {
                                     >
                                     </FeatureCard>
                                     <FeatureCard
+                                        fontSize={"17px"}
                                         fancycard="fancycard"
                                         img="/assets/images/icon/4.svg"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-2s "
@@ -41,21 +44,18 @@ const Feature1 = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-4 d-flex martopfancycard justify-content-center ">
+                            <div style={{ marginTop: "-10px" }} className="col-xl-4 d-flex martopfancycard justify-content-center ">
                                 <div className="wcu-content ">
                                     <FeatureCard
+                                        fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight "
                                         img="/assets/images/icon/2.svg"
                                         title="Smart Charging,Zero Hassle  "
                                     ></FeatureCard>
+
                                     <FeatureCard
-                                        fancycard="fancycard"
-                                        animation="animate__animated  animate__fadeInRight animate__delay-1s "
-                                        img="/assets/images/icon/5.svg"
-                                        title=" 20+ High Performance E – Vehicle  "
-                                    ></FeatureCard>
-                                    <FeatureCard
+                                        fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
                                         img="/assets/images/icon/3.svg"

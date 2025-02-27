@@ -11,7 +11,6 @@ import Faq3 from "./Faq3";
 
 const Faq = ({margintop}) => {
 
-    const [isActive, setIsActive] = useState('monthly');
 
     const [render, setrender] = useState("Faq1");
     const renderFaq = () => {
@@ -30,13 +29,13 @@ const Faq = ({margintop}) => {
 
     return (
 
-        <section  className="faq-section section-padding fix">
+        <section  style={{marginTop:`${margintop}`}}  className="faq-section section-padding fix">
             <div className="container col-xl-10 ">
                 <div className="faq-wrapper style1">
                     <div className="row gy-5 gy-xl-0 gx-60 d-flex align-items-start">
-                        <div  className="">
-                            <div  style={{marginTop:`${margintop}`}}  className="faq-content style1">
-                                <div className="section-title">
+                        <div  className="faqmargintop">
+                            <div   className="faq-content style1">
+                                <div style={{textAlign:"center"}} className="section-title  ">
                                     <SectionTitle
                                         SubTitle="FAQs"
                                         Title="Frequently Ask Questions"

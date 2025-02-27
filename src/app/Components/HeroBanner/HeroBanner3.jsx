@@ -46,7 +46,7 @@ const HeroBanner3 = ({ title, Title2, display,  subTitle, hidden,  first, second
                             <div style={{ display: `${hidden}`, }} className="homeimagesdiv " >
                                 <FeatureCard 
                                     img="/assets/images/icon/1.svg"
-                                    title={first}
+                                    title={first}z
                                 ></FeatureCard>
                                 <FeatureCard
                                     img="/assets/images/icon/2.svg"
