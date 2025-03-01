@@ -9,7 +9,7 @@ import ProjectCard from "../Card/ProjectCard";
 import SectionTitle from '../Common/SectionTitle';
 
 
-const HeroBanner3 = ({ title, Title2, display,  subTitle, hidden,  first, second, imgbg, third, margintop }) => {
+const HeroBanner3 = ({ title, Title2, display, subTitle, hidden, first, second, imgbg, third, margintop }) => {
 
     useEffect(() => {
         loadBackgroudImages();
@@ -44,15 +44,18 @@ const HeroBanner3 = ({ title, Title2, display,  subTitle, hidden,  first, second
                                 margin: "auto "
                             }}>
                             <div style={{ display: `${hidden}`, }} className="homeimagesdiv " >
-                                <FeatureCard 
+                                <FeatureCard
+                                    fancycard="fancycard2"
                                     img="/assets/images/icon/1.svg"
-                                    title={first}z
+                                    title={first} z
                                 ></FeatureCard>
                                 <FeatureCard
                                     img="/assets/images/icon/2.svg"
+                                    fancycard="fancycard2"
                                     title={second}
                                 ></FeatureCard>
                                 <FeatureCard
+                                    fancycard="fancycard2"
                                     img="/assets/images/icon/3.svg"
                                     title={third}
                                 ></FeatureCard>

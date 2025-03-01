@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <footer className="footer-section position-relative">
-            <div className="footer-widgets-wrapper style1 fix">
+            <div style={{backgroundColor:"white"}} className="footer-widgets-wrapper style1 fix">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -121,8 +121,11 @@ const Footer = () => {
                             <div className="single-footer-widget">
                                 <div className="">
                                     <div className="widget-head"> <h3> Address </h3> </div>
-                                    <div className="widget-head">Main Hubs In Chennai </div>
-                                    <div className="text mb-20 ">   GUindy | Thoraipakkam
+                                    <div style={{ display: "flex", gap: "10px" }}  className="  "> 
+                                        <div className="icon">
+                                    <Image src="/assets/images/icon/17.svg" alt="phone" width={30} height={30} />
+                                        </div>
+                                    <div className=" mb-20 "> <a href=""> GUindy | Thoraipakkam </a></div>
                                     </div>
                                     <div style={{ display: "flex", gap: "10px", }} className="info mb-20 ">
                                         <div className="icon">
