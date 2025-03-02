@@ -2,16 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import FeatureCard from "../Card/FeatureCard";
 
-const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, item1 }) => {
+const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item5, item6, item1 }) => {
     return (
 
-        <section className="advantage-section fix">
+        <section style={{marginTop:`${margintop}`}}  className="advantage-section fix">
             <div className="advantage-container-wrapper style1">
                 <div className="container col-xl-10 ">
                     <div style={{ background: "#fff", borderRadius: "0",marginBottom:"-90px", marginTop:"-10px" }} className="advantage-wrapper style1 section-padding">
                         <div className="container ">
                             <div className="row gy-5 d-flex align-items-center">
-                                <div className="col-xl-11 order-2 assuredmargintop  order-xl-1">
+                                <div className="col-xl-12 order-2 assuredmargintop  order-xl-1">
                                     <div className="advantage-content">
                                         <div style={{ textAlign: "center" }} className="section-title wow fadeInUp" data-wow-delay=".2s">
                                             <div className="subtitle">
@@ -20,10 +20,10 @@ const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, 
                                             <h1 className="title">{title}</h1>
                                             <p className="section-desc">{content}</p>
                                         </div>
-                                        <div className="wcu-wrapper  style1">
-                                            <div className="row gy-5 mb-20  d-flex   justify-content-center">
-                                                <div className="col-xl-4 d-flex martopfancycard  justify-content-center">
-                                                    <div className="wcu-content martopfancycard ">
+                                        <div className=" martopfancycard  style1">
+                                            <div className="row gy-5  d-flex   justify-content-center">
+                                                <div className="col-xl-4 d-flex   justify-content-center">
+                                                    <div className="wcu-content  ">
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-1s "
@@ -48,7 +48,7 @@ const Choose1 = ({ subtitle, title, content, item4, item2, item3, item5, item6, 
                                                     </div>
                                                 </div>
 
-                                                <div className="col-xl-4 d-flex martopfancycard  justify-content-center ">
+                                                <div className="col-xl-4 d-flex martopfancycard   justify-content-center ">
                                                     <div  className="wcu-content  ">
                                                         <FeatureCard
                                                             fancycard="fancycard"

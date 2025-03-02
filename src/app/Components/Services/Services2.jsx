@@ -19,8 +19,8 @@ const Services2 = ({ btnurl, btnname,subTitle,title }) => {
                         <div className="row gy-5">
                             {data.map((item, index) => (
                                 <div key={index} className="col-xl-4 col-md-4 col-sm-5 col-xs-6 ">
-                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }} className="service-box style3 wow fadeInLeft" data-wow-delay=".3s">
-                                        <div className="icon-box style3">
+                                    <div style={{ display: "flex", flexDirection: "column", marginBottom:"-30px", justifyContent: "center", alignItems: "center" }} className="service-box style3 wow fadeInLeft" data-wow-delay=".3s">
+                                        <div style={{display:"flex" , justifyContent:"center",alignItems:"center"}} className="icon-box style2">
                                             <Image src={item.icon} alt="img" width={40} height={40} />
                                         </div>
                                         <div style={{textAlign:"center"}} className="content">

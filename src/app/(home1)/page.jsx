@@ -17,7 +17,7 @@ const page = () => {
         <div>
             <HeroBanner3
                 display="none"
-                imgbg={"url('/assets/images/intro/cab10.jpg')"}
+                imgbg={"url('/assets/images/intro/cab13.jpg')"}
                 hide="none"
                 Title2="Women Focused Taxi Service"
                 subTitle="Ridy The Lady Cab"
@@ -31,7 +31,7 @@ const page = () => {
                 img1="/assets/images/icon/1.svg"
                 img2="/assets/images/icon/5.svg"
                 img3="/assets/images/icon/4.svg"
-                mtop="-60px"
+                mtop="-110px"
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
                 item1="Affordable Pricing "
@@ -42,14 +42,16 @@ const page = () => {
             </Feature6>
             <HeroBanner4
                 margintop="-50px"
-                imgbg={"url('/assets/images/intro/cab9.jpg')"}
+                imgbg={"url('/assets/images/intro/cab3.jpg')"}
                 subTitle="Manual Booking"
                 title="Manual Booking-Fast & Flexible "
                 hidden="none"
-                Title2="Manual Booking Feature gives you full control over schedule "
+                Title2="Manual Booking Feature gives you full control  "
+            // over schedule
             ></HeroBanner4>
-            
+
             <Feature5
+            
                 img1="/assets/images/icon/9.svg"
                 img2="/assets/images/icon/10.svg"
                 img3="/assets/images/icon/11.svg"
@@ -86,7 +88,7 @@ const page = () => {
                 title=" Benefits Using Ridy  "
                 content=" "
                 title2={"Get Benefit By Using  Ridy "}
-               
+
                 FeatureList={[
 
                     " Screened & Trained Drivers ",
@@ -132,6 +134,7 @@ const page = () => {
                 borderRadius="none"
             ></About5>
             <Choose1
+                margintop="-20px"
                 subtitle="Assured by RIDY   "
                 title=" drive with US "
                 item2=" Safety is Priority "
@@ -141,7 +144,7 @@ const page = () => {
                 item4="Easy Onboarding "
                 item5="Referral Programs "
             ></Choose1>
-            <Faq margintop="-50px"
+            <Faq margintop="-10px"
             >
             </Faq>
 

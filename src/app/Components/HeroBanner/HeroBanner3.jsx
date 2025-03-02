@@ -38,25 +38,27 @@ const HeroBanner3 = ({ title, Title2, display, subTitle, hidden, first, second, 
                                 backgroundSize: "cover",
                                 backgroundPosition: " top  center ",
                                 padding: "20px  ",
-                                height: "600px",
-                                width: "90%",
+                                width: "100%",
                                 position: "relative",
-                                margin: "auto "
+                                // margin: "auto "
                             }}>
                             <div style={{ display: `${hidden}`, }} className="homeimagesdiv " >
                                 <FeatureCard
                                     fancycard="fancycard2"
                                     img="/assets/images/icon/1.svg"
+                                    fontSize={"20px"}
                                     title={first} z
                                 ></FeatureCard>
                                 <FeatureCard
                                     img="/assets/images/icon/2.svg"
                                     fancycard="fancycard2"
                                     title={second}
+                                    fontSize="20px"
                                 ></FeatureCard>
                                 <FeatureCard
-                                    fancycard="fancycard2"
                                     img="/assets/images/icon/3.svg"
+                                    fancycard="fancycard2"
+                                    fontSize="20px"
                                     title={third}
                                 ></FeatureCard>
                             </div>

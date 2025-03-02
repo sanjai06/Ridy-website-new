@@ -109,7 +109,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                             <Image src={img1} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
-                                            <h3 style={{fontSize:"24px"}}>{item2} </h3>
+                                            <h3 style={{fontSize:"22px"}}>{item2} </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                             <Image src={img2} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
-                                            <h3 style={{fontSize:"24px"}}>{item1} </h3>
+                                            <h3 style={{fontSize:"22px"}}>{item1} </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
                                             <Image src={img3} alt="img" width={40} height={40} />
                                         </div>
                                         <div className="">
-                                            <h3  style={{fontSize:"24px"}}>{item3} </h3>
+                                            <h3  style={{fontSize:"22px"}}>{item3} </h3>
                                         </div>
                                     </div>
                                 </div>

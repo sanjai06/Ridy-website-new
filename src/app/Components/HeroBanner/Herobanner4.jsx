@@ -18,8 +18,8 @@ const HeroBanner4 = ({ title, Title2, display, display2, subTitle, hidden, inner
     return (
 
         <section className="intro-section mb-20 br">
-            <div   style={{ marginTop: `${margintop}` }} className="intro-wrapper style2" >
-                <div  className="  ">
+            <div   style={{ marginTop: `${margintop}` , margin:"auto" }} className="intro-wrapper  col-xl-11  style2" >
+                <div  className="   ">
                     <div className="intro-content   margintop">
                         <div className="margintops">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
@@ -37,12 +37,10 @@ const HeroBanner4 = ({ title, Title2, display, display2, subTitle, hidden, inner
                             style={{
                                 backgroundImage: `${imgbg}`,
                                 backgroundSize: "cover",
-                                backgroundPosition: " center  center",
+                                backgroundPosition: " top  center",
                                 backgroundRepeat: "no-repeat",
                                 padding: "20px  ",
-                                width: "90%",
-                                margin:"auto",
-                                height: "528px",
+                                width: "100%",
                                 position: "relative"
 
                             }}>

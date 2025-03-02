@@ -22,21 +22,21 @@ const About5 = ({ subtitle, box4, boximg4, mtop, hidden2 , title, title2, conten
                             <div className="row rowreverce gy-5 d-flex align-items-center">
                                 <div className="col-xl-6">
                                     <div className="about-thumb">
-                                        <Image className="imagesFeatureCard mdsmhidden " style={{ position: "relative" }} src={img1} alt="img" width={500} height={500} />
+                                        <Image className="imagesFeatureCard mdsmhidden " style={{ position: "relative" }} src={img1} alt="img" width={460} height={500} />
                                     </div>
                                 </div>
                                 <div style={{marginBottom:"-30px"}} className="col-xl-6 order-xl-1">
                                     <div style={{marginTop:"-32px"}} className="about-content">
-                                        <div className=" aboutflex animate__animated  animate__fadeInRight animate__delay-1s style3 mb-20 wow fadeInUp" data-wow-delay=".2s">
+                                        <div className=" aboutflex  animate__animated  animate__fadeInRight animate__delay-1s style3 mb-40 wow fadeInUp" data-wow-delay=".2s">
                                             <div className="icon iconbg ">
                                                 <Image src={boximg1} alt="img" width={50} height={50} />
                                             </div>
-                                            <div className=" content">
+                                            <div className="  content">
                                                 <h4>{boxtitle1}</h4>
-                                                <p className="text">{boxcontent1}</p>
+                                                <p className="text ">{boxcontent1}</p>
                                             </div>
                                         </div>
-                                        <div className=" aboutflex animate__animated  animate__fadeInRight animate__delay-2s style3 mb-20  wow fadeInUp" data-wow-delay=".4s">
+                                        <div className=" aboutflex  animate__animated  animate__fadeInRight animate__delay-2s style3 mb-40 wow fadeInUp" data-wow-delay=".4s">
                                             <div className="icon iconbg">
                                                 <Image src={boximg2} alt="img" width={50} height={50} />
                                             </div>
@@ -45,7 +45,7 @@ const About5 = ({ subtitle, box4, boximg4, mtop, hidden2 , title, title2, conten
                                                 <p className="text">{boxcontent2}</p>
                                             </div>
                                         </div>
-                                        <div className=" aboutflex  animate__animated  animate__fadeInRight mb-20 animate__delay-3s style3 wow fadeInUp" data-wow-delay=".4s">
+                                        <div className=" aboutflex  animate__animated  animate__fadeInRight mb-40 animate__delay-3s style3 wow fadeInUp" data-wow-delay=".4s">
                                             <div className=" iconbg icon">
                                                 <Image src={boximg3} alt="img" width={50} height={50} />
                                             </div>
