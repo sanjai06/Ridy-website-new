@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 :root {
   --body: #ffffff;
   --black: #000;
@@ -183,7 +186,7 @@
   
 }
 body {
-  font-family: "sans-serif , poppins ";
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -3576,8 +3579,8 @@ input[type=radio]:checked~label::before {
 }
 
 .icon-box.style2 {
-  width: 70px;
-  height: 70px;
+  width: 105px;
+  height: 105px;
   line-height: 105px;
   text-align: center;
   background: var(--theme);
@@ -6901,6 +6904,7 @@ input.main-search-input::placeholder {
 
 .imagesFeatureCard {
   border-radius: 20px;
+  filter: brightness(90%);
 }
 
 .intro-wrapper.style1 .intro-content .intro-section-title .intro-subtitle span {
