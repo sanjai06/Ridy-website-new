@@ -21,8 +21,7 @@ const page = () => {
         Title=" "
       ></BreadCumb> */}
       <Choose2
-        margintop="200px"
-        imgbg={"url('/assets/images/intro/cab9.jpg')"}
+        imgbg={"url('/assets/images/intro/cab14.jpg')"}
         title="invest with us"
         subTitle="Invest With Ridy  "
         title2="Join the electric Revolution with supporting women"
@@ -51,10 +50,8 @@ const page = () => {
         btnurl="/contact"
         borderRadius="none"
       ></About5>
-      <Pricing3
-
-      >
-      </Pricing3>
+      {/* <Pricing3> */}
+      {/* </Pricing3> */}
       <Counter1></Counter1>
       <Feature2></Feature2>
       <Cta1
@@ -63,9 +60,9 @@ const page = () => {
         content="RIDY offers a variety of safe and reliable ride options, ensuring a seamless travel experience tailored for women"
         btnurl1="https://play.google.com/store"
         btnurl2="https://www.apple.com/store"
-        img="/assets/images/intro/cab6.jpg"
+        img="/assets/images/intro/cab9.jpg"
       ></Cta1>
-      <Faq margintop="-40px"
+      <Faq margintop="-10px"
       ></Faq>
     </div>
   );

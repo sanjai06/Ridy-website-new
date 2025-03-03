@@ -24,7 +24,7 @@ const HeroBanner4 = ({ title, Title2, display, display2, subTitle, hidden, inner
                         <div className="margintops">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
                                 <SectionTitle
-                                    Title2={`${Title2}`}
+                                    // Title2={`${Title2}`}
                                     SubTitle={`${subTitle}`}
                                     Title={`${title}`}
                                     hidden={`${display}`}

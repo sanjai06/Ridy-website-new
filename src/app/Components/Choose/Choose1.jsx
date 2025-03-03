@@ -5,7 +5,7 @@ import FeatureCard from "../Card/FeatureCard";
 const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item5, item6, item1 }) => {
     return (
 
-        <section style={{marginTop:`${margintop}`}}  className="advantage-section fix">
+        <section style={{marginTop:`${margintop}`}}  className="advantage-section ridemarignbottom fix">
             <div className="advantage-container-wrapper style1">
                 <div className="container col-xl-10 ">
                     <div style={{ background: "#fff", borderRadius: "0",marginBottom:"-90px", marginTop:"-10px" }} className="advantage-wrapper style1 section-padding">
@@ -27,20 +27,20 @@ const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-1s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item1}
                                                         ></FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-2s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item2}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-3s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item3}
                                                         >
                                                         </FeatureCard>
@@ -53,21 +53,21 @@ const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-1s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item4}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-2s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item5}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-3s "
-                                                            img="/assets/images/icon/checkmarke.svg"
+                                                            img="/assets/images/icon/1.svg"
                                                             title={item6}
                                                         >
                                                         </FeatureCard>

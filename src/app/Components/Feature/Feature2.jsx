@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Feature2 = () => {
     return (
-        
+
         <section className="feature-section section-padding fix">
             <div className="container">
                 <div className="feature-wrapper style1">
@@ -11,17 +11,17 @@ const Feature2 = () => {
                         <div className="col-xl-6 order-2 order-xl-1">
                             <div className="feature-content">
                                 <div className="section-title">
-                                    <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                                    Investment Opportunity Why  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   />
+                                    <div style={{ textAlign: "center" }} className="subtitle wow fadeInUp" data-wow-delay=".2s">
+                                        Investment Opportunity Why  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                     </div>
-                                    <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                                    Invest in RIDY? </h2>
+                                    <h1 className="title wow fadeInUp" data-wow-delay=".4s">
+                                        Invest in RIDY? </h1>
                                     <p className="section-desc wow fadeInUp" data-wow-delay=".6s">A high-growth market with increasing demand for women-specific transportation services. </p>
                                     <p className="section-desc wow fadeInUp">Proven business model focused on safety, sustainability, and scalability. </p>
                                     <p className="section-desc wow fadeInUp">Strong revenue streams with competitive profit margins. </p>
                                 </div>
                                 <Link className="theme-btn wow fadeInUp" data-wow-delay=".2s" href="/contact">Start
-                                Investment <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    Investment <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         viewBox="0 0 16 16" fill="none">
                                         <g clipPath="url(#clip0_91_29)">
                                             <path
@@ -56,16 +56,16 @@ const Feature2 = () => {
                                         </div>
                                     </div>
                                 </div>
-                              
+
                                 <div className="feature-box style1 wow fadeInUp" data-wow-delay=".6s">
                                     <div className="feature-box-header">
                                         <div className="content">
                                             <h5>mission </h5>
                                             <p className="text">Be part of our mission to empower women and transform urban mobility. </p>
                                         </div>
-                                        
+
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>

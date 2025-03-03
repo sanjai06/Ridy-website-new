@@ -22,7 +22,7 @@ const Feature1 = () => {
                                         fontSize={"18px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft "
-                                        img="/assets/images/icon/10.svg"
+                                        img="/assets/images/icon/1.svg"
                                         title="100% Electric Fleet  "
                                     ></FeatureCard>
                                     <FeatureCard
@@ -30,13 +30,13 @@ const Feature1 = () => {
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-1s "
                                         title="In – House Charging "
-                                        img="/assets/images/icon/2.svg"
+                                        img="/assets/images/icon/1.svg"
                                     >
                                     </FeatureCard>
                                     <FeatureCard
                                         fontSize={"17px"}
                                         fancycard="fancycard"
-                                        img="/assets/images/icon/4.svg"
+                                        img="/assets/images/icon/1.svg"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-2s "
                                         title="Strategic Hub Locations  "
                                     ></FeatureCard>
@@ -50,15 +50,15 @@ const Feature1 = () => {
                                         fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight "
-                                        img="/assets/images/icon/2.svg"
-                                        title="Smart Charging,Zero Hassle  "
+                                        img="/assets/images/icon/1.svg"
+                                        title="Smart & no Hassle  "
                                     ></FeatureCard>
 
                                     <FeatureCard
                                         fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
-                                        img="/assets/images/icon/3.svg"
+                                        img="/assets/images/icon/1.svg"
                                         title="Sustainable Rides  "
                                     ></FeatureCard>
 

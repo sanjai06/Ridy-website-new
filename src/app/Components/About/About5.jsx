@@ -14,7 +14,6 @@ const About5 = ({ subtitle, box4, boximg4, mtop, hidden2 , title, title2, conten
                                 <SectionTitle
                                     SubTitle={`${subtitle}`}
                                     Title={`${title}`}
-                                    Title2={`${title2}`}
                                     hidden2={`${hidden2}`}
                                 ></SectionTitle>
 

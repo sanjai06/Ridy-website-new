@@ -40,7 +40,7 @@ const Testimonial = () => {
 
     return (
         
-        <section style={{marginTop:"-30px"}} className="testimonial-section ">
+        <section  className="testimonial-section testimoniamargintop ">
             <div  className="testimonial-container-wrapper style1">
                 <div style={{borderRadius:"0" , background:"#fff",marginBottom:"-100px"}} className="container  col-xl-10 ">
                     <div style={{borderRadius:"10px" , background:"white" }} className="testimonial-wrapper style1 section-padding fix">

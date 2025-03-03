@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer style={{marginTop:"-80px"}} className="footer-section position-relative">
+        <footer style={{marginTop:"-88px"}} className="footer-section position-relative">
             <div style={{backgroundColor:"white" }} className="footer-widgets-wrapper marginleftsm style1 fix">
                 <div className="container ">
                     <div className="row">
@@ -144,7 +144,8 @@ const Footer = () => {
                                         <div className="link text ">
                                             <a href="tel:21314234323543">+91 8072877622  </a> 
                                             <br />
-                                            <a href="tel:35234523452345">+91 90435 88782 </a>
+                                            <a href="tel:35234523452345">+91 90435 88782 </a> 
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +154,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer-bottom  style1">
+            <div style={{marginTop:"30px"}} className="footer-bottom  style1">
                 <div className="container">
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
                         <p>©<span>{"2025"}</span> All rights reserved by RIDY LADY CAB PVT LIMITED </p>

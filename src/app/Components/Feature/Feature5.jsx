@@ -54,7 +54,7 @@ import Slider from "react-slick";
 import data from '../../Data/brand1.json';
 import Image from "next/image";
 
-const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
+const Feature5 = ({ title, item1, item2,mrgtop, item3,img2,img1,img3, mtop }) => {
 
     const settings = {
         dots: false,
@@ -93,14 +93,14 @@ const Feature5 = ({ title, item1, item2, item3,img2,img1,img3, mtop }) => {
 
     return (
 
-        <div style={{ marginTop:`${mtop}`, height: "auto" }} className="brand-slider-section    section-padding fix">
+        <div  className={` brand-slider-section  ${mrgtop}   section-padding fix `} >
             <div className="brand-slider-container-wrapper style1">
                 <div className="container">
                     <div className=" mt homepagetext">
                         <h1  className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
                     </div>
                     <div className="  slider-area ">
-                        <div  className="swiper gt-slider" id="brandSliderOne" >
+                        <div  className="swiper mt-n50 gt-slider" id="brandSliderOne" >
                             <Slider {...settings}>
                                
                                 <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">

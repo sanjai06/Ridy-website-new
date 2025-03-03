@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroBanner4 from '../Components/HeroBanner/Herobanner4';
 import About5 from '../Components/About/About5';
-import Choose2 from '../Components/Choose/Choose2';
+import Choose3 from '../Components/Choose/Choose3';
 import Feature1 from '../Components/Feature/Feature1';
 import Feature5 from '../Components/Feature/Feature5';
 import Feature6 from '../Components/Feature/Feature6';
@@ -28,10 +28,10 @@ const page = () => {
                 margintop="100px"
             ></HeroBanner3>
             <Feature5
+                mrgtop={"featuremargintop2"}
                 img1="/assets/images/icon/1.svg"
-                img2="/assets/images/icon/5.svg"
-                img3="/assets/images/icon/4.svg"
-                mtop="-110px"
+                img2="/assets/images/icon/1.svg"
+                img3="/assets/images/icon/1.svg"
                 title="Seamless | Safe | Sustainable "
                 content="Designed Exclusively for Women "
                 item1="Affordable Pricing "
@@ -46,32 +46,29 @@ const page = () => {
                 subTitle="Manual Booking"
                 title="Manual Booking-Fast & Flexible "
                 hidden="none"
-                Title2="Manual Booking Feature gives you full control  "
-            // over schedule
             ></HeroBanner4>
 
             <Feature5
-            
-                img1="/assets/images/icon/9.svg"
-                img2="/assets/images/icon/10.svg"
-                img3="/assets/images/icon/11.svg"
-                mtop="-150px"
+                mrgtop="featuremargintop3"
+                img1="/assets/images/icon/1.svg"
+                img2="/assets/images/icon/1.svg"
+                img3="/assets/images/icon/1.svg"
+                mtop="-175px"
                 item1=" Easy Selection "
                 item2="Flexible Timing "
                 item3=" Hassle Free Experience "
             ></Feature5>
             <About5
                 subtitle="Business With Us "
-                title2={"Ridy-Lady Cab"}
                 subTitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
-                boximg1="/assets/images/icon/12.svg"
+                boximg1="/assets/images/icon/1.svg"
                 boxtitle1="Safe & Reliable Rides  "
                 boxcontent1="Travel for Business Meetings,Networking & client visits "
-                boximg2="/assets/images/icon/13.svg"
+                boximg2="/assets/images/icon/1.svg"
                 boxtitle2="Women Led-Business Support "
                 boxcontent2="Collaborating with women Entrepreneurs "
-                boximg3="/assets/images/icon/14.svg"
+                boximg3="/assets/images/icon/1.svg"
                 boxtitle3="Affordable & Convenient "
                 boxcontent3="Budget friendly rides for Stress Free Ride "
                 img1="/assets/images/intro/cab7.jpg"
@@ -81,14 +78,11 @@ const page = () => {
                 none="none"
             ></About5>
             <Feature1></Feature1>
-            <Choose2
+            <Choose3
                 margintop="-120px"
                 imgbg={"url('/assets/images/intro/cab5.jpg')"}
-                subTitle="Ride Safe with RIDY    "
+                subTitle={"Ride Safe with RIDY  "}
                 title=" Benefits Using Ridy  "
-                content=" "
-                title2={"Get Benefit By Using  Ridy "}
-
                 FeatureList={[
 
                     " Screened & Trained Drivers ",
@@ -100,7 +94,7 @@ const page = () => {
                 ]}
                 btnname="Download App"
                 btnurl="/contact"
-            ></Choose2>
+            ></Choose3>
             <Testimonial>
             </Testimonial>
             <Services2
@@ -116,10 +110,10 @@ const page = () => {
                 subtitle={"Future with RIDY "}
                 content="Become a RIDY Partner by leasing just 10 e-bikes to us and Enjoy steady, Risk-free income with flexible investment plans. "
                 title="Your Future With RIDY "
-                boximg1="/assets/images/icon/12.svg"
-                boximg2="/assets/images/icon/14.svg"
-                boximg3="/assets/images/icon/11.svg"
-                boximg4="/assets/images/icon/15.svg"
+                boximg1="/assets/images/icon/1.svg"
+                boximg2="/assets/images/icon/1.svg"
+                boximg3="/assets/images/icon/1.svg"
+                boximg4="/assets/images/icon/1.svg"
                 boxtitle1=" 15%+ IRR   "
                 boxtitle2=" fixed income  "
                 boxtitle3="100% hassle-free  "
@@ -144,7 +138,7 @@ const page = () => {
                 item4="Easy Onboarding "
                 item5="Referral Programs "
             ></Choose1>
-            <Faq margintop="-10px"
+            <Faq margintop="65px"
             >
             </Faq>
 

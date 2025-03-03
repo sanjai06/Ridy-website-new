@@ -2,6 +2,7 @@ import Brand3 from '@/app/Components/Brand/Brand3';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import Cta2 from '@/app/Components/Cta/Cta2';
 import Choose1 from '@/app/Components/Choose/Choose1';
+import Choose3 from '@/app/Components/Choose/Choose3';
 import Services1 from '@/app/Components/Services/Services1';
 import Team2 from '@/app/Components/Team/Team2';
 import React from 'react';
@@ -21,15 +22,15 @@ const page = () => {
         Title=" "
       ></BreadCumb> */}
       <Choose2
-        margintop="200px"
-        imgbg={"url('/assets/images/intro/cab11.jpg')"}
+        imgbg={"url('/assets/images/intro/cab3.jpg')"}
         title="Drive with us"
         subTitle="Drive Safe With Ridy     "
-        title2="Join the most exclusive RIDY Driver Network "
+        title2="Join the most  RIDY Driver Network "
         btnname="Join as Driver"
         btnurl="/contact"
       ></Choose2>
       <Feature5
+      mrgtop="featuremargintop2"
       img1="/assets/images/icon/5.svg"
       img2="/assets/images/icon/1.svg"
       img3="/assets/images/icon/4.svg"
@@ -51,30 +52,30 @@ const page = () => {
       <Choose1
         subtitle=" join As Driver   "
         title=" drive with US "
-        item1="Weekly Payouts And Bonus"
+        item1="Weekly Payouts & Bonus"
         item2="Flexible Working Hours"
         item3="Zero Ownership Cost"
         item4="Safety-First Approach"
-        item5="Comprehensive Training Programs"
+        item5=" Training Programs"
         item6="24/7 Support for Drivers" 
         ></Choose1>
-    <Choose2 margintop="100px"
+    <Choose3 margintop="100px"
       imgbg={"url('/assets/images/intro/cab5.jpg')"}
       subTitle="Documentation "
       title=" Easy Documentation Process  "
       content=" "
-      title2={"Just come with your proofs & Start Earning "}
+      title2={"Just with your proofs , Start Earning "}
 
       FeatureList2={[
-        " 1.Valid Driving License  ",
-        " 2. Aadhaar Card",
+        " Valid Driving License  ",
+        " Aadhaar Card",
         "Bank Details"
 
 
       ]}
       FeatureList={[
 
-        "3. Permanent Address Proofs ",
+        "Permanent Address Proofs ",
         " Safety is our Priority ",
         "Emergency contact number "
 
@@ -82,7 +83,7 @@ const page = () => {
       ]}
       btnname="Download App"
       btnurl="/contact"
-    ></Choose2> 
+    ></Choose3> 
     <br />
     <Faq
     margintop="-60px"

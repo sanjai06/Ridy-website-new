@@ -15,7 +15,6 @@ const page = () => {
         Title="Ride with us"
       ></BreadCumb> */}
       <Choose2
-        margintop="200px"
         imgbg={"url('/assets/images/intro/cab4.jpg')"}
         title="Book Ride With Us"
         subTitle="Ride Safe With Ridy     "
@@ -28,9 +27,9 @@ const page = () => {
       <Services1
       ></Services1>
       <Brand1
+      
         subTitle="Ridy location"
         title="RIDY's operational Locations "
-        content="Ensuring Seamless and Eco-Friendly fleet "
       ></Brand1>
       {/* <HowWork></HowWork> */}
       

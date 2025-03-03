@@ -4,7 +4,7 @@ import data from '../../Data/brand1.json';
 import Image from "next/image";
 import SectionTitle from '../Common/SectionTitle';
 
-const Brand1 = ({ title,subTitle, content }) => {
+const Brand1 = ({ title2, title, subTitle, content }) => {
 
   const settings = {
     dots: false,
@@ -57,15 +57,15 @@ const Brand1 = ({ title,subTitle, content }) => {
               className="row   ">
               <div style={{
                 backgroundImage: "url('/assets/images/intro/cab11.jpg')",
-                backgroundSize:"cover",
-                backgroundPosition: "center",
+                backgroundSize: "cover",
+                backgroundPosition: " top center",
                 backgroundRepeat: "no-repeat",
-                borderRadius: "20px",
                 padding: "20px  ",
-                height:"500px",
-                position: "relative"
-              }} className="  slider-area brandSliderOne">
-                <div style={{ marginTop: "380px" }} className="swiper gt-slider" id="brandSliderOne" >
+                position: "relative",
+                width:"94%",
+                margin:"auto"
+              }} className="  slider-area homeimages brandSliderOne">
+                <div className="swiper brandmargintop gt-slider" id="brandSliderOne" >
                   <Slider {...settings}>
                     {data.map((item, index) => (
                       <div key={index} className="  swiper-slide">

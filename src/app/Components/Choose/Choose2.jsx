@@ -5,14 +5,14 @@ import SectionTitle from '../Common/SectionTitle';
 
 const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureList2, FeatureList, btnurl, imgbg, btnname }) => {
     return (
-        <section style={{ marginTop: `${margintop}` }} className="wcu-section  " >
-            <div className="wcu-container-wrapper benefitsmargintop  style2">
+        <section  className="wcu-section ridemarignbottom ridemargintop  " >
+            <div className="wcu-container-wrapper   style2">
                 <div className="container  col-xl-1500 " style={{ borderRadius: "0px", marginTop: "-120px" }}>
                     <div style={{ borderRadius: "0px", background: "#fff" }} className="wcu-wrapper style2  section-padding fix">
-                        <div className="container  ">
+                        <div className="  ">
                             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto mb-60">
                                 <SectionTitle
-                                    hidden={`${hide}`}
+                                    hidden="none"
                                     SubTitle={`${subTitle}`}
                                     Title={`${title}`}
                                 ></SectionTitle>
@@ -22,15 +22,14 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                     marginTop:"-30px",
                                     backgroundImage: `${imgbg}`,
                                     backgroundSize: "cover ",
-                                    backgroundPosition: " center center",
+                                    backgroundPosition: " top center",
                                     backgroundRepeat: "no-repeat",
-                                    height: "560px",
                                     borderRadius: "30px",
                                 }}
 
                                 className="homeimages">
                                 <div className="innerimagediv "    >
-                                    <h2 style={{textAlign:"start",marginBottom:"14px",fontWeight:"800"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
+                                    <h2 style={{textAlign:"start",marginBottom:"16px",fontWeight:"800"}} className="titlenew  animate__animated animate__fadeInRight ">{title2}</h2>
                                     <p className="">{content}</p>
                                     <div  className="col-xl-12">
                                         <div className="advantage-content   ">
@@ -54,8 +53,8 @@ const Choose2 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                                     ))}
                                                 </ul>
                                             </div>
-                                            <div className="" style={{ textAlign: "start", marginTop: "30px" }}>
-                                                <Link className="theme-btn maaarginleftbutton wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
+                                            <div className=" mt-60 " style={{ textAlign: "start"  }}>
+                                                <Link className="theme-btn maaarginleftbutton mt-25  wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                         viewBox="0 0 16 16" fill="none">
                                                         <g clipPath="url(#clip0_43_54)">
