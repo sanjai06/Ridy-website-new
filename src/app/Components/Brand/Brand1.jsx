@@ -44,7 +44,7 @@ const Brand1 = ({ title2, title, subTitle, content }) => {
   return (
     <div style={{ marginTop: "-20px", height: "auto" }} className="brand-slider-section  section-padding fix">
       <div className="brand-slider-container-wrapper style1">
-        <div className="container col-xl-10">
+        <div className="">
           <div className="brand-slider-wrapper style1">
             <div className=" animate__animated  animate__fadeInLeft  section-title text-center mxw-685 mx-auto ">
               <SectionTitle
@@ -63,8 +63,10 @@ const Brand1 = ({ title2, title, subTitle, content }) => {
                 padding: "20px  ",
                 position: "relative",
                 width:"94%",
+                height:"620px",
+                borderRadius:"30px",
                 margin:"auto"
-              }} className="  slider-area homeimages brandSliderOne">
+              }} className="  slider-area  brandSliderOne">
                 <div className="swiper brandmargintop gt-slider" id="brandSliderOne" >
                   <Slider {...settings}>
                     {data.map((item, index) => (
