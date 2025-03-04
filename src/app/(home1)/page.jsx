@@ -78,14 +78,14 @@ const page = () => {
                 none="none"
             ></About5>
             <Feature1></Feature1>
-            <Choose3
+            <Choose3 title2={" Benefits You Get By Ridy"}
                 margintop="-120px"
                 imgbg={"url('/assets/images/intro/cab5.jpg')"}
                 subTitle={"Ride Safe with RIDY  "}
                 title=" Benefits Using Ridy  "
                 FeatureList={[
 
-                    " Screened & Trained Drivers ",
+                    " Screened,Trained Drivers ",
                     " Safety is our Priority ",
                     "Trust us for Safe Rides ",
                     " 24/7 Support ",

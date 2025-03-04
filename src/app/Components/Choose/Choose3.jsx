@@ -27,7 +27,7 @@ const Choose3 = ({ hide, subTitle, margintop, title2, title, content, FeatureLis
                                     height:"600px"
                                 }}>
                                 <div className="innerdivservices "    >
-                                    <h2 style={{textAlign:"start",fontWeight:"800"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
+                                    <h2 style={{textAlign:"start",fontWeight:"700"}} className="titlenew textsmmd animate__animated animate__fadeInRight ">{title2}</h2>
                                     <p className="">{content}</p>
                                     <div  className="col-xl-12">
                                         <div className="advantage-content   ">

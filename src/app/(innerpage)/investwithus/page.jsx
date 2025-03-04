@@ -50,13 +50,13 @@ const page = () => {
         btnurl="/contact"
         borderRadius="none"
       ></About5>
-      {/* <Pricing3> */}
-      {/* </Pricing3> */}
+      {/* <Pricing3>
+      </Pricing3> */}
       <Counter1></Counter1>
       <Feature2></Feature2>
       <Cta1
         subtitle="Our App"
-        title="Download our app and start your Ride , Drive  to get started today!"
+        title="Download our app and start your Ride!"
         content="RIDY offers a variety of safe and reliable ride options, ensuring a seamless travel experience tailored for women"
         btnurl1="https://play.google.com/store"
         btnurl2="https://www.apple.com/store"

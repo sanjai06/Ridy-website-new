@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer style={{marginTop:"-88px"}} className="footer-section position-relative">
+        <footer style={{marginTop:"-50px"}} className="footer-section position-relative">
             <div style={{backgroundColor:"white" }} className="footer-widgets-wrapper marginleftsm style1 fix">
                 <div className="container ">
                     <div className="row">

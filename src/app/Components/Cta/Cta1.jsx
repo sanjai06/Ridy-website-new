@@ -24,7 +24,7 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
                                                 {subtitle}  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17}   /> 
                                             </div>
                                             <h2 className="title text-white wow fadeInUp" data-wow-delay=".4s">{title}</h2>
-                                            <p className="section-desc text-white mxw-651 wow fadeInUp" data-wow-delay=".6s">
+                                            <p className="section-desc ptextbold text-white mxw-651 wow fadeInUp" data-wow-delay=".6s">
                                                 {content}</p>
                                         </div>
                                         <Link className="playstore" href={btnurl1}>
@@ -37,7 +37,7 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
                                 </div>
                                 <div className="col-xl-4 order-1 order-xl-2">
                                     <div className="cta-thumb wow fadeInUp" data-wow-delay=".2s">
-                                    <Image  style={{borderRadius:"20px 0 "}} src={img} alt="img" width={400} height={360}   />
+                                    <Image  style={{borderRadius:"20px 0 "}} src={img} alt="img" width={404} height={360}   />
                                     </div>
                                 </div>
                             </div>

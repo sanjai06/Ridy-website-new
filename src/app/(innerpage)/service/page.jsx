@@ -64,7 +64,7 @@ const page = () => {
       subTitle="Documentation "
       title=" Easy Documentation Process  "
       content=" "
-      title2={"Just with your proofs , Start Earning "}
+      title2={"Start Earning with your proof"}
 
       FeatureList2={[
         " Valid Driving License  ",
@@ -75,9 +75,9 @@ const page = () => {
       ]}
       FeatureList={[
 
-        "Permanent Address Proofs ",
+        " Address Proofs ",
         " Safety is our Priority ",
-        "Emergency contact number "
+        "Emergency contact  "
 
 
       ]}
