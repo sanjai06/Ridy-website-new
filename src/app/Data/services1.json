@@ -1,21 +1,21 @@
 [
     {
-      "icon": "/assets/images/icon/1.svg",
+      "icon": "/assets/images/icon/2.svg",
       "title": "Instant Rides",
       "desc": "Get a ride within minutes, anytime you need."
     },
     {
-      "icon": "/assets/images/icon/1.svg",
+      "icon": "/assets/images/icon/11.svg",
       "title": "Scheduled Rides",
       "desc": "Plan your trips in advance for a hassle-free journey."
     },
     {
-      "icon": "/assets/images/icon/1.svg",
+      "icon": "/assets/images/icon/5.svg",
       "title": "Live Tracking & Sharing",
       "desc": "Live Tracking & sharing is always there for your safety."
     },
     {
-      "icon": "/assets/images/icon/1.svg",
+      "icon": "/assets/images/icon/12.svg",
       "title": "Eco-Friendly Commute",
       "desc": "Travel in our electric fleet, reducing carbon footprint."
     },
@@ -25,7 +25,7 @@
       "desc": "Safe and comfortable rides by women drivers."
     },
     {
-      "icon": "/assets/images/icon/1.svg",
+      "icon": "/assets/images/icon/17.svg",
       "title": "Cashless Payments",
       "desc": "Pay via UPI, wallets, or cards for a smooth experience."
     }

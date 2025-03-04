@@ -22,7 +22,7 @@ const Feature1 = () => {
                                         fontSize={"18px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft "
-                                        img="/assets/images/icon/1.svg"
+                                        img="/assets/images/icon/2.svg"
                                         title="100% Electric Fleet  "
                                     ></FeatureCard>
                                     <FeatureCard
@@ -30,13 +30,13 @@ const Feature1 = () => {
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-1s "
                                         title="In – House Charging "
-                                        img="/assets/images/icon/1.svg"
+                                        img="/assets/images/icon/13.svg"
                                     >
                                     </FeatureCard>
                                     <FeatureCard
                                         fontSize={"17px"}
                                         fancycard="fancycard"
-                                        img="/assets/images/icon/1.svg"
+                                        img="/assets/images/icon/5.svg"
                                         animation="animate__animated  animate__fadeInLeft animate__delay-2s "
                                         title="Strategic Hub Locations  "
                                     ></FeatureCard>
@@ -50,7 +50,7 @@ const Feature1 = () => {
                                         fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight "
-                                        img="/assets/images/icon/1.svg"
+                                        img="/assets/images/icon/10.svg"
                                         title="Smart & no Hassle  "
                                     ></FeatureCard>
 
@@ -58,7 +58,7 @@ const Feature1 = () => {
                                         fontSize={"17px"}
                                         fancycard="fancycard"
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
-                                        img="/assets/images/icon/1.svg"
+                                        img="/assets/images/icon/12.svg"
                                         title="Sustainable Rides  "
                                     ></FeatureCard>
 

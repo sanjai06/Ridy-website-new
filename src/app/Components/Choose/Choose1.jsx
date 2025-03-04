@@ -27,20 +27,20 @@ const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-1s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/17.svg"
                                                             title={item1}
                                                         ></FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-2s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/3.svg"
                                                             title={item2}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInLeft  animate__delay-3s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/18.svg"
                                                             title={item3}
                                                         >
                                                         </FeatureCard>
@@ -53,21 +53,21 @@ const Choose1 = ({ subtitle, title,margintop, content, item4, item2, item3, item
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-1s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/9.svg"
                                                             title={item4}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-2s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/19.svg"
                                                             title={item5}
                                                         >
                                                         </FeatureCard>
                                                         <FeatureCard
                                                             fancycard="fancycard"
                                                             animation="animate__animated animate__fadeInRight  animate__delay-3s "
-                                                            img="/assets/images/icon/1.svg"
+                                                            img="/assets/images/icon/15.svg"
                                                             title={item6}
                                                         >
                                                         </FeatureCard>

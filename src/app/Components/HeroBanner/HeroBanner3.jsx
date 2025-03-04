@@ -49,13 +49,13 @@ const HeroBanner3 = ({ title, Title2, display, subTitle, hidden, first, second, 
                                     title={first} z
                                 ></FeatureCard>
                                 <FeatureCard
-                                    img="/assets/images/icon/1.svg"
+                                    img="/assets/images/icon/2.svg"
                                     fancycard="fancycard2"
                                     title={second}
                                     fontSize="20px"
                                 ></FeatureCard>
                                 <FeatureCard
-                                    img="/assets/images/icon/1.svg"
+                                    img="/assets/images/icon/3.svg"
                                     fancycard="fancycard2"
                                     fontSize="20px"
                                     title={third}

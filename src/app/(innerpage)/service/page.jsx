@@ -31,9 +31,9 @@ const page = () => {
       ></Choose2>
       <Feature5
       mrgtop="featuremargintop2"
-      img1="/assets/images/icon/5.svg"
+      img1="/assets/images/icon/17.svg"
       img2="/assets/images/icon/1.svg"
-      img3="/assets/images/icon/4.svg"
+      img3="/assets/images/icon/5.svg"
         mtop="-120px"
         title=" Join As Driver  "
         display="none"
