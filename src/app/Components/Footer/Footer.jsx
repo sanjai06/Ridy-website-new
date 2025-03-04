@@ -123,13 +123,13 @@ const Footer = () => {
                                     <div className="widget-head"> <h3> Address </h3> </div>
                                     <div style={{ display: "flex", gap: "10px" }}  className="  "> 
                                         <div className="icon">
-                                    <Image src="/assets/images/icon/17.svg" alt="phone" width={30} height={30} />
+                                    <Image src="/assets/images/icon/location.svg" alt="phone" width={30} height={30} />
                                         </div>
                                     <div className=" mb-20 "> <a href=""> GUindy | Thoraipakkam </a></div>
                                     </div>
                                     <div style={{ display: "flex", gap: "10px", }} className="info mb-20 ">
                                         <div className="icon">
-                                        <Image src="/assets/images/icon/16.svg" alt="phone" width={30} height={30} />
+                                        <Image src="/assets/images/icon/email.svg" alt="phone" width={30} height={30} />
                                         </div>
                                         <div className="link text">
                                             <a href="mailto:contact.tech@gmail.com">ridyladycab@gmail.com </a> <br />
@@ -138,7 +138,7 @@ const Footer = () => {
                                     </div>
                                     <div style={{ display: "flex", gap: "10px" }} className="info">
                                         <div className="icon ">
-                                            <Image src="/assets/images/icon/17.svg" alt="phone" width={30} height={30} />
+                                            <Image src="/assets/images/icon/phone.svg" alt="phone" width={30} height={30} />
 
                                         </div>
                                         <div className="link text ">
