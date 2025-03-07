@@ -62,7 +62,7 @@ const page = () => {
                 subtitle="Business With Us "
                 subTitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
-                boximg1="/assets/images/icon/3.svg"
+                boximg1="/assets/images/icon/9.svg"
                 boxtitle1="Safe & Reliable Rides  "
                 boxcontent1="Travel for Business Meetings,Networking & client visits "
                 boximg2="/assets/images/icon/1.svg"

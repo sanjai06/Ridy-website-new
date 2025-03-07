@@ -13138,7 +13138,7 @@ textarea.is-invalid {
     position: absolute;
     width: 100vw;
     left: -15px;
-    background-color: #181818;
+    background-color: #ea1997;
     padding: 10px 0;
     display: none;
     top: 100%;
@@ -13252,7 +13252,7 @@ textarea.is-invalid {
   .cs_site_header.cs_style_1.cs_color_1 .cs-munu_toggle,
   .cs_site_header.cs_style_1.cs_color_1 .cs-munu_dropdown_toggle,
   .cs_site_header.cs_style_1.cs_color_1 .cs_nav .cs_nav_list ul {
-    color: #18191d;
+    color: #1d181b;
   }
 
   .cs_site_header.cs_style_1.cs_color_1 .cs_nav .cs_nav_list {

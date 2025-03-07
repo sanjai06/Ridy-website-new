@@ -55,7 +55,7 @@ const HeroBanner3 = ({ title, Title2, display, subTitle, hidden, first, second, 
                                     fontSize="20px"
                                 ></FeatureCard>
                                 <FeatureCard
-                                    img="/assets/images/icon/3.svg"
+                                    img="/assets/images/icon/9.svg"
                                     fancycard="fancycard2"
                                     fontSize="20px"
                                     title={third}

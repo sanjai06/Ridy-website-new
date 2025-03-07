@@ -50,8 +50,8 @@ const page = () => {
         btnurl="/contact"
         borderRadius="none"
       ></About5>
-      {/* <Pricing3>
-      </Pricing3> */}
+      <Pricing3>
+      </Pricing3>
       <Counter1></Counter1>
       <Feature2></Feature2>
       <Cta1
