@@ -7,7 +7,7 @@ const PricingCard = ({name,price,monthly,margintop,FeatureList,btnname,btnurl}) 
             <div className="pricing-card-header">
                 <h6>{name}</h6>
             </div>
-            <div className="pricing-card-body">
+            <div className="pricing-card-body pricingcardmargintop">
                 <ul className="checklist">
                 {FeatureList?.map((item, index) => (
                     <li key={index}><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
