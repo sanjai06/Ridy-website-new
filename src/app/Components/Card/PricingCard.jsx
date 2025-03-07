@@ -1,13 +1,11 @@
 import Link from "next/link";
 
-const PricingCard = ({name,price,monthly,content,FeatureList,btnname,btnurl}) => {
+const PricingCard = ({name,price,monthly,margintop,FeatureList,btnname,btnurl}) => {
     return (
-    <div className=" pricecardshaow col-xl-4 col-md-6">
-        <div className="pricing-card style1">
+    <div className={` ${margintop}  col-xl-4 col-md-6 `}>
+        <div className="pricing-card pricecardshaow style1">
             <div className="pricing-card-header">
                 <h6>{name}</h6>
-
-                <p className="text">{content}</p>
             </div>
             <div className="pricing-card-body">
                 <ul className="checklist">
@@ -29,3 +27,4 @@ const PricingCard = ({name,price,monthly,content,FeatureList,btnname,btnurl}) =>
 };
 
 export default PricingCard;
+

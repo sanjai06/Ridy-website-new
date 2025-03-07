@@ -13,7 +13,7 @@ const Pricing3 = () => {
     }, []);
 
     return (
-        <section style={{marginTop:"-60px"}} className="pricing-section-3 section-padding fix" >
+        <section style={{ marginTop: "-60px" }} className="pricing-section-3 section-padding fix" >
             <div className="container">
                 <div className="section-title text-center mxw-685 mx-auto">
                     <div className="subtitle">
@@ -26,11 +26,10 @@ const Pricing3 = () => {
                     <div className="tab-content" id="pills-tabContent">
                         <div role="tabpanel"
                             aria-labelledby="pills-monthly-tab">
-                            <div style={{ display: "flex", justifyContent:"center",gap:"100px" }} className="row gy-5">
+                            <div style={{ display: "flex", justifyContent: "center", gap: "100px" }} className="row gy-5">
 
                                 <PricingCard
                                     name="Fixed Rental Income Model"
-                                    content=" Fixed Rental Income Model (For Short-Term Investors)"
                                     FeatureList={[
                                         "  Investment: ₹10-12 Lakhs (10 E-Bikes)",
                                         " Monthly Returns: ₹2000 – 3000/- (Based on the E-Bike)",
@@ -45,16 +44,16 @@ const Pricing3 = () => {
                                 ></PricingCard>
 
                                 <PricingCard
+                                margintop="pricingcardmargintop"
                                     name="Hub-Based Investment Model"
-                                    content="Hub-Based Investment Model (For Long-Term Growth) "
                                     FeatureList={[
-                                       " Investment: ₹ 50 Lakhs (Includes E-bikes + Charging + Hub setup)",
+                                        " Investment: ₹ 50 Lakhs (Includes E-bikes + Charging + Hub setup)",
                                         "Monthly Returns: ₹ 90,000 (Net after RIDY’s 10% Management Fee)",
                                         "Agreement: 5 years",
                                         "Total Earnings in 5 Years: ₹ 86.4 Lakhs",
                                         "ROI: 72.8% in 8 years",
                                         "Break-even: 56 Months",
-                                        
+
                                     ]}
                                     btnname="Get You Free plan"
                                     btnurl="/pricing"

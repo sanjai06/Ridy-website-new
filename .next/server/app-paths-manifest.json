@@ -3,5 +3,6 @@
   "/(innerpage)/about/page": "app/(innerpage)/about/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js"
+  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js",
+  "/(innerpage)/investwithus/page": "app/(innerpage)/investwithus/page.js"
 }
