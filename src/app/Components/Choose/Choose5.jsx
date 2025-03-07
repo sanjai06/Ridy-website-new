@@ -5,7 +5,7 @@ import Brand1 from "../Brand/Brand1";
 
 const Choose5 = () => {
     return (
-        <section style={{ marginBottom: "-100px" }} className="wcu-section section-padding pt-0 fix">
+        <section style={{ marginTop: "96px" , marginBottom:"-70px" }} className="wcu-section section-padding pt-0 fix">
             <div className="wcu-container-wrapper col-xl-12 style3">
                 <div className="container ">
                     <div className="wcu-wrapper style3">
@@ -14,9 +14,9 @@ const Choose5 = () => {
                                 <div className="wcu-content">
                                     <div className="section-title">
                                         <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                                            RIDY Charge Stations    <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
+                                        Ridy location  <Image src="/assets/images/icon/fireIcon.svg" alt="img" width={16} height={17} />
                                         </div>
-                                        <h1 className="title wow fadeInUp animate__animated  animate__fadeInLeft" data-wow-delay=".4s">  Revolutionizing Urban Mobility for Women</h1>
+                                        <h1 className="title wow fadeInUp animate__animated  animate__fadeInLeft" data-wow-delay=".4s"> RIDY's operational Locations </h1>
                                         <p className="text1 wow fadeInUp animate__animated  animate__fadeInLeft animate__delay-1s " data-wow-delay=".6s"> We are Revolutionizing urban Transporatation with Eco-Friendly E-Vehicles powered by our own integrated E-Charging Stations </p>
                                     </div>
                                     <div className="" style={{ textAlign: "center", }}>
@@ -40,21 +40,15 @@ const Choose5 = () => {
 
                                 </div>
                             </div>
-                            <div className=" mdsmhidden col-xl-6">
-                                <div className="wcu-thumb">
+                            <div className="  col-xl-6">
+                                <div className="">
                                     <div className="main-thumb  wow fadeInUp" data-wow-delay=".4s">
-                                        <Image className="imagesFeatureCard" src="/assets/images/intro/cab4.jpg" alt="img" width={400} height={503} />
-                                    </div>
-                                    <div className="thumb2">
-                                        <Image className="" src="/assets/images/wcu/wcuThumb3_2.png" alt="img" width={558} height={340} />
+                                        <img className=" brandImages" src="/assets/images/intro/brandlocation.png" alt="img"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="row gy-5 gx-60">
-                            <Brand1 title=" Main Hubs in Chennai  "
-                            />
-                        </div>
+                     
                     </div>
                 </div>
             </div>

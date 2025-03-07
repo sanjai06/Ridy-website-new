@@ -125,7 +125,7 @@ const Footer = () => {
                                         <div className="icon">
                                     <Image src="/assets/images/icon/location.svg" alt="phone" width={30} height={30} />
                                         </div>
-                                    <div className=" mb-20 "> <a href=""> GUindy | Thoraipakkam </a></div>
+                                    <div className=" mb-20 "> <a href=""> Guindy | Thoraipakkam </a></div>
                                     </div>
                                     <div style={{ display: "flex", gap: "10px", }} className="info mb-20 ">
                                         <div className="icon">

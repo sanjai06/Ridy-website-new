@@ -5,6 +5,7 @@ import React from 'react';
 import Services1 from '@/app/Components/Services/Services1';
 import Faq from '@/app/Components/Faq/Faq';
 import Brand1 from '@/app/Components/Brand/Brand1';
+import Choose5 from '@/app/Components/Choose/Choose5';
 
 
 const page = () => {
@@ -22,15 +23,11 @@ const page = () => {
         title2=" Book Your Ride With Us For Safe & Secure Journeys "
         btnname="Book Ride"
         btnurl="/contact"
-      ></Choose2>
-
+      ></Choose2> 
       <Services1
       ></Services1>
-      <Brand1
-      
-        subTitle="Ridy location"
-        title="RIDY's operational Locations "
-      ></Brand1>
+      <Choose5>
+      </Choose5>
       {/* <HowWork></HowWork> */}
       
       <Faq margintop="-70px"
