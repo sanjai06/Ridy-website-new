@@ -28,7 +28,7 @@ const Feature1 = () => {
                                     <FeatureCard
                                         fontSize={"18px"}
                                         fancycard="fancycard"
-                                        animation="animate__animated  animate__fadeInLeft animate__delay-1s "
+                                        animation="animate__animated  animate__fadeInLeft animate__delay-2s "
                                         title="In – House Charging "
                                         img="/assets/images/icon/13.svg"
                                     >
@@ -37,8 +37,8 @@ const Feature1 = () => {
                                         fontSize={"17px"}
                                         fancycard="fancycard"
                                         img="/assets/images/icon/5.svg"
-                                        animation="animate__animated  animate__fadeInLeft animate__delay-2s "
-                                        title="Strategic Hub Locations  "
+                                        animation="animate__animated  animate__fadeInLeft animate__delay-3s "
+                                        title="Strategic Locations  "
                                     ></FeatureCard>
 
                                 </div>
@@ -60,6 +60,13 @@ const Feature1 = () => {
                                         animation="animate__animated  animate__fadeInRight animate__delay-2s  "
                                         img="/assets/images/icon/12.svg"
                                         title="Sustainable Rides  "
+                                    ></FeatureCard> 
+                                     <FeatureCard
+                                        fontSize={"17px"}
+                                        fancycard="fancycard"
+                                        animation="animate__animated  animate__fadeInRight animate__delay-3s  "
+                                        img="/assets/images/icon/1.svg"
+                                        title="100% Women Riders  "
                                     ></FeatureCard>
 
                                 </div>

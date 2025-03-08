@@ -45,7 +45,7 @@ const page = () => {
         boxcontent2="Earn fixed income with tax benefits"
         boxcontent3="100% hassle-free investment with guaranteed returns"
         boxcontent4=" Start with just 10 e-bikes or invest in a RIDY Hub"
-        img1="/assets/images/intro/cab10.jpg"
+        img1="/assets/images/intro/cab1.jpg"
         btnname="Ride with US "
         btnurl="/contact"
         borderRadius="none"

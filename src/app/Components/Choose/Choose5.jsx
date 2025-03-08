@@ -42,7 +42,7 @@ const Choose5 = () => {
                             </div>
                             <div className="  col-xl-6">
                                 <div className="">
-                                    <div className="main-thumb  wow fadeInUp" data-wow-delay=".4s">
+                                    <div style={{textAlign:"center"}} className="main-thumb  wow fadeInUp" data-wow-delay=".4s">
                                         <img className=" brandImages" src="/assets/images/intro/brandlocation.png" alt="img"/>
                                     </div>
                                 </div>

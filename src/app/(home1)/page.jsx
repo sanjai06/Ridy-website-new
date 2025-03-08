@@ -95,8 +95,8 @@ const page = () => {
                 btnname="Download App"
                 btnurl="/contact"
             ></Choose3>
-            <Testimonial>
-            </Testimonial>
+            {/* <Testimonial>
+            </Testimonial> */}
             <Services2
                 subTitle="Angels of RIDY"
                 title="Women Drivers - Angels of RIDY "

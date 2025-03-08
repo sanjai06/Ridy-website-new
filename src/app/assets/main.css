@@ -26,14 +26,12 @@
 .brandImages{
   border-radius: 30px; 
   height: 580px;
-  width: auto;
   
 }
 @media (max-width:486px) {
   .brandImages{
     border-radius: 20px; 
-    height: 320px;
-    margin: auto;
+    height: 340px; 
   }
   
 }
@@ -7039,7 +7037,8 @@ input.main-search-input::placeholder {
 
 .imagesFeatureCard {
   border-radius: 20px;
-  filter: brightness(90%);
+  filter: brightness(95%); 
+  height: 550px;
 }
 
 .intro-wrapper.style1 .intro-content .intro-section-title .intro-subtitle span {

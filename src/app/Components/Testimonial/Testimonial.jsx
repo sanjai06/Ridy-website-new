@@ -48,14 +48,15 @@ const Testimonial = () => {
                             <div  style={{marginTop:"-50px"}} className="section-title text-center mxw-685 mx-auto">
                                 <SectionTitle
                                         SubTitle="Testimonial"
-                                        Title={`“What Peoples Say About RIDY“ `}
+                                        Title={`“ Yet to Updated in Upcoming days  “ `}
+                                        // What Peoples Say About RIDY
                                 ></SectionTitle>                                
                             </div>
                             <div style={{marginTop:"-50px"}} className="slider-area testimonialSliderOne">
                                 <div className="swiper gt-slider" id="testimonialSliderOne" >
                                     
                                     <div className="swiper-wrapper cs_slider_gap_301">
-
+{/* 
                                     <Slider {...settings}>
                                     {data.map((item, index)=>(
                                         <div key={index} className="swiper-slide testimonialshadow ">
@@ -85,7 +86,7 @@ const Testimonial = () => {
                                             </div>
                                         </div>
                                         ))}
-                                        </Slider>
+                                        </Slider> */}
 
                                     </div>
                                     <div className="slider-pagination"></div>
