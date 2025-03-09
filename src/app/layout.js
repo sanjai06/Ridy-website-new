@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
-        <meta name="author" content="Themeservices" />
+        <meta name="author" content="Ridy Lady Cab" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${urbanist.variable} ${nunito.variable}`}>
