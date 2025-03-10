@@ -157,7 +157,7 @@ const Footer = () => {
             <div style={{marginTop:"30px"}} className="footer-bottom  style1">
                 <div className="container">
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
-                        <p>©<span>{"2025"}</span> All rights reserved by RIDY LADY CAB PVT LIMITED </p>
+                        <p>©<span> {new Date().getFullYear()}</span> All rights reserved by RIDY LADY CAB PVT LIMITED </p>
                         <ul className="social-links" data-wow-delay=".5s">
                             <li> <a href="https://www.instagram.com/ridyladycab/  "><i className="bi bi-instagram"></i></a> </li>
                             <li> <a href="https://www.facebook.com/profile.php?id=61568718355276 "><i className="bi bi-facebook"></i></a> </li>
