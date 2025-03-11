@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head> 
         <meta charSet="UTF-8" />
+        <meta name="google-site-verification" content="L0w5EcCXNuaPO-WTPwZ5PJgHMGtR0udg63xHl7TxUYQ" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Ridy Lady Cab" />
         <meta name="keywords" content="lady cab, women taxi, safe ride for women, Ridy cab" />
