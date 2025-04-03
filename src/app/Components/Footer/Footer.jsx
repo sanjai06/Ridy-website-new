@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import logopng from '../../../../public/assets/images/logo/logo.png'
 const Footer = () => {
     return (
         <footer style={{marginTop:"-50px"}} className="footer-section position-relative">
@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        <Image src="/assets/images/logo/logo.png" alt="img" width={90} height={55} />
+                                        <Image src={logopng} alt="img" width={90} height={55} />
                                     </Link>
                                 </div>
                                 <div className="footer-content">

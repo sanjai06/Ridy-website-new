@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
 import Image from 'next/image';
+import logopng from '../../../../public/assets/images/logo/logo.png'
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
@@ -41,7 +42,7 @@ export default function Header1({ variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" href="/">
-                  <Image src="/assets/images/logo/logo.png" alt="img" height={55} width={90} />
+                  <Image src={logopng} alt="img" height={55} width={90} />
                 </Link>
               </div>
               <div className="cs_main_header_center">

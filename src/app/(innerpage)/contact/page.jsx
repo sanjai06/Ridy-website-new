@@ -9,7 +9,8 @@ const page = () => {
                 // bgimg="/assets/images/bg/breadcumgBg.png"
                 Title="Contact Us"
             ></BreadCumb> 
-            <ContactInfo></ContactInfo>        
+            <ContactInfo></ContactInfo>     
+             
     </div>
   );
 };

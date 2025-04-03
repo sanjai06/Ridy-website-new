@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.ridyladycab.com" />
         <meta property="og:image" content="/ridy-social-share.jpg" />
-        <title>RidyLadyCab</title>
+        <title>Ridy - The Lady Cab - Safe & Reliable Rides for Women</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
       </head>

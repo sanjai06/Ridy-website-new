@@ -54,7 +54,7 @@ import Slider from "react-slick";
 import data from '../../Data/brand1.json';
 import Image from "next/image";
 
-const Feature5 = ({ title, item1, item2,mrgtop, item3,img2,img1,img3, mtop }) => {
+const   Feature5 = ({ title, item1, item2,mrgtop, item3,img2,img1,img3, mtop }) => {
 
     const settings = {
         dots: false,

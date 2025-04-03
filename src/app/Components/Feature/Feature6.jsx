@@ -17,12 +17,6 @@ const Feature6 = () => {
                     {data.map((item, index) => (
                         <div key={index} className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className={item.addclass}>
-                                <div className="item-shape">
-                                    <Image src="/assets/images/services/item-shape.png" alt="img" width={133} height={133} />
-                                </div>
-                                <div className="item-shape-2">
-                                    <Image src="/assets/images/services/item-shape-2.png" alt="img" width={62} height={37} />
-                                </div>
                                 <div className="icon">
                                     <Image src={item.img} alt="img" width={76} height={77} />
                                 </div>
