@@ -11,6 +11,7 @@ import Choose5 from '../Components/Choose/Choose5';
 import Choose1 from '../Components/Choose/Choose1';
 import Services2 from '../Components/Services/Services2';
 import HeroBanner3 from '../Components/HeroBanner/HeroBanner3';
+import Founder from '../Components/Feature/Founder';
 
 const page = () => {
     return (
@@ -141,7 +142,7 @@ const page = () => {
             <Faq margintop="65px"
             >
             </Faq>
-
+            <Founder />
         </div>
     );
 };
