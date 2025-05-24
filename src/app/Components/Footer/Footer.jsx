@@ -3,8 +3,8 @@ import Link from "next/link";
 import logopng from '../../../../public/assets/images/logo/logo.png'
 const Footer = () => {
     return (
-        <footer style={{marginTop:"-50px"}} className="footer-section position-relative">
-            <div style={{backgroundColor:"white" }} className="footer-widgets-wrapper marginleftsm style1 fix">
+        <footer style={{ marginTop: "-50px" }} className="footer-section position-relative">
+            <div style={{ backgroundColor: "white" }} className="footer-widgets-wrapper marginleftsm style1 fix">
                 <div className="container ">
                     <div className="row">
                         <div className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -121,15 +121,15 @@ const Footer = () => {
                             <div className="single-footer-widget">
                                 <div className="">
                                     <div className="widget-head"> <h3> Address </h3> </div>
-                                    <div style={{ display: "flex", gap: "10px" }}  className="  "> 
+                                    <div style={{ display: "flex", gap: "10px" }} className="  ">
                                         <div className="icon">
-                                    <Image src="/assets/images/icon/location.svg" alt="phone" width={30} height={30} />
+                                            <Image src="/assets/images/icon/location.svg" alt="phone" width={30} height={30} />
                                         </div>
-                                    <div className=" mb-20 "> <a href=""> Guindy | Thoraipakkam </a></div>
+                                        <div className=" mb-20 "> <a href=""> Guindy | Thoraipakkam </a></div>
                                     </div>
                                     <div style={{ display: "flex", gap: "10px", }} className="info mb-20 ">
                                         <div className="icon">
-                                        <Image src="/assets/images/icon/email.svg" alt="phone" width={30} height={30} />
+                                            <Image src="/assets/images/icon/email.svg" alt="phone" width={30} height={30} />
                                         </div>
                                         <div className="link text">
                                             <a href="mailto:contact.tech@gmail.com">ridyladycab@gmail.com </a> <br />
@@ -142,10 +142,10 @@ const Footer = () => {
 
                                         </div>
                                         <div className="link text ">
-                                            <a href="tel:21314234323543">+91 8072877622  </a> 
+                                            <a href="tel:21314234323543">+91 8072877622  </a>
                                             <br />
-                                            <a href="tel:35234523452345">+91 90435 88782 </a> 
-                                        
+                                            <a href="tel:35234523452345">+91 90435 88782 </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div style={{marginTop:"30px"}} className="footer-bottom  style1">
+            <div style={{ marginTop: "30px" }} className="footer-bottom  style1">
                 <div className="container">
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
                         <p>©<span> {new Date().getFullYear()}</span> All rights reserved by RIDY LADY CAB PVT LIMITED </p>
