@@ -5,9 +5,9 @@ import Choose3 from '../Components/Choose/Choose3';
 import Feature1 from '../Components/Feature/Feature1';
 import Feature5 from '../Components/Feature/Feature5';
 import Feature6 from '../Components/Feature/Feature6';
-import Testimonial from '../Components/Testimonial/Testimonial';
+// import Testimonial from '../Components/Testimonial/Testimonial';
 import Faq from '../Components/Faq/Faq';
-import Choose5 from '../Components/Choose/Choose5';
+// import Choose5 from '../Components/Choose/Choose5';
 import Choose1 from '../Components/Choose/Choose1';
 import Services2 from '../Components/Services/Services2';
 import HeroBanner3 from '../Components/HeroBanner/HeroBanner3';
@@ -59,7 +59,7 @@ const page = () => {
                 item2="Flexible Timing "
                 item3=" Hassle Free Experience "
             ></Feature5>
-            <About5
+            {/* <About5
                 subtitle="Business With Us "
                 subTitle="– Here to support you ! "
                 title="Your Business Your Growth RIDY "
@@ -77,7 +77,7 @@ const page = () => {
                 btnurl="/about"
                 borderRadius="none"
                 none="none"
-            ></About5>
+            ></About5> */}
             <Feature1></Feature1>
             <Choose3 title2={" Benefits You Get By Ridy"}
                 margintop="-120px"
