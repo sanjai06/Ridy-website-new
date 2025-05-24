@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import logopng from '../../../../public/assets/images/logo/logo.png'
+import phone from '../../../../public/assets/images/icon/phone.svg'
+
 const Footer = () => {
     return (
         <footer style={{ marginTop: "-50px" }} className="footer-section position-relative">
@@ -138,7 +140,7 @@ const Footer = () => {
                                     </div>
                                     <div style={{ display: "flex", gap: "10px" }} className="info">
                                         <div className="icon ">
-                                            <Image src="/assets/images/icon/phone.svg" alt="phone" width={30} height={30} />
+                                            <Image src={phone} alt="phone" width={30} height={30} />
 
                                         </div>
                                         <div className="link text ">
