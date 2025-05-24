@@ -1,6 +1,6 @@
 import Image from 'next/image';
 // import data from '../../Data/feature3.json';
-import SectionTitle from '../Common/SectionTitle'; 
+import SectionTitle from '../Common/SectionTitle';
 import cofounder from '../../../../public/assets/images/Founder/Founders__md.jpg'
 import founder from '../../../../public/assets/images/Founder/cofounder__ceo.jpg'
 
@@ -38,8 +38,8 @@ const Feature6 = () => {
                                 <Image src={founder} alt="img" width={200} height={200} />
                             </div>
                             <div className="Founder_content">
-                                {/* <h3>{item.desc}</h3>
-                                <h1>{item.title}</h1> */}
+                                <h3>Founder & Managing Director</h3>
+                                <h1>Ahamad Thowfeek B</h1>
 
                             </div>
                         </div>
@@ -50,8 +50,11 @@ const Feature6 = () => {
                                 <Image src={cofounder} alt="img" width={200} height={200} />
                             </div>
                             <div className="Founder_content">
-                                {/* <h3>{item.desc}</h3>
-                                <h1>{item.title}</h1> */}
+                                <h3>
+                                    Co-Founder & CEO
+
+                                </h3>
+                                <h1>Nazneen A</h1>
 
                             </div>
                         </div>
