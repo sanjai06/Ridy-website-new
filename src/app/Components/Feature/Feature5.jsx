@@ -93,8 +93,8 @@ const   Feature5 = ({ title, item1, item2,mrgtop, item3,img2,img1,img3, mtop }) 
 
     return (
 
-        <div  className={` brand-slider-section  ${mrgtop}   section-padding fix `} >
-            <div className="brand-slider-container-wrapper style1">
+        <div  className={` brand-slider-section  ${mrgtop}    section-padding fix `} >
+            <div className="brand-slider-container-wrapper  style1">
                 <div className="container">
                     <div className=" mt homepagetext">
                         <h1  className="intro-title wow  animate__fadeInLeft animate__animated " data-wow-delay=".2s">{(title)}</h1>
@@ -103,7 +103,7 @@ const   Feature5 = ({ title, item1, item2,mrgtop, item3,img2,img1,img3, mtop }) 
                         <div  className="swiper mt-n50 gt-slider" id="brandSliderOne" >
                             <Slider {...settings}>
                                
-                                <div className="col-xl-4   col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div className="col-xl-4 mt-  col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="feature-box-items brodershaow  ">
                                         <div className="icon iconbg2">
                                             <Image src={img1} alt="img" width={40} height={40} />

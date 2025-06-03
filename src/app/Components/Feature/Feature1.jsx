@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Feature1 = () => {
     return (
-        <section style={{ marginTop: "-130px" }} className="wcu-section section-padding fix">
+        <section style={{ marginTop: "30px"  }} className="wcu-section section-padding fix">
             <div className="wcu-container-wrapper style1">
                 <div className="container">
                     <div className=" section-title text-center mxw-685 mx-auto wow animate__animated  animate__fadeInLeft  fadeInUp" data-wow-delay=".2s">
