@@ -54,7 +54,6 @@ const page = () => {
                 img1="/assets/images/icon/11.svg"
                 img2="/assets/images/icon/9.svg"
                 img3="/assets/images/icon/10.svg"
-                mtop="-175px"
                 item1=" Easy Selection "
                 item2="Flexible Timing "
                 item3=" Hassle Free Experience "
